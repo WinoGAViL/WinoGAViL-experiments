@@ -1,24 +1,21 @@
 import argparse
-import json
 import os
 import pickle
-import pandas as pd
-import numpy as np
-import torch
-from torch import nn
 
-from models.winogavil_backend import BackendModel
-from models.winogavil_trainable import WinoGAViLBaselineModel
+import numpy as np
+import pandas as pd
+import torch
+
+from models.backend import BackendModel
+from models.trainable import WinoGAViLBaselineModel
 
 torch.autograd.set_detect_anomaly(True)
 
-from config import TRAIN, TRAIN_RESULTS_PATH, MODEL_RESULTS_PATH, DEV, TEST
+from config import TRAIN, DEV, TEST
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 
-from utils import save_model, dump_train_info, get_gvlab_data, get_experiment_dir
-
-device_ids = [0, 1, 2, 3]
+from utils import save_model, dump_train_info, get_data, get_experiment_dir
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"device: {device}")
@@ -26,12 +23,11 @@ print(f"device: {device}")
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-lr', '--lr', help='learning rate', default=0.001, type=float)
-    parser.add_argument('-bz', '--batch_size', default=128, type=int)
-    # parser.add_argument('-bz', '--batch_size', default=32, type=int)
-    # parser.add_argument('-bz', '--batch_size', default=4, type=int)
+    # parser.add_argument('-bz', '--batch_size', default=128, type=int)
+    parser.add_argument('-bz', '--batch_size', default=12, type=int)
     parser.add_argument('-ne', '--n_epochs', default=7, type=int)
     parser.add_argument('--dev_test_sample', default=0.1, type=int)
-    parser.add_argument('-s', '--split', default='gvlab_swow_split')  # gvlab_swow_split, gvlab_game_split_5_6, gvlab_game_split_10_12
+    parser.add_argument('-s', '--split', default='game_10_12')
     parser.add_argument('-rs', '--result_suffix', default="", required=False, help='suffix to add to results name')
     parser.add_argument("--debug", action='store_const', default=False, const=True)
     parser.add_argument("--test_model", action='store_const', default=True, const=True)
@@ -180,9 +176,7 @@ def test_epoch(model, dev_loader, epoch):
         if args.debug:
             if batch_idx > 2:
                 break
-        # loss = loss_fn(out, y)
         accuracy, predictions, labels = calculate_accuracy_test(all_batch_scores, y, num_associations)
-        # epoch_dev_losses.append(loss.item())
         epoch_dev_accuracy += accuracy
         all_predictions += predictions
         all_labels += labels
@@ -241,7 +235,7 @@ def dump_test_info(args, model_dir_path, all_losses, all_test_accuracy, test_df,
 
 
 def main(args):
-    splits = get_gvlab_data(args)
+    splits = get_data(args)
     backend_model = BackendModel(args.model_backend_type)
     baseline_model = WinoGAViLBaselineModel(backend_model).to(device)
     print(f"Checking baseline model cuda: {next(baseline_model.parameters()).is_cuda}")

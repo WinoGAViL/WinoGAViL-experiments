@@ -1,16 +1,16 @@
 # ------------------------------Imports--------------------------------
 import json
-
-import torch
-import numpy as np
 import os
-import pandas as pd
 import pickle
 
+import numpy as np
+import pandas as pd
+import torch
+
 # ------------------------------Code--------------------------------
-from config import TEST, DEV, TRAIN, SWOW_SPLIT_PATH, MODEL_RESULTS_PATH, TRAIN_RESULTS_PATH
+from PIL import Image
 
-
+from config import MODEL_RESULTS_PATH, TRAIN_RESULTS_PATH, IMAGES_FOLDER_PATH
 
 def calculate_accuracy(out_prob, y):
     prob = torch.softmax(out_prob, dim=1)
@@ -26,32 +26,6 @@ def save_model(model_dir_path, epoch, model):
     out_p = os.path.join(model_dir_path, f"epoch_{epoch}.pth")
     print(f"Saving model path to... {out_p}")
     torch.save(model.state_dict(), out_p)
-    # if dev_accuracy_list[-1] == max(dev_accuracy_list):
-    #     out_p = os.path.join(model_dir_path, f"epoch_BEST.pth")
-    #     print(f"Saving BEST model path to... {out_p}")
-    #     print(dev_accuracy_list)
-    #     torch.save(model.state_dict(), out_p)
-
-
-# def dump_test_info(args, model_dir_path, all_losses, all_test_accuracy, test_df, epoch):
-#     test_losses_mean = {i: np.mean(v) for i, v in enumerate(all_losses['test'])}
-#     test_accuracy_mean = {i: np.mean(v) for i, v in enumerate(all_test_accuracy)}
-#     test_info = pd.concat(
-#         [pd.Series(test_losses_mean, name='test loss'), pd.Series(test_accuracy_mean, name='test accuracy')], axis=1)
-#     out_p = os.path.join(model_dir_path, f'epoch_{epoch}_test')
-#     if args.result_suffix != '':
-#         out_p += "_" + args.result_suffix
-#     all_losses_out_p = out_p + '_all_losses_test.pickle'
-#     out_p_test_df = out_p + "_test_df.csv"
-#     out_p += ".csv"
-#     test_info.to_csv(out_p)
-#     test_df.to_csv(out_p_test_df)
-#     all_losses_and_acc_d = {'all_losses': all_losses, 'all_test_accuracy': all_test_accuracy}
-#     with open(all_losses_out_p, 'wb') as f:
-#         pickle.dump(all_losses_and_acc_d, f)
-#     print(f'Dumping losses {len(test_info)} to {all_losses_out_p}')
-#     print(test_info)
-#     print(f'Dumping df {len(test_info)} to {out_p}, and {len(test_df)} to {out_p_test_df}')
 
 
 def dump_train_info(args, model_dir_path, all_losses, all_dev_accuracy, epoch):
@@ -83,35 +57,25 @@ def dump_train_info(args, model_dir_path, all_losses, all_dev_accuracy, epoch):
 
 
 
-def get_gvlab_data(args):
+def get_data(args):
     if args.test_only:
         test = get_relevant_test(args)
-        # test = pd.read_csv(f'assets/gvlab_{args.split}.csv')
-        # test = pd.read_csv(f'assets/gvlab_game_split_5_6.csv')
-        # print("gvlab_game_split_5_6")
-        # test = pd.read_csv(f'assets/gvlab_game_split_10_12.csv')
-        # print("gvlab_game_split_10_12")
-        # test = pd.read_csv(f'assets/gvlab_swow_split.csv')
-        # print("swow_split")
-        # test['candidates'] = test['candidates'].apply(json.loads)
-        # test['associations'] = test['associations'].apply(json.loads)
         print(f"Got test, size {len(test)}")
         splits = {'test': test}
     else:
-        if args.split == 'swow_split':
+        if args.split == 'swow':
             print(f"Training on SWOW SPLIT")
-            f = open(f"assets/swow_split.json")
+            f = open(f"assets/swow.json")
             train = json.load(f)
         else:
             print(f"Training on Game SPLIT (5,6,10,12)")
-            train_5_6 = json.load(open(f"assets/game_split_5_6.json"))
-            train_10_12 = json.load(open(f"assets/game_split_10_12.json"))
+            train_5_6 = json.load(open(f"assets/cue_image_pairs_game_5_6.json"))
+            train_10_12 = json.load(open(f"assets/cue_image_pairs_game_10_12.json"))
             train = train_5_6 + train_10_12
             print(f"Total train size is {len(train)}")
 
         print(f"Reading test from {args.split}")
-        # df = pd.read_csv(f'assets/gvlab_{args.split}.csv')
-        df = pd.read_csv(f'assets/test_sets_with_zero_shot_predictions/gvlab_{args.split}_with_predictions.csv')
+        df = pd.read_csv(f'assets/test_sets_with_zero_shot_predictions/{args.split}_with_predictions.csv')
         print(f"Split: {args.split}, read data with predictions, mean jaccard: {df['clip_vit_32_jaccard'].mean()}")
         df['candidates'] = df['candidates'].apply(json.loads)
         df['associations'] = df['associations'].apply(json.loads)
@@ -125,8 +89,6 @@ def get_gvlab_data(args):
         dev_unique_ids, test_unique_ids, train, train_unique_ids = get_train_without_testdev_images(
             all_test_dev_candidates, dev, test, train)
         print(f"train: {len(train)}, # {len(train_unique_ids)} unique IDs")
-        # print(f"dev: {len(dev)}, # {len(dev_unique_ids)} unique IDs")
-        # print(f"test: {len(test)}, # {len(test_unique_ids)} unique IDs")
         print(f"dev: {len(dev)}, # {len(dev_unique_ids)} unique IDs, Jaccard: {round(dev['clip_vit_32_jaccard'].mean() * 100 , 1)}")
         print(f"test: {len(test)}, # {len(test_unique_ids)} unique IDs, Jaccard: {round(test['clip_vit_32_jaccard'].mean() * 100 , 1)}")
 
@@ -202,3 +164,25 @@ def get_experiment_dir(args):
         os.mkdir(model_dir_path)
     json.dump(args.__dict__, open(os.path.join(model_dir_path, 'args.json'), 'w'))
     return model_dir_path
+
+
+def get_img(cand, image2text=False):
+    cand_path = os.path.join(IMAGES_FOLDER_PATH, f"{cand}.jpg")
+    if os.path.exists(cand_path):
+        if image2text:
+            relevant_caption_rows = image_captions[image_captions['img_name'] == cand_path]['caption']
+            try:
+                assert len(relevant_caption_rows) == 1
+            except:
+                global missing_images
+                missing_images.append(cand_path.split("/")[-1])
+                return None
+            image_caption = relevant_caption_rows.iloc[0]
+            return image_caption
+        img = Image.open(cand_path).convert("RGB")
+        return img
+    return None
+
+from config import IMAGE_CAPTIONS_PATH
+if os.path.exists(IMAGE_CAPTIONS_PATH):
+    image_captions = pd.read_csv(IMAGE_CAPTIONS_PATH)

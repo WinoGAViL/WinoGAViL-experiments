@@ -6,13 +6,14 @@ import pandas as pd
 from tqdm import tqdm
 
 from config import columns_to_serialize, zero_shot_results_path
-from models.winogavil_zero_shot import WinoGAViLZeroShotModel
+from models.zero_shot import WinoGAViLZeroShotModel
 from models_config import *
+from utils import get_img
 
 all_images_paths = []
 
 def main(args):
-    df = pd.read_csv(f'assets/winogavil_{args.split}.csv')
+    df = pd.read_csv(f'assets/{args.split}.csv')
     print(f"SPLIT: {args.split}, Read dataset at length: {len(df)}")
 
     for c in columns_to_serialize:
@@ -36,7 +37,7 @@ def main(args):
                 missing_images_indices.append(idx)
                 continue
         else:
-            cue_img = WinoGAViLZeroShotModel.get_img(r['cue'], image2text=args.image2text)
+            cue_img = get_img(r['cue'], image2text=args.image2text)
 
         row_predictions = {}
         for model_name, model in association_models.items():
@@ -44,6 +45,10 @@ def main(args):
             row_predictions = {**row_predictions, **model_predictions}
 
         choose_best_candidates(row_predictions, candidates, items_with_predictions, r)
+
+        if args.debug and idx > 10:
+            print(f"Debug, exiting")
+            break
 
     mean_scores, scores_df = get_scores(items_with_predictions)
     print(f"Jaccard Results")
@@ -82,7 +87,7 @@ def get_candidates_data(r, image2text):
     candidates_data = []
     missing_image = False
     for cand in candidates:
-        cand_img = WinoGAViLZeroShotModel.get_img(cand, image2text)
+        cand_img = get_img(cand, image2text)
         if type(cand_img) == type(None):
             missing_image = True
         candidates_data.append({'txt': cand, 'cand_img': cand_img, 'cand_txt': cand})
@@ -113,12 +118,15 @@ def initialize_models(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--models_to_run', default=list(GENERAL_MODELS.keys()) + list(VISION_LANGUAGE_MODELS.keys()))
-    parser.add_argument('--split', default='game')
+    parser.add_argument('--split', default='game_10_12')
     parser.add_argument("--multimodal", action='store_const', default=False, const=True)
     parser.add_argument("--image2text", action='store_const', default=False, const=True)
+    parser.add_argument("--debug", action='store_const', default=False, const=True)
     args = parser.parse_args()
     if args.image2text:
         args.models_to_run = TEXT_TRANSFORMERS_MODELS.keys()
+    if args.debug:
+        args.models_to_run = ['CLIP-ViT-B/32']
 
     print(args)
     initialize_models(args)

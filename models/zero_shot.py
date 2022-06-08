@@ -3,10 +3,8 @@ from collections import defaultdict
 
 import clip
 import pandas as pd
-import spacy
 import timm
 import torch
-from PIL import Image
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from timm.data import resolve_data_config, create_transform
@@ -18,15 +16,10 @@ from transformers import (
     BertTokenizer,
 )
 
-from dataset.config import images_path, image_captions_path
 from models_config import MODELS_MAP, VISION_LANGUAGE_MODELS, VISION_MODELS, TEXT_TRANSFORMERS_MODELS
 
-nlp = spacy.load('en_core_web_md')
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"device: {device}")
-
-if os.path.exists(image_captions_path):
-    image_captions = pd.read_csv(image_captions_path)
 
 all_images_paths = []
 missing_images = []
@@ -119,8 +112,6 @@ class WinoGAViLZeroShotModel:
         if self.image2text:
             candidates_image_captions = [x['cand_img'] for x in candidates_data]
             image_captions_combinations = {'cue_word_cand_img_caption': (cue_word, candidates_image_captions),
-                                           # 'cue_img_caption_cand_word': (cue_img, candidates_words),
-                                           # 'cue_cand_img_captions': (cue_img, candidates_image_captions)
                                            }
             cue_candidates_combinations = {**cue_candidates_combinations, **image_captions_combinations}
         return cue_candidates_combinations, candidates_words
@@ -141,6 +132,7 @@ class WinoGAViLZeroShotModel:
         return timm_img_features
 
     def get_word2vec_predictions(self, r):
+        raise Exception(f"Please install spacy to run word2vec")
         model_predictions = defaultdict(dict)
         candidates = [x['distractor'] if type(x) == dict else x for x in r['candidates']]
         for cand in candidates:
@@ -255,24 +247,3 @@ class WinoGAViLZeroShotModel:
     def preprocess_sentence_txt(self, txt):
         v = self.model.encode(txt)
         return v
-
-    @staticmethod
-    def get_img(cand, image2text=False):
-        cand_path = os.path.join(images_path, f"{cand}.jpg")
-        if os.path.exists(cand_path):
-            global all_images_paths
-            all_images_paths.append(cand_path)
-            if image2text:
-                # relevant_caption_rows = image_captions[image_captions['img_path'] == cand_path]['caption']
-                relevant_caption_rows = image_captions[image_captions['img_path'].apply(lambda x: x.split("/")[-1]) == cand_path.split("/")[-1]]['caption']
-                try:
-                    assert len(relevant_caption_rows) == 1
-                except:
-                    global missing_images
-                    missing_images.append(cand_path.split("/")[-1])
-                    return None
-                image_caption = relevant_caption_rows.iloc[0]
-                return image_caption
-            img = Image.open(cand_path).convert("RGB")
-            return img
-        return None
