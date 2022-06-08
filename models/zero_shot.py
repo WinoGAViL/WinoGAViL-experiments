@@ -31,7 +31,7 @@ if os.path.exists(image_captions_path):
 all_images_paths = []
 missing_images = []
 
-class AssociationsModel:
+class WinoGAViLZeroShotModel:
     def __init__(self, model_description, image2text):
         self.image2text = image2text
         self.model_description = model_description

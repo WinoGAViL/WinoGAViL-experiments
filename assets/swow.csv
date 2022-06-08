@@ -1,0 +1,999 @@
+ID,cue,associations,num_associations,cue_weight,associations_mean_weight,candidates,candidates_connectivity_score,solvers_jaccard_mean,solvers_jaccard_std
+1765,load,"[""truck"", ""carry""]",2,98,20,"[""icing"", ""nail polish"", ""truck"", ""fox"", ""artist"", ""carry""]",1,1,0
+1767,horn,"[""car"", ""rhino""]",2,50,14.5,"[""twins"", ""ice"", ""rhino"", ""car"", ""seaweed"", ""loo""]",1,1,0
+132,seller,"[""buyer"", ""money"", ""merchant""]",3,82,26.66666667,"[""brook"", ""makeup"", ""buyer"", ""money"", ""merchant""]",1,0.833333333,0.24
+1279,band aid,"[""cut"", ""blood"", ""wound"", ""plaster""]",4,64,20.75,"[""blood"", ""plaster"", ""wound"", ""cut"", ""whip"", ""icy""]",5,0.866666667,0.19
+118,sliding,"[""slipping"", ""snow"", ""ice""]",3,63,19.66666667,"[""lab"", ""dalmatian"", ""snow"", ""slipping"", ""ice""]",1,1,0
+327,institution,"[""school"", ""hospital"", ""building""]",3,67,19.33333333,"[""school"", ""hospital"", ""blender"", ""bun"", ""building""]",1,1,0
+986,fruit,"[""apple"", ""banana"", ""orange"", ""vegetable""]",4,88,24.75,"[""vegetable"", ""bass"", ""apple"", ""orange"", ""banana"", ""jack""]",5,1,0
+1516,auburn,"[""hair"", ""red"", ""color""]",3,118,34.66666667,"[""website"", ""candy"", ""color"", ""hair"", ""red"", ""digit""]",5,1,0
+945,india,"[""country"", ""curry""]",2,54,22.5,"[""pound"", ""curry"", ""country"", ""head"", ""upstairs""]",0,1,0
+454,message,"[""text"", ""letter"", ""email""]",3,82,27.33333333,"[""pond"", ""text"", ""letter"", ""shuttle"", ""email""]",3,1,0
+1206,concert,"[""music"", ""band"", ""hall"", ""orchestra""]",4,97,26.75,"[""orchestra"", ""karate"", ""liner"", ""music"", ""band"", ""hall""]",3,1,0
+412,lawn mower,"[""grass"", ""garden"", ""green""]",3,112,35.33333333,"[""green"", ""grass"", ""slate"", ""graph"", ""garden""]",4,0.833333333,0.24
+176,surgeon,"[""doctor"", ""scalpel"", ""knife""]",3,98,32.66666667,"[""shake"", ""scalpel"", ""knife"", ""doctor"", ""lake""]",1,1,0
+1666,golfer,"[""ball"", ""green""]",2,56,21.5,"[""meth"", ""wink"", ""toothpaste"", ""light"", ""green"", ""ball""]",4,1,0
+616,daffodil,"[""flower"", ""yellow""]",2,167,63.5,"[""boxing"", ""yellow"", ""ore"", ""telescope"", ""flower""]",1,1,0
+358,birth control,"[""pill"", ""condom"", ""baby""]",3,109,35.33333333,"[""truck"", ""oil"", ""pill"", ""condom"", ""baby""]",4,1,0
+1098,nickel,"[""dime"", ""metal"", ""money"", ""coin""]",4,121,36.75,"[""money"", ""swan"", ""dime"", ""metal"", ""coin"", ""ostrich""]",3,1,0
+636,dose,"[""medicine"", ""drugs""]",2,92,39,"[""chicken"", ""drugs"", ""soot"", ""wigwam"", ""medicine""]",1,1,0
+56,stapler,"[""paper"", ""office"", ""staple""]",3,98,29,"[""staple"", ""bell"", ""office"", ""crew"", ""paper""]",2,1,0
+1389,hummus,"[""food"", ""chickpea"", ""dip""]",3,67,21.66666667,"[""food"", ""aunt"", ""sperm"", ""dip"", ""chickpea"", ""bridge""]",1,1,0
+497,boom,"[""explosion"", ""bomb""]",2,88,27.5,"[""dancer"", ""map"", ""bomb"", ""explosion"", ""board""]",1,1,0
+380,barmaid,"[""beer"", ""pub"", ""bar""]",3,59,19,"[""beer"", ""mars"", ""bar"", ""pub"", ""fall""]",2,1,0
+1770,cars,"[""traffic"", ""road""]",2,49,13,"[""road"", ""carpet"", ""traffic"", ""nap"", ""calf"", ""champagne""]",1,1,0
+1314,vagabond,"[""hobo"", ""traveler"", ""bum""]",3,59,16,"[""chili"", ""drugs"", ""traveler"", ""hamster"", ""bum"", ""hobo""]",0,1,0
+1595,swim,"[""water"", ""pool"", ""ocean""]",3,114,38,"[""ocean"", ""pool"", ""sage"", ""tea party"", ""porch"", ""water""]",2,1,0
+120,wave,"[""ocean"", ""water"", ""hand""]",3,98,30.33333333,"[""fireworks"", ""hand"", ""water"", ""woods"", ""ocean""]",1,1,0
+1070,sponge,"[""water"", ""sea"", ""yellow"", ""wet""]",4,51,16,"[""yellow"", ""water"", ""rod"", ""wet"", ""euro"", ""sea""]",5,1,0
+1643,dancer,"[""ballet"", ""music""]",2,76,32,"[""grandmother"", ""kiln"", ""candy"", ""ale"", ""ballet"", ""music""]",1,1,0
+1326,pesto,"[""pasta"", ""green"", ""food""]",3,133,35.66666667,"[""pasta"", ""nomad"", ""snail"", ""green"", ""food"", ""tadpole""]",4,1,0
+250,port,"[""ship"", ""wine"", ""boat""]",3,93,31,"[""boat"", ""ship"", ""wine"", ""underwear"", ""senator""]",1,1,0
+416,cereals,"[""breakfast"", ""milk"", ""wheat""]",3,108,35.33333333,"[""zombie"", ""wheat"", ""milk"", ""bouquet"", ""breakfast""]",2,1,0
+698,work out,"[""gym"", ""sweat""]",2,130,34,"[""sweat"", ""gym"", ""tumor"", ""pile"", ""two""]",1,1,0
+241,shawl,"[""scarf"", ""cover"", ""wool""]",3,62,18.33333333,"[""scarf"", ""cover"", ""restaurant"", ""wool"", ""hike""]",1,0.833333333,0.24
+1477,lacquer,"[""paint"", ""varnish"", ""wood""]",3,55,15.66666667,"[""spike"", ""paint"", ""ornament"", ""cabbage"", ""varnish"", ""wood""]",1,1,0
+1310,spelling,"[""bee"", ""school"", ""dictionary""]",3,102,19.66666667,"[""bee"", ""dictionary"", ""infection"", ""school"", ""seat"", ""pager""]",0,1,0
+1667,report,"[""card"", ""school""]",2,65,25,"[""school"", ""card"", ""outfit"", ""cut"", ""spades"", ""postman""]",1,1,0
+1399,zoo,"[""animal"", ""cage"", ""lion""]",3,99,19.33333333,"[""cage"", ""saucer"", ""handwriting"", ""animal"", ""costume"", ""lion""]",2,1,0
+1764,illegal,"[""drugs"", ""police""]",2,59,18,"[""police"", ""drugs"", ""snow"", ""navel"", ""gazelle"", ""trophy""]",2,1,0
+1058,chewing,"[""gum"", ""food"", ""teeth"", ""mouth""]",4,115,32,"[""food"", ""hobo"", ""teeth"", ""syrup"", ""mouth"", ""gum""]",5,1,0
+935,old person,"[""grey"", ""grandma""]",2,55,11,"[""grey"", ""t-shirt"", ""mare"", ""grandma"", ""cabin""]",0,1,0
+465,kick,"[""ball"", ""foot"", ""punch""]",3,67,22.33333333,"[""phlegm"", ""punch"", ""ball"", ""tarmac"", ""foot""]",1,1,0
+208,planes,"[""air"", ""fly"", ""sky""]",3,59,19.66666667,"[""fly"", ""werewolf"", ""bullseye"", ""air"", ""sky""]",3,1,0
+1060,bread,"[""food"", ""butter"", ""wheat"", ""sandwich""]",4,82,24,"[""butter"", ""barbecue"", ""food"", ""wheat"", ""blackberry"", ""sandwich""]",4,0.866666667,0.19
+866,prop,"[""stage"", ""theater""]",2,75,25.5,"[""writer"", ""stage"", ""theater"", ""liner"", ""coop""]",1,1,0
+689,foster,"[""child"", ""home""]",2,88,22.5,"[""court"", ""home"", ""pound"", ""child"", ""swimsuit""]",0,1,0
+1459,croissant,"[""bread"", ""breakfast"", ""food""]",3,91,17.33333333,"[""hobbit"", ""food"", ""hive"", ""drugs"", ""bread"", ""breakfast""]",5,0.833333333,0.24
+1543,border,"[""country"", ""line"", ""fence""]",3,68,17.66666667,"[""fence"", ""country"", ""lice"", ""line"", ""tool"", ""closet""]",1,1,0
+1863,gecko,"[""lizard"", ""green""]",2,118,53,"[""spice"", ""lizard"", ""ladies"", ""cellphone"", ""green"", ""toothbrush""]",2,1,0
+268,orthodontist,"[""teeth"", ""braces"", ""dentist""]",3,168,56,"[""piercing"", ""braces"", ""teeth"", ""dentist"", ""raccoon""]",2,1,0
+424,leather,"[""cow"", ""jacket"", ""belt""]",3,81,24.33333333,"[""belt"", ""jacket"", ""cheddar"", ""toy"", ""cow""]",0,0.833333333,0.24
+1913,rug,"[""floor"", ""mat""]",2,116,27.5,"[""pictures"", ""floor"", ""skyscraper"", ""clam"", ""crib"", ""mat""]",0,1,0
+1142,pepper,"[""salt"", ""spice"", ""hot"", ""spray""]",4,117,32,"[""spray"", ""spice"", ""salt"", ""purple"", ""hot"", ""doodle""]",3,0.866666667,0.19
+1439,meteorite,"[""rock"", ""sky"", ""asteroid""]",3,111,22.33333333,"[""sky"", ""notebook"", ""rock"", ""pad"", ""asteroid"", ""raccoon""]",3,1,0
+562,colored,"[""rainbow"", ""red""]",2,50,17,"[""armor"", ""blinking"", ""saxophone"", ""red"", ""rainbow""]",1,1,0
+361,hedge,"[""bush"", ""hog"", ""green""]",3,81,27,"[""bush"", ""green"", ""pat"", ""hog"", ""two""]",1,0.833333333,0.24
+1243,coconut,"[""milk"", ""tree"", ""palm"", ""brown""]",4,83,24,"[""earth"", ""palm"", ""tree"", ""brown"", ""milk"", ""stallion""]",3,1,0
+813,downpour,"[""rain"", ""wet""]",2,127,57,"[""mortar"", ""rain"", ""king"", ""salon"", ""wet""]",1,1,0
+1942,snacks,"[""food"", ""chips""]",2,82,34,"[""visitor"", ""chips"", ""ivory"", ""spot"", ""vodka"", ""food""]",1,1,0
+1037,islands,"[""sea"", ""beach"", ""water"", ""sand""]",4,54,16.75,"[""water"", ""beach"", ""sea"", ""sand"", ""explode"", ""potion""]",10,0.866666667,0.19
+68,muddy,"[""wet"", ""water"", ""brown""]",3,90,17.33333333,"[""wet"", ""water"", ""university"", ""brown"", ""bouquet""]",2,1,0
+1264,railway,"[""train"", ""station"", ""car"", ""track""]",4,111,31,"[""diagram"", ""grave"", ""station"", ""car"", ""train"", ""track""]",5,0.866666667,0.19
+969,sodium,"[""salt"", ""potassium""]",2,131,51,"[""mardi gras"", ""salt"", ""spike"", ""potassium"", ""sleep""]",0,1,0
+31,fluid,"[""water"", ""wet"", ""drink""]",3,129,26,"[""head"", ""palm"", ""drink"", ""wet"", ""water""]",4,1,0
+630,smirk,"[""smile"", ""face""]",2,97,37.5,"[""beehive"", ""smile"", ""clone"", ""station"", ""face""]",1,1,0
+1941,udder,"[""cow"", ""milk""]",2,173,81,"[""cow"", ""cupboard"", ""coral"", ""singer"", ""milk"", ""thunder""]",1,1,0
+1875,lieutenant,"[""army"", ""officer""]",2,98,35,"[""dryer"", ""color"", ""belt"", ""asphalt"", ""officer"", ""army""]",2,1,0
+347,piercing,"[""ear"", ""nose"", ""earring""]",3,74,24.33333333,"[""earring"", ""slate"", ""nose"", ""mercury"", ""ear""]",3,1,0
+573,million,"[""money"", ""people""]",2,88,16,"[""spades"", ""people"", ""cabbage"", ""money"", ""billiards""]",1,1,0
+1445,boiling,"[""water"", ""hot"", ""steam""]",3,154,49.66666667,"[""water"", ""steam"", ""maid"", ""hot"", ""nap"", ""pollen""]",4,1,0
+1518,path,"[""road"", ""walk"", ""trail""]",3,94,22.66666667,"[""canvas"", ""two"", ""walk"", ""garlic"", ""road"", ""trail""]",4,1,0
+488,clan,"[""family"", ""group""]",2,104,41,"[""family"", ""group"", ""tractor"", ""flannel"", ""vanilla""]",1,1,0
+1785,dollars,"[""money"", ""green""]",2,132,51.5,"[""stockings"", ""prize"", ""boa"", ""ceramic"", ""money"", ""green""]",2,1,0
+1023,bronze,"[""gold"", ""metal"", ""medal"", ""statue""]",4,97,29.25,"[""metal"", ""statue"", ""playstation"", ""gold"", ""medal"", ""missile""]",1,1,0
+232,stars,"[""sky"", ""night"", ""light""]",3,89,28.66666667,"[""light"", ""night"", ""sky"", ""horse"", ""scream""]",3,1,0
+279,molten,"[""lava"", ""hot"", ""metal""]",3,125,41.66666667,"[""kitten"", ""lava"", ""parrot"", ""metal"", ""hot""]",2,0.833333333,0.24
+547,reflect,"[""mirror"", ""water""]",2,110,38.5,"[""mirror"", ""water"", ""propeller"", ""flood"", ""author""]",3,1,0
+744,arrest,"[""police"", ""jail""]",2,108,38.5,"[""jail"", ""police"", ""employee"", ""scream"", ""corner""]",1,1,0
+509,delicious,"[""food"", ""cake""]",2,106,26.5,"[""food"", ""ticket"", ""hall"", ""cake"", ""cavity""]",2,1,0
+63,sphere,"[""ball"", ""globe"", ""circle""]",3,132,36,"[""hooker"", ""circle"", ""ball"", ""globe"", ""chain""]",2,1,0
+716,camouflage,"[""army"", ""green""]",2,96,39,"[""pint"", ""disk"", ""army"", ""green"", ""city""]",2,1,0
+811,contrast,"[""color"", ""light""]",2,66,17,"[""animal"", ""kids"", ""color"", ""light"", ""mouth""]",1,1,0
+38,sweat,"[""hot"", ""wet"", ""water""]",3,56,13.66666667,"[""giant"", ""wet"", ""orthodontist"", ""hot"", ""water""]",3,0.833333333,0.24
+138,paper,"[""pen"", ""write"", ""scissors""]",3,55,16,"[""cocktail"", ""sheriff"", ""write"", ""pen"", ""scissors""]",1,1,0
+1402,thanksgiving,"[""turkey"", ""family"", ""food""]",3,121,39.66666667,"[""food"", ""needles"", ""bottle"", ""family"", ""alpaca"", ""turkey""]",2,1,0
+1140,sailing,"[""boat"", ""water"", ""sea"", ""ship""]",4,116,31.75,"[""sea"", ""ship"", ""water"", ""night"", ""lollipop"", ""boat""]",12,1,0
+278,chew,"[""food"", ""gum"", ""teeth""]",3,88,24.66666667,"[""teeth"", ""pineapple"", ""silky"", ""food"", ""gum""]",1,0.833333333,0.24
+1048,cherries,"[""red"", ""fruit"", ""tree"", ""pie""]",4,133,30.75,"[""tree"", ""pie"", ""comma"", ""fruit"", ""pottery"", ""red""]",8,1,0
+1606,pigment,"[""color"", ""skin"", ""dye""]",3,131,38,"[""color"", ""skin"", ""sting"", ""street"", ""dye"", ""lumberjack""]",2,1,0
+1833,extinction,"[""dinosaur"", ""dead""]",2,67,18.5,"[""pharmacy"", ""ruler"", ""whisper"", ""hotel"", ""dinosaur"", ""dead""]",1,1,0
+1372,pounce,"[""jump"", ""cat"", ""tiger""]",3,115,38.33333333,"[""shovel"", ""secretary"", ""cat"", ""tiger"", ""jump"", ""stereo""]",1,0.833333333,0.24
+346,vampire,"[""blood"", ""teeth"", ""twilight""]",3,105,34.66666667,"[""teeth"", ""bench"", ""martini"", ""twilight"", ""blood""]",1,1,0
+806,built,"[""house"", ""building""]",2,73,24.5,"[""green light"", ""house"", ""toy"", ""ferret"", ""building""]",3,1,0
+1176,dripping,"[""wet"", ""water"", ""faucet"", ""tap""]",4,104,28.5,"[""brush"", ""water"", ""tap"", ""faucet"", ""wet"", ""nail""]",4,1,0
+1899,belong,"[""group"", ""family""]",2,56,17,"[""garlic"", ""sword"", ""womb"", ""bee"", ""group"", ""family""]",1,1,0
+726,send,"[""letter"", ""email""]",2,107,31,"[""tar"", ""letter"", ""email"", ""doodle"", ""jump""]",1,1,0
+299,spoon,"[""fork"", ""knife"", ""soup""]",3,117,39,"[""soup"", ""singer"", ""knife"", ""fork"", ""iris""]",1,1,0
+1591,cuba,"[""cigar"", ""island"", ""country""]",3,81,17.66666667,"[""floss"", ""island"", ""country"", ""cigar"", ""bow tie"", ""heater""]",1,1,0
+1218,pyramids,"[""sand"", ""pharaoh"", ""triangle"", ""desert""]",4,123,15,"[""twin"", ""desert"", ""triangle"", ""pharaoh"", ""broken"", ""sand""]",2,1,0
+1448,skis,"[""snow"", ""mountain"", ""water""]",3,107,35.66666667,"[""sweetener"", ""sugar"", ""infection"", ""snow"", ""mountain"", ""water""]",5,0.833333333,0.24
+1842,cigarette,"[""smoke"", ""cigar""]",2,108,38,"[""shorts"", ""foam"", ""starch"", ""shadow"", ""smoke"", ""cigar""]",0,1,0
+1846,vehicles,"[""car"", ""trucks""]",2,108,30,"[""recipe"", ""ramp"", ""dinner"", ""wreck"", ""car"", ""trucks""]",0,1,0
+1366,lure,"[""fishing"", ""trap"", ""catch""]",3,81,24.33333333,"[""puppet"", ""highway"", ""crochet"", ""trap"", ""fishing"", ""catch""]",2,0.833333333,0.24
+311,dirt,"[""mud"", ""earth"", ""dust""]",3,71,23,"[""mud"", ""dust"", ""doodle"", ""beak"", ""earth""]",1,1,0
+304,booger,"[""nose"", ""snot"", ""green""]",3,105,35,"[""quiz"", ""supermarket"", ""green"", ""nose"", ""snot""]",3,0.833333333,0.24
+359,sheet,"[""paper"", ""bed"", ""music""]",3,145,45.33333333,"[""paper"", ""spam"", ""bed"", ""music"", ""cradle""]",3,1,0
+9,howl,"[""wolf"", ""moon"", ""dog""]",3,142,47.33333333,"[""eskimo"", ""limb"", ""moon"", ""wolf"", ""dog""]",3,1,0
+206,consumer,"[""buyer"", ""money"", ""product""]",3,58,18.66666667,"[""potassium"", ""bear"", ""product"", ""money"", ""buyer""]",1,0.833333333,0.24
+815,mattress,"[""bed"", ""sleep""]",2,153,65,"[""mirror"", ""sleep"", ""suitcase"", ""dwarf"", ""bed""]",1,1,0
+302,woodpecker,"[""bird"", ""tree"", ""red""]",3,155,45,"[""tree"", ""envelope"", ""adobe"", ""bird"", ""red""]",3,1,0
+915,tracksuit,"[""running"", ""gym""]",2,42,16,"[""pan"", ""gym"", ""running"", ""balloon"", ""snowman""]",1,1,0
+1695,laptop,"[""computer"", ""keyboard""]",2,100,43,"[""keyboard"", ""neighbor"", ""microscope"", ""portrait"", ""asylum"", ""computer""]",1,1,0
+1906,physician,"[""medicine"", ""hospital""]",2,130,19.5,"[""ocean"", ""leopard"", ""woodpecker"", ""medicine"", ""hospital"", ""parent""]",1,1,0
+436,crowbar,"[""tool"", ""metal"", ""car""]",3,56,18.66666667,"[""dip"", ""metal"", ""car"", ""list"", ""tool""]",1,0.833333333,0.24
+1017,merchant,"[""store"", ""market"", ""ship"", ""goods""]",4,56,12.5,"[""market"", ""whistle"", ""ship"", ""goods"", ""stopwatch"", ""store""]",4,1,0
+284,trowel,"[""garden"", ""shovel"", ""dig""]",3,72,24,"[""stain"", ""shovel"", ""garden"", ""dig"", ""ketchup""]",4,1,0
+1541,chilly,"[""snow"", ""freezing"", ""ice""]",3,123,11.66666667,"[""snow"", ""chop"", ""ice"", ""freezing"", ""pager"", ""lake""]",2,1,0
+1856,irish,"[""green"", ""beer""]",2,72,29.5,"[""green"", ""page"", ""container"", ""beer"", ""snot"", ""climb""]",4,1,0
+1714,irritant,"[""skin"", ""rash""]",2,60,10.5,"[""skin"", ""hanger"", ""rash"", ""constellation"", ""stopwatch"", ""blueprint""]",1,1,0
+147,walkway,"[""sidewalk"", ""path"", ""pedestrian""]",3,83,27.66666667,"[""sidewalk"", ""pedestrian"", ""ship"", ""pole"", ""path""]",2,1,0
+1936,eat,"[""food"", ""drink""]",2,101,41.5,"[""railroad"", ""drink"", ""sea"", ""food"", ""whistle"", ""astronaut""]",2,1,0
+1638,watching,"[""tv"", ""eyes""]",2,74,18,"[""toboggan"", ""tv"", ""float"", ""beaver"", ""coil"", ""eyes""]",0,1,0
+544,element,"[""fire"", ""water""]",2,62,17.5,"[""fire"", ""buffalo"", ""water"", ""kneel"", ""cheese""]",3,1,0
+1876,moist,"[""wet"", ""water""]",2,136,45,"[""hump"", ""wet"", ""water"", ""quarter"", ""flame"", ""pig""]",4,1,0
+1387,crevice,"[""hole"", ""rock"", ""cave""]",3,96,16,"[""cave"", ""hole"", ""doily"", ""roller coaster"", ""suit"", ""rock""]",2,0.833333333,0.24
+1819,palatable,"[""food"", ""taste""]",2,94,18,"[""food"", ""ballet"", ""cabin"", ""taste"", ""suit"", ""heart""]",2,1,0
+659,loosen,"[""belt"", ""tie""]",2,60,18.5,"[""buffalo"", ""doorbell"", ""belt"", ""tie"", ""gun""]",2,1,0
+446,splint,"[""broken"", ""wood"", ""leg""]",3,66,20.66666667,"[""leg"", ""broken"", ""wood"", ""squirrel"", ""joystick""]",2,1,0
+4,bay,"[""water"", ""ocean"", ""boat""]",3,72,23.66666667,"[""ring"", ""water"", ""boat"", ""ocean"", ""newt""]",5,1,0
+1122,chowder,"[""clam"", ""soup"", ""corn"", ""food""]",4,118,32.75,"[""soup"", ""quarter"", ""corn"", ""tea"", ""clam"", ""food""]",5,1,0
+325,brick,"[""red"", ""house"", ""wall""]",3,117,39,"[""red"", ""wall"", ""house"", ""button"", ""centimeter""]",2,1,0
+441,cilantro,"[""herb"", ""green"", ""spice""]",3,77,25.66666667,"[""landlord"", ""spice"", ""green"", ""closet"", ""herb""]",4,1,0
+949,across,"[""bridge"", ""street""]",2,65,12,"[""tumor"", ""axe"", ""bridge"", ""street"", ""toaster""]",1,1,0
+414,gerbil,"[""hamster"", ""rodent"", ""pet""]",3,89,29.66666667,"[""pet"", ""frame"", ""hamster"", ""curly"", ""rodent""]",2,1,0
+480,flavoring,"[""taste"", ""food"", ""spice""]",3,83,25,"[""taste"", ""spice"", ""stab"", ""food"", ""chin""]",2,1,0
+1773,sunrise,"[""sunset"", ""orange""]",2,107,31,"[""food"", ""bolt"", ""orange"", ""pole"", ""diploma"", ""sunset""]",1,1,0
+453,navy,"[""ship"", ""army"", ""sea""]",3,91,19,"[""sea"", ""guitar"", ""ship"", ""army"", ""ball""]",4,1,0
+212,calamari,"[""fried"", ""food"", ""fish""]",3,101,17.66666667,"[""food"", ""globe"", ""fried"", ""thread"", ""fish""]",2,1,0
+1075,lifeguard,"[""pool"", ""beach"", ""water"", ""swim""]",4,72,21.25,"[""beach"", ""swim"", ""tip"", ""pool"", ""collection"", ""water""]",5,0.866666667,0.19
+1857,savings,"[""money"", ""bank""]",2,157,69.5,"[""heart"", ""money"", ""intestines"", ""seal"", ""journalist"", ""bank""]",1,1,0
+944,genealogy,"[""family"", ""tree""]",2,93,34.5,"[""wrinkled"", ""thunder"", ""family"", ""tree"", ""throw up""]",1,1,0
+1560,custody,"[""child"", ""jail"", ""police""]",3,69,22.66666667,"[""bench"", ""jail"", ""farm"", ""child"", ""millipede"", ""police""]",1,1,0
+561,ballet,"[""dance"", ""tutu""]",2,95,37,"[""dance"", ""calendar"", ""tutu"", ""spray"", ""brass""]",1,1,0
+993,spilling,"[""water"", ""milk"", ""liquid"", ""oil""]",4,78,20,"[""goose"", ""oil"", ""compass"", ""liquid"", ""water"", ""milk""]",7,1,0
+77,indian,"[""curry"", ""food"", ""chief""]",3,58,17.33333333,"[""prison"", ""crust"", ""food"", ""curry"", ""chief""]",2,0.833333333,0.24
+1804,stagnant,"[""water"", ""pond""]",2,89,28.5,"[""venus"", ""pond"", ""prince"", ""sing"", ""water"", ""guard""]",1,1,0
+667,hong kong,"[""china"", ""city""]",2,90,40.5,"[""china"", ""hall"", ""city"", ""turban"", ""gland""]",1,1,0
+1584,owner,"[""car"", ""house"", ""dog""]",3,61,20.33333333,"[""dog"", ""cooker"", ""house"", ""mason"", ""car"", ""ranch""]",3,0.833333333,0.24
+906,hearing,"[""ear"", ""music""]",2,82,21,"[""backspace"", ""machine"", ""board"", ""ear"", ""music""]",1,1,0
+933,aged,"[""wine"", ""cheese""]",2,115,18,"[""fast food"", ""wine"", ""cheese"", ""dark"", ""two""]",2,1,0
+1744,buy,"[""money"", ""shop""]",2,96,24,"[""money"", ""pocket"", ""bleach"", ""shop"", ""printing"", ""hip""]",2,1,0
+1890,arms,"[""hug"", ""body""]",2,74,12,"[""hug"", ""fertilizer"", ""meat"", ""concrete"", ""tooth"", ""body""]",2,1,0
+1531,sleeping pill,"[""sleep"", ""bed"", ""drug""]",3,48,15.66666667,"[""sleep"", ""steroids"", ""counter"", ""drug"", ""eyelash"", ""bed""]",2,1,0
+1111,beaches,"[""sand"", ""sun"", ""ocean"", ""water""]",4,117,33.5,"[""sand"", ""cooking"", ""vitamin"", ""sun"", ""ocean"", ""water""]",6,1,0
+413,medal,"[""gold"", ""olympics"", ""award""]",3,113,36.33333333,"[""award"", ""naked"", ""olympics"", ""gold"", ""whiskers""]",1,1,0
+1011,pepsi,"[""coke"", ""cola"", ""drink"", ""pop""]",4,143,37.5,"[""kid"", ""cola"", ""witness"", ""pop"", ""drink"", ""coke""]",5,0.866666667,0.19
+1377,silo,"[""grain"", ""farm"", ""corn""]",3,108,36,"[""pendulum"", ""farm"", ""grain"", ""lady"", ""punch"", ""corn""]",2,1,0
+1232,sideburns,"[""hair"", ""beard"", ""face"", ""man""]",4,88,25,"[""veranda"", ""hair"", ""compass"", ""man"", ""beard"", ""face""]",9,1,0
+1682,constellation,"[""sky"", ""star""]",2,111,15,"[""alley"", ""sky"", ""star"", ""stockings"", ""loo"", ""braces""]",2,1,0
+1934,freight,"[""train"", ""truck""]",2,112,39.5,"[""guard"", ""train"", ""spike"", ""kit"", ""truck"", ""jack""]",1,1,0
+489,habitat,"[""home"", ""animal""]",2,82,28.5,"[""home"", ""urine"", ""spray"", ""subway"", ""animal""]",0,1,0
+1524,steak,"[""meat"", ""cow"", ""red""]",3,97,27.66666667,"[""meat"", ""catch"", ""red"", ""dagger"", ""mug"", ""cow""]",3,1,0
+1706,italian,"[""food"", ""pasta""]",2,87,31,"[""pasta"", ""crack"", ""cell"", ""food"", ""pendulum"", ""poem""]",1,1,0
+126,shopping,"[""mall"", ""money"", ""clothes""]",3,65,21.66666667,"[""saxophone"", ""peroxide"", ""clothes"", ""money"", ""mall""]",4,1,0
+196,straighten,"[""hair"", ""line"", ""tie""]",3,65,19.66666667,"[""pupil"", ""tie"", ""bowel"", ""line"", ""hair""]",2,1,0
+438,culinary,"[""food"", ""chef"", ""kitchen""]",3,125,37.33333333,"[""kiln"", ""painkiller"", ""kitchen"", ""chef"", ""food""]",3,1,0
+1309,expensive,"[""money"", ""jewelry"", ""car""]",3,72,21.33333333,"[""loo"", ""money"", ""car"", ""acid"", ""jewelry"", ""paper""]",5,1,0
+968,statue,"[""stone"", ""art""]",2,70,20.5,"[""art"", ""sticker"", ""stone"", ""champagne"", ""knot""]",1,1,0
+1690,theatre,"[""movie"", ""actor""]",2,78,19.5,"[""mermaid"", ""movie"", ""actor"", ""bat"", ""solid"", ""gun""]",1,1,0
+1517,secretary,"[""assistant"", ""desk"", ""office""]",3,75,25,"[""assistant"", ""mortar"", ""necklace"", ""desk"", ""office"", ""kelp""]",1,0.833333333,0.24
+1174,polish,"[""nail"", ""wood"", ""shoe"", ""wax""]",4,59,12.75,"[""wax"", ""nail"", ""wood"", ""shoe"", ""cradle"", ""list""]",0,0.866666667,0.19
+1589,gunpowder,"[""gun"", ""fireworks"", ""explosion""]",3,60,17.33333333,"[""stomach"", ""explosion"", ""fireworks"", ""mound"", ""gun"", ""entrance""]",2,1,0
+776,moon,"[""sun"", ""night""]",2,64,23.5,"[""sun"", ""rib"", ""swine"", ""night"", ""decimal""]",1,1,0
+242,parakeet,"[""bird"", ""parrot"", ""cage""]",3,115,38.33333333,"[""cage"", ""reef"", ""ice cream"", ""parrot"", ""bird""]",2,1,0
+542,confession,"[""priest"", ""church""]",2,71,28,"[""priest"", ""church"", ""rye"", ""oak"", ""orchestra""]",1,1,0
+741,font,"[""letter"", ""text""]",2,68,13,"[""tin"", ""text"", ""letter"", ""theater"", ""bass""]",1,1,0
+1571,texas,"[""hot"", ""oil"", ""cowboy""]",3,65,11.66666667,"[""hot"", ""moisture"", ""oil"", ""carpenter"", ""cowboy"", ""heartbeat""]",2,0.833333333,0.24
+752,scan,"[""computer"", ""scanner""]",2,53,12.5,"[""tree"", ""brown"", ""scanner"", ""computer"", ""jet""]",1,1,0
+1221,tadpole,"[""frog"", ""pond"", ""baby"", ""water""]",4,137,38,"[""frog"", ""pond"", ""crosswalk"", ""mug"", ""baby"", ""water""]",4,1,0
+1116,midnight,"[""dark"", ""moon"", ""night"", ""sleep""]",4,104,30.5,"[""night"", ""wing"", ""sleep"", ""dark"", ""island"", ""moon""]",5,0.866666667,0.19
+1585,tiara,"[""crown"", ""princess"", ""diamond""]",3,140,46.33333333,"[""crown"", ""baked"", ""diamond"", ""daytime"", ""roller coaster"", ""princess""]",1,1,0
+1661,spree,"[""candy"", ""money""]",2,95,10.5,"[""money"", ""horseshoe"", ""acid"", ""candy"", ""athlete"", ""notebook""]",1,1,0
+388,shade,"[""tree"", ""dark"", ""color""]",3,91,27,"[""dark"", ""tree"", ""pan"", ""thicket"", ""color""]",3,0.833333333,0.24
+1092,copper,"[""penny"", ""metal"", ""wire"", ""police""]",4,83,23.75,"[""wire"", ""metal"", ""swim"", ""crying"", ""police"", ""penny""]",3,1,0
+155,leftovers,"[""food"", ""dinner"", ""fridge""]",3,78,26,"[""mermaid"", ""petroleum"", ""food"", ""dinner"", ""fridge""]",2,1,0
+481,stash,"[""money"", ""drugs"", ""mustache""]",3,78,17.33333333,"[""mustache"", ""money"", ""spreadsheet"", ""drugs"", ""silver""]",2,0.833333333,0.24
+1087,harbour,"[""ship"", ""boat"", ""water"", ""sea""]",4,71,22.5,"[""sea"", ""gold"", ""water"", ""boat"", ""asphalt"", ""ship""]",11,1,0
+887,dance,"[""music"", ""ballet""]",2,49,18.5,"[""puzzle"", ""music"", ""yank"", ""ballet"", ""tattoo""]",1,1,0
+1302,gold,"[""silver"", ""money"", ""jewelry"", ""yellow""]",4,81,22.75,"[""composer"", ""emperor"", ""jewelry"", ""money"", ""yellow"", ""silver""]",3,1,0
+591,due,"[""money"", ""bill""]",2,56,11.5,"[""chimp"", ""ring"", ""money"", ""bill"", ""tag""]",2,1,0
+1391,score,"[""game"", ""board"", ""music""]",3,50,15,"[""board"", ""music"", ""tea party"", ""rinse"", ""siren"", ""game""]",2,0.833333333,0.24
+1436,icy,"[""snow"", ""water"", ""road""]",3,105,12.33333333,"[""dawn"", ""road"", ""snow"", ""supper"", ""weave"", ""water""]",2,0.833333333,0.24
+46,appendage,"[""arm"", ""leg"", ""limb""]",3,99,33,"[""fungus"", ""leg"", ""dig"", ""limb"", ""arm""]",4,1,0
+1289,bubbles,"[""bath"", ""soap"", ""water"", ""kids""]",4,83,23.5,"[""water"", ""cheese"", ""rectangle"", ""soap"", ""bath"", ""kids""]",5,1,0
+1203,bong,"[""weed"", ""smoke"", ""drugs"", ""pot""]",4,70,21,"[""pot"", ""smoke"", ""scythe"", ""drugs"", ""weed"", ""chimp""]",5,1,0
+901,blessing,"[""church"", ""priest""]",2,53,13,"[""priest"", ""alpaca"", ""scissors"", ""church"", ""glasses""]",1,1,0
+1924,rivalry,"[""sibling"", ""fight""]",2,70,22.5,"[""meal"", ""sibling"", ""talk"", ""fight"", ""cable"", ""cardboard""]",1,1,0
+1469,dragonfly,"[""insect"", ""bug"", ""butterfly""]",3,92,23,"[""furniture"", ""spice"", ""bug"", ""female"", ""insect"", ""butterfly""]",2,1,0
+1189,crew,"[""ship"", ""boat"", ""cut"", ""group""]",4,88,22,"[""ship"", ""boat"", ""hillbilly"", ""group"", ""cut"", ""lane""]",2,0.866666667,0.19
+900,patriotism,"[""flag"", ""country""]",2,76,28.5,"[""parasite"", ""clock"", ""country"", ""flag"", ""anteater""]",1,1,0
+1702,bought,"[""money"", ""store""]",2,82,20.5,"[""money"", ""actress"", ""pod"", ""dolly"", ""laboratory"", ""store""]",1,1,0
+372,scallop,"[""fish"", ""shell"", ""sea""]",3,64,20.33333333,"[""iris"", ""fish"", ""oxen"", ""sea"", ""shell""]",2,1,0
+1025,elbow,"[""arm"", ""joint"", ""knee"", ""grease""]",4,101,27.75,"[""shoe"", ""vacuum cleaner"", ""joint"", ""grease"", ""knee"", ""arm""]",3,0.866666667,0.19
+357,decompose,"[""compost"", ""body"", ""dead""]",3,87,22.33333333,"[""scrabble"", ""compost"", ""dead"", ""body"", ""lung""]",2,0.833333333,0.24
+792,stork,"[""bird"", ""baby""]",2,136,61,"[""telephone"", ""shelter"", ""badge"", ""bird"", ""baby""]",1,1,0
+96,driving,"[""car"", ""wheel"", ""road""]",3,85,28.33333333,"[""wheel"", ""road"", ""muscle"", ""car"", ""duck""]",3,1,0
+529,telescope,"[""lens"", ""sky""]",2,92,13,"[""sky"", ""rope"", ""dalmatian"", ""lens"", ""guard""]",0,1,0
+1254,projector,"[""film"", ""light"", ""screen"", ""school""]",4,67,20.25,"[""barn"", ""jack"", ""screen"", ""light"", ""school"", ""film""]",1,1,0
+1173,chop,"[""cut"", ""knife"", ""wood"", ""pork""]",4,69,21.5,"[""wood"", ""star"", ""swat"", ""pork"", ""knife"", ""cut""]",4,0.866666667,0.19
+656,dreaming,"[""sleep"", ""bed""]",2,80,29,"[""peanuts"", ""pat"", ""woods"", ""bed"", ""sleep""]",1,1,0
+1361,scene,"[""movie"", ""theater"", ""stage""]",3,65,15.33333333,"[""movie"", ""theater"", ""north"", ""scalp"", ""clip"", ""stage""]",4,1,0
+1407,grains,"[""wheat"", ""sand"", ""food""]",3,105,31.33333333,"[""steps"", ""library"", ""wheat"", ""sand"", ""camel"", ""food""]",2,0.833333333,0.24
+1567,written,"[""paper"", ""book"", ""letter""]",3,72,20,"[""paper"", ""veil"", ""armada"", ""book"", ""stripper"", ""letter""]",3,1,0
+86,island,"[""water"", ""beach"", ""sand""]",3,55,15.66666667,"[""beach"", ""market"", ""water"", ""denim"", ""sand""]",4,1,0
+1754,days,"[""nights"", ""sun""]",2,99,16,"[""hug"", ""pretzel"", ""sun"", ""splinter"", ""arc"", ""nights""]",0,1,0
+1220,tsunami,"[""wave"", ""japan"", ""water"", ""flood""]",4,115,32.25,"[""flood"", ""water"", ""japan"", ""yogurt"", ""house"", ""wave""]",2,1,0
+1495,rectangle,"[""square"", ""box"", ""triangle""]",3,133,36.66666667,"[""running"", ""jogger"", ""square"", ""rooster"", ""triangle"", ""box""]",3,1,0
+1348,weeds,"[""garden"", ""green"", ""dandelion""]",3,63,16.66666667,"[""dandelion"", ""garden"", ""green"", ""veranda"", ""husband"", ""meter""]",3,0.833333333,0.24
+917,tentacles,"[""octopus"", ""arms""]",2,121,45,"[""chrome"", ""footprint"", ""arms"", ""octopus"", ""cheek""]",0,1,0
+681,instruments,"[""music"", ""violin""]",2,76,26,"[""plumber"", ""ape"", ""gem"", ""music"", ""violin""]",1,1,0
+808,sleepy,"[""bed"", ""eyes""]",2,122,26.5,"[""lemonade"", ""bed"", ""splint"", ""underwear"", ""eyes""]",0,1,0
+503,homeland,"[""country"", ""home""]",2,81,19,"[""stove"", ""home"", ""wheelchair"", ""koala"", ""country""]",2,1,0
+577,reindeer,"[""snow"", ""sleigh""]",2,118,20.5,"[""page"", ""fiber"", ""sleigh"", ""hockey"", ""snow""]",1,1,0
+839,tuition,"[""money"", ""college""]",2,92,35,"[""money"", ""hearts"", ""blink"", ""scales"", ""college""]",1,1,0
+1364,tomato,"[""red"", ""fruit"", ""sauce""]",3,122,40.66666667,"[""mermaid"", ""fruit"", ""sauce"", ""port"", ""sea"", ""red""]",5,1,0
+1669,onions,"[""garlic"", ""food""]",2,56,12.5,"[""garlic"", ""path"", ""shorts"", ""tenant"", ""river"", ""food""]",1,1,0
+1878,online,"[""web"", ""computer""]",2,107,22.5,"[""forest"", ""gal"", ""web"", ""heartbeat"", ""computer"", ""detective""]",1,1,0
+289,ski,"[""snow"", ""slope"", ""mountain""]",3,111,37,"[""snow"", ""dentist"", ""fridge"", ""slope"", ""mountain""]",3,1,0
+72,jackpot,"[""money"", ""lottery"", ""gold""]",3,114,38,"[""gold"", ""lottery"", ""bag"", ""telescope"", ""money""]",2,1,0
+1761,toddler,"[""baby"", ""kid""]",2,118,36.5,"[""kid"", ""seat"", ""hula"", ""spaghetti"", ""cap"", ""baby""]",2,1,0
+1466,loft,"[""apartment"", ""bed"", ""hay""]",3,72,19.33333333,"[""bed"", ""hay"", ""food"", ""apartment"", ""spoon"", ""dime""]",3,1,0
+1183,turkey,"[""bird"", ""chicken"", ""food"", ""country""]",4,94,15.25,"[""red"", ""bake"", ""chicken"", ""bird"", ""food"", ""country""]",8,0.866666667,0.19
+288,lubricate,"[""oil"", ""wet"", ""grease""]",3,84,28,"[""wet"", ""oil"", ""grease"", ""kin"", ""surface""]",3,1,0
+922,coward,"[""yellow"", ""lion""]",2,54,15.5,"[""lion"", ""barn"", ""sauce"", ""yellow"", ""skeleton""]",1,1,0
+1681,endive,"[""salad"", ""green""]",2,77,22.5,"[""brake"", ""sack"", ""bathroom"", ""salad"", ""green"", ""kidney""]",1,1,0
+1499,gladiator,"[""warrior"", ""fight"", ""sword""]",3,80,16.66666667,"[""caramel"", ""warrior"", ""fight"", ""shepherd"", ""cane"", ""sword""]",3,1,0
+64,stationery,"[""paper"", ""pen"", ""letter""]",3,89,29.33333333,"[""letter"", ""twins"", ""catwalk"", ""pen"", ""paper""]",3,1,0
+1167,catalog,"[""list"", ""magazine"", ""book"", ""library""]",4,59,16.5,"[""list"", ""lotion"", ""library"", ""drink"", ""book"", ""magazine""]",6,1,0
+582,department,"[""store"", ""office""]",2,105,42,"[""sulfur"", ""icing"", ""store"", ""office"", ""ink""]",2,1,0
+1066,eggplant,"[""purple"", ""vegetable"", ""parmesan"", ""food""]",4,130,35.75,"[""food"", ""comma"", ""vegetable"", ""parmesan"", ""purple"", ""gin""]",2,1,0
+1892,financial,"[""money"", ""bank""]",2,92,40.5,"[""money"", ""homework"", ""song"", ""carpenter"", ""frost"", ""bank""]",1,1,0
+1529,binoculars,"[""eyes"", ""telescope"", ""glasses""]",3,52,11.33333333,"[""prune"", ""eyes"", ""shell"", ""glasses"", ""denim"", ""telescope""]",3,1,0
+1917,console,"[""game"", ""hug""]",2,49,12,"[""pouch"", ""flame"", ""hug"", ""piercing"", ""game"", ""caravan""]",0,1,0
+1920,pepperoni,"[""pizza"", ""meat""]",2,153,57,"[""lab"", ""meat"", ""pizza"", ""manual"", ""coffin"", ""tablet""]",1,1,0
+1118,bishop,"[""church"", ""chess"", ""priest"", ""pope""]",4,95,28,"[""priest"", ""pope"", ""tool"", ""mechanic"", ""chess"", ""church""]",3,1,0
+775,moldy,"[""bread"", ""green""]",2,73,28,"[""green"", ""bread"", ""ramp"", ""marsh"", ""cattle""]",1,1,0
+285,pierced,"[""ear"", ""nose"", ""hole""]",3,79,25,"[""nose"", ""knot"", ""hole"", ""ear"", ""alphabet""]",2,1,0
+421,nature,"[""green"", ""outdoors"", ""tree""]",3,74,17.66666667,"[""novel"", ""tree"", ""plane"", ""outdoors"", ""green""]",1,1,0
+646,groove,"[""dance"", ""record""]",2,84,31.5,"[""glowing"", ""record"", ""dance"", ""fishing"", ""money""]",1,1,0
+1937,sober,"[""alcohol"", ""drink""]",2,89,17.5,"[""drink"", ""roller"", ""granola"", ""alcohol"", ""clarinet"", ""parsley""]",2,1,0
+975,stencil,"[""pencil"", ""art"", ""paint"", ""drawing""]",4,83,24.5,"[""liquor"", ""pencil"", ""paint"", ""drawing"", ""pole"", ""art""]",7,1,0
+1424,bath,"[""water"", ""soap"", ""shower""]",3,92,21.66666667,"[""battery"", ""warrior"", ""soap"", ""shower"", ""water"", ""pancreas""]",3,1,0
+1464,swimming pool,"[""water"", ""chlorine"", ""swim""]",3,94,27,"[""chlorine"", ""supper"", ""material"", ""jellyfish"", ""swim"", ""water""]",1,0.833333333,0.24
+152,hand,"[""foot"", ""finger"", ""glove""]",3,52,14,"[""finger"", ""ruler"", ""foot"", ""glove"", ""airport""]",2,0.833333333,0.24
+1492,backspace,"[""keyboard"", ""computer"", ""key""]",3,108,21.33333333,"[""dip"", ""computer"", ""keyboard"", ""key"", ""doorstop"", ""inhaler""]",3,0.833333333,0.24
+1228,parsley,"[""green"", ""herb"", ""sage"", ""thyme""]",4,101,28.25,"[""beast"", ""pot"", ""herb"", ""green"", ""sage"", ""thyme""]",4,1,0
+673,blurry,"[""glasses"", ""eyes""]",2,85,17.5,"[""glasses"", ""eyes"", ""bee"", ""freeway"", ""crown""]",2,1,0
+1233,knife,"[""cut"", ""fork"", ""blade"", ""spoon""]",4,103,19.5,"[""dairy"", ""blade"", ""window"", ""spoon"", ""fork"", ""cut""]",3,1,0
+1014,bleed,"[""blood"", ""red"", ""cut"", ""wound""]",4,124,35.25,"[""cut"", ""wound"", ""red"", ""write"", ""blood"", ""billboard""]",7,1,0
+626,sanctuary,"[""church"", ""home""]",2,81,26,"[""jam"", ""church"", ""goods"", ""home"", ""car""]",2,1,0
+1019,clarinet,"[""music"", ""instrument"", ""woodwind"", ""reed""]",4,99,29,"[""woodwind"", ""thesaurus"", ""instrument"", ""sandwich"", ""music"", ""reed""]",4,0.866666667,0.19
+164,mug,"[""coffee"", ""cup"", ""face""]",3,129,43,"[""cup"", ""badge"", ""perfume"", ""coffee"", ""face""]",2,0.833333333,0.24
+778,microbe,"[""bacteria"", ""microscope""]",2,88,30.5,"[""microscope"", ""article"", ""bacteria"", ""woodwind"", ""shower""]",1,1,0
+130,beeping,"[""alarm"", ""phone"", ""pager""]",3,72,22.66666667,"[""alarm"", ""violin"", ""phone"", ""wet"", ""pager""]",0,1,0
+1237,judo,"[""karate"", ""fight"", ""kick"", ""chop""]",4,85,24.25,"[""dirt"", ""kick"", ""fight"", ""karate"", ""fireworks"", ""chop""]",3,0.866666667,0.19
+1317,leftover,"[""food"", ""dinner"", ""fridge""]",3,86,28.66666667,"[""food"", ""fridge"", ""chrome"", ""steward"", ""dinner"", ""wall""]",3,1,0
+998,conductor,"[""train"", ""orchestra"", ""music"", ""bus""]",4,100,26.75,"[""sloth"", ""orchestra"", ""train"", ""bus"", ""music"", ""diploma""]",3,1,0
+1249,fish tank,"[""water"", ""aquarium"", ""fish"", ""glass""]",4,94,27.25,"[""rake"", ""fish"", ""glass"", ""water"", ""aquarium"", ""washing machine""]",4,1,0
+1209,flower,"[""rose"", ""garden"", ""petal"", ""plant""]",4,53,15.75,"[""plant"", ""siren"", ""garden"", ""petal"", ""rose"", ""rubber""]",3,1,0
+1896,skipping,"[""rope"", ""school""]",2,62,19,"[""branch"", ""school"", ""bugle"", ""banana"", ""rope"", ""train""]",1,1,0
+1814,academia,"[""school"", ""professor""]",2,82,23,"[""sidewalk"", ""recipe"", ""school"", ""medicine"", ""parrot"", ""professor""]",2,1,0
+584,investigate,"[""detective"", ""police""]",2,68,20.5,"[""detective"", ""gut"", ""police"", ""cork"", ""yoga""]",1,1,0
+1753,airhead,"[""blonde"", ""candy""]",2,69,17.5,"[""luggage"", ""pool"", ""shoe"", ""blonde"", ""spoon"", ""candy""]",0,1,0
+57,beard,"[""hair"", ""man"", ""face""]",3,83,27.66666667,"[""arachnid"", ""pompom"", ""hair"", ""face"", ""man""]",4,0.833333333,0.24
+1225,snorkel,"[""fish"", ""water"", ""swim"", ""scuba""]",4,78,24,"[""water"", ""scuba"", ""swim"", ""fish"", ""yellow"", ""hostage""]",7,1,0
+1671,symphony,"[""music"", ""orchestra""]",2,142,64.5,"[""glue"", ""jester"", ""factory"", ""music"", ""cane"", ""orchestra""]",1,1,0
+411,glistening,"[""wet"", ""water"", ""dew""]",3,82,18,"[""trunk"", ""teddy"", ""water"", ""dew"", ""wet""]",2,1,0
+1343,garage,"[""car"", ""door"", ""house""]",3,117,37,"[""car"", ""prime minister"", ""house"", ""door"", ""kick"", ""dusk""]",3,1,0
+1321,roadblock,"[""police"", ""traffic"", ""car""]",3,65,19.66666667,"[""polar bear"", ""police"", ""traffic"", ""nomad"", ""reef"", ""car""]",2,1,0
+1592,meadow,"[""grass"", ""field"", ""green""]",3,109,36.33333333,"[""disc"", ""field"", ""spy"", ""yak"", ""green"", ""grass""]",4,1,0
+671,menopause,"[""woman"", ""blood""]",2,81,16.5,"[""blood"", ""woman"", ""silky"", ""lottery"", ""wool""]",1,1,0
+1171,foal,"[""horse"", ""baby"", ""colt"", ""deer""]",4,114,31.25,"[""deer"", ""baby"", ""beak"", ""colt"", ""pilot"", ""horse""]",3,1,0
+1782,fugitive,"[""run"", ""prison""]",2,62,11.5,"[""leg"", ""prison"", ""silk"", ""elevator"", ""run"", ""periodic table""]",1,1,0
+1307,ooze,"[""pus"", ""blood"", ""wound""]",3,52,10,"[""doorbell"", ""wound"", ""blood"", ""birth control"", ""pilot"", ""pus""]",2,1,0
+569,resting,"[""sleep"", ""bed""]",2,79,24,"[""bed"", ""driveway"", ""hillbilly"", ""sleep"", ""yellow""]",1,1,0
+348,combustion,"[""fire"", ""engine"", ""explosion""]",3,139,46.33333333,"[""engine"", ""explosion"", ""fire"", ""deer"", ""sweet potato""]",2,1,0
+1162,french toast,"[""breakfast"", ""bread"", ""syrup"", ""egg""]",4,98,29.25,"[""curly"", ""egg"", ""tin"", ""breakfast"", ""bread"", ""syrup""]",3,1,0
+1731,society,"[""people"", ""group""]",2,68,26,"[""eye patch"", ""lingerie"", ""hot"", ""people"", ""sand"", ""group""]",2,1,0
+1685,rest,"[""nap"", ""bed""]",2,103,14,"[""feed"", ""peanut butter"", ""nap"", ""packaging"", ""model"", ""bed""]",1,1,0
+444,starfish,"[""sea"", ""beach"", ""water""]",3,90,23,"[""eskimo"", ""sea"", ""beach"", ""pickle"", ""water""]",4,1,0
+116,blouse,"[""shirt"", ""woman"", ""buttons""]",3,111,34.33333333,"[""fiber"", ""jungle"", ""buttons"", ""woman"", ""shirt""]",1,1,0
+1521,fig,"[""tree"", ""fruit"", ""leaf""]",3,126,38.66666667,"[""tree"", ""fruit"", ""leaf"", ""wizard"", ""frog"", ""hot tub""]",2,0.833333333,0.24
+98,womb,"[""baby"", ""mother"", ""birth""]",3,113,36.66666667,"[""mother"", ""literature"", ""baby"", ""marker"", ""birth""]",3,1,0
+1137,saxophone,"[""music"", ""instrument"", ""brass"", ""band""]",4,113,25,"[""music"", ""sty"", ""brass"", ""band"", ""seatbelt"", ""instrument""]",6,1,0
+1933,umpire,"[""baseball"", ""tennis""]",2,90,29,"[""baseball"", ""mark"", ""nun"", ""polish"", ""audience"", ""tennis""]",1,1,0
+366,tire,"[""car"", ""wheel"", ""rubber""]",3,91,30.33333333,"[""snail"", ""cloth"", ""rubber"", ""wheel"", ""car""]",3,1,0
+1916,ford,"[""car"", ""river""]",2,109,41,"[""map"", ""pimple"", ""locomotive"", ""maple"", ""river"", ""car""]",1,1,0
+1858,pan,"[""pot"", ""cook""]",2,61,21,"[""facebook"", ""pot"", ""whiskers"", ""flake"", ""grid"", ""cook""]",1,1,0
+1357,tobacco,"[""smoke"", ""pipe"", ""cigar""]",3,109,28.33333333,"[""pipe"", ""smoke"", ""cigar"", ""run"", ""pork"", ""postbox""]",1,1,0
+1629,pike,"[""fish"", ""spear""]",2,67,30,"[""crew"", ""spear"", ""satellite"", ""mercury"", ""librarian"", ""fish""]",2,1,0
+1866,narcotics,"[""drugs"", ""police""]",2,123,53,"[""hairy"", ""blood"", ""balcony"", ""police"", ""floor"", ""drugs""]",2,1,0
+1514,altar,"[""church"", ""priest"", ""boy""]",3,105,29,"[""pet"", ""boy"", ""mail"", ""shepherd"", ""church"", ""priest""]",1,0.833333333,0.24
+1259,producer,"[""movie"", ""director"", ""money"", ""farmer""]",4,64,16,"[""farmer"", ""money"", ""director"", ""army"", ""movie"", ""oil""]",3,1,0
+339,building,"[""house"", ""office"", ""structure""]",3,56,14.66666667,"[""house"", ""neck"", ""structure"", ""office"", ""cord""]",1,1,0
+1145,bleeding,"[""blood"", ""wound"", ""red"", ""heart""]",4,101,29.25,"[""blood"", ""marsh"", ""crowbar"", ""heart"", ""red"", ""wound""]",5,1,0
+1497,speeding,"[""ticket"", ""car"", ""police""]",3,129,36.66666667,"[""hula"", ""car"", ""police"", ""ticket"", ""pee"", ""smirk""]",2,1,0
+639,vendor,"[""shop"", ""market""]",2,72,13,"[""market"", ""smartphone"", ""sieve"", ""painting"", ""shop""]",1,1,0
+989,foliage,"[""leaves"", ""green"", ""tree"", ""fall""]",4,101,29.75,"[""cent"", ""green"", ""tree"", ""noose"", ""fall"", ""leaves""]",8,1,0
+1155,shore,"[""beach"", ""sea"", ""sand"", ""water""]",4,137,37.25,"[""sea"", ""adult"", ""beach"", ""sand"", ""water"", ""baker""]",10,1,0
+604,refreshing,"[""water"", ""drink""]",2,105,38,"[""walking"", ""sunburn"", ""businessman"", ""water"", ""drink""]",1,1,0
+1575,dromedary,"[""camel"", ""hump"", ""desert""]",3,120,40,"[""tennis"", ""broken"", ""camel"", ""desert"", ""hump"", ""committee""]",1,1,0
+271,antibiotic,"[""medicine"", ""bacteria"", ""penicillin""]",3,86,27.66666667,"[""sign"", ""medicine"", ""bacteria"", ""reptile"", ""penicillin""]",1,1,0
+1266,pollution,"[""smog"", ""air"", ""smoke"", ""dirty""]",4,72,21.25,"[""smog"", ""dirty"", ""smoke"", ""uncle"", ""warrior"", ""air""]",4,1,0
+789,gourmet,"[""food"", ""chef""]",2,108,45,"[""chef"", ""centimeter"", ""lamp"", ""food"", ""parakeet""]",1,1,0
+1423,buffet,"[""food"", ""table"", ""dinner""]",3,98,32.66666667,"[""dinner"", ""rabbit"", ""food"", ""mantis"", ""ramp"", ""table""]",3,1,0
+1245,watercress,"[""salad"", ""green"", ""food"", ""plant""]",4,80,22,"[""salad"", ""knot"", ""food"", ""plant"", ""vampire"", ""green""]",5,1,0
+1600,district,"[""school"", ""neighborhood"", ""city""]",3,103,14.66666667,"[""school"", ""tendon"", ""sunburn"", ""teeth"", ""city"", ""neighborhood""]",1,1,0
+860,erupt,"[""volcano"", ""explode""]",2,135,55.5,"[""cocaine"", ""parmesan"", ""tan"", ""volcano"", ""explode""]",0,1,0
+85,dreams,"[""sleep"", ""night"", ""bed""]",3,75,24,"[""soap"", ""snack"", ""night"", ""bed"", ""sleep""]",4,1,0
+1925,smartphone,"[""iphone"", ""apple""]",2,76,28.5,"[""shore"", ""iphone"", ""checkers"", ""apple"", ""cave"", ""noodles""]",0,1,0
+926,stole,"[""thief"", ""fur""]",2,82,32.5,"[""thief"", ""hair"", ""stand"", ""root"", ""fur""]",2,1,0
+1403,scribble,"[""write"", ""pen"", ""paper""]",3,80,18,"[""tea party"", ""shake"", ""human"", ""write"", ""pen"", ""paper""]",4,0.833333333,0.24
+321,mink,"[""fur"", ""coat"", ""animal""]",3,137,45.66666667,"[""inhaler"", ""animal"", ""fur"", ""coat"", ""estate""]",3,0.833333333,0.24
+422,musician,"[""guitar"", ""music"", ""instrument""]",3,54,18,"[""guitar"", ""skeleton"", ""boots"", ""music"", ""instrument""]",3,1,0
+1928,beatles,"[""music"", ""band""]",2,74,32.5,"[""band"", ""music"", ""flock"", ""pants"", ""anteater"", ""dinner""]",1,1,0
+1479,ground,"[""dirt"", ""floor"", ""coffee""]",3,90,20.33333333,"[""coffee"", ""pottery"", ""dirt"", ""floor"", ""blush"", ""note""]",2,1,0
+1132,email,"[""letter"", ""computer"", ""mail"", ""spam""]",4,54,14.75,"[""puffy"", ""mail"", ""spam"", ""letter"", ""computer"", ""railway""]",1,1,0
+1283,football,"[""soccer"", ""game"", ""ball"", ""field""]",4,66,19,"[""ball"", ""field"", ""soccer"", ""booger"", ""game"", ""wheat""]",7,1,0
+1306,twilight,"[""night"", ""vampire"", ""moon"", ""sunset""]",4,63,17.75,"[""night"", ""moon"", ""cash"", ""sunset"", ""panties"", ""vampire""]",3,1,0
+556,tangerine,"[""orange"", ""fruit""]",2,139,61.5,"[""orange"", ""snout"", ""greens"", ""fruit"", ""penny""]",1,1,0
+859,ammunition,"[""gun"", ""bullet""]",2,104,30,"[""grape"", ""gun"", ""bullet"", ""sword"", ""cape""]",2,1,0
+42,ride,"[""horse"", ""car"", ""bike""]",3,117,39,"[""bike"", ""car"", ""horse"", ""land"", ""puzzle""]",5,1,0
+187,storm,"[""rain"", ""thunder"", ""cloud""]",3,94,28.66666667,"[""ostrich"", ""cloud"", ""rain"", ""desk"", ""thunder""]",2,1,0
+1115,antidote,"[""poison"", ""medicine"", ""snake"", ""venom""]",4,117,27.75,"[""click"", ""marsh"", ""snake"", ""venom"", ""poison"", ""medicine""]",4,1,0
+322,sedative,"[""sleep"", ""drug"", ""pill""]",3,94,31.33333333,"[""teenager"", ""sleep"", ""pill"", ""drug"", ""mushroom""]",4,1,0
+1338,skyline,"[""city"", ""building"", ""sunset""]",3,87,20.66666667,"[""tutu"", ""icy"", ""sunset"", ""building"", ""city"", ""bugle""]",1,1,0
+1735,location,"[""map"", ""home""]",2,95,15,"[""home"", ""hen"", ""whiskey"", ""spade"", ""water"", ""map""]",1,1,0
+1417,wig,"[""hair"", ""bald"", ""head""]",3,110,34.33333333,"[""hair"", ""head"", ""marrow"", ""dawn"", ""baby"", ""bald""]",4,0.833333333,0.24
+1169,geography,"[""map"", ""world"", ""earth"", ""land""]",4,80,23,"[""land"", ""spaghetti"", ""wasp"", ""world"", ""earth"", ""map""]",5,1,0
+140,unlock,"[""key"", ""door"", ""lock""]",3,143,40.66666667,"[""lock"", ""door"", ""thorn"", ""bacon"", ""key""]",4,1,0
+680,maggot,"[""worm"", ""fly""]",2,81,29.5,"[""worm"", ""chemist"", ""businessman"", ""room"", ""fly""]",1,1,0
+1935,ants,"[""pants"", ""hill""]",2,54,14,"[""roller"", ""tablet"", ""hair"", ""pants"", ""hill"", ""groin""]",1,1,0
+1566,cupcake,"[""icing"", ""chocolate"", ""muffin""]",3,83,16.33333333,"[""drums"", ""skateboard"", ""chocolate"", ""icing"", ""suit"", ""muffin""]",1,1,0
+644,heart attack,"[""hospital"", ""stroke""]",2,72,11.5,"[""hospital"", ""scythe"", ""stroke"", ""clone"", ""mitten""]",0,1,0
+314,cucumber,"[""green"", ""salad"", ""pickle""]",3,122,34.33333333,"[""salad"", ""soldier"", ""pickle"", ""citizen"", ""green""]",3,1,0
+1101,plunge,"[""water"", ""fall"", ""pool"", ""drop""]",4,98,17,"[""television"", ""pool"", ""water"", ""fall"", ""drop"", ""clothes""]",6,0.866666667,0.19
+379,manure,"[""cow"", ""horse"", ""fertilizer""]",3,78,26,"[""horse"", ""boa"", ""trident"", ""cow"", ""fertilizer""]",1,1,0
+1315,cheque,"[""money"", ""bank"", ""bill""]",3,105,30.66666667,"[""sweetener"", ""money"", ""brandy"", ""shave"", ""bank"", ""bill""]",3,1,0
+291,sue,"[""lawyer"", ""court"", ""money""]",3,97,32.33333333,"[""money"", ""court"", ""blackberry"", ""lawyer"", ""vacuum""]",4,1,0
+1859,stingray,"[""fish"", ""ocean""]",2,87,38,"[""note"", ""fish"", ""ocean"", ""tee"", ""plastic"", ""tap""]",1,1,0
+565,hire,"[""fire"", ""money""]",2,92,15.5,"[""knight"", ""twins"", ""money"", ""rise"", ""fire""]",2,1,0
+1718,relatives,"[""family"", ""aunt""]",2,92,39,"[""picnic"", ""eating"", ""scanner"", ""family"", ""aunt"", ""student""]",2,1,0
+1729,carpeting,"[""floor"", ""flooring""]",2,64,23,"[""lipstick"", ""vaccine"", ""steel"", ""floor"", ""chocolate"", ""flooring""]",1,1,0
+298,starter,"[""food"", ""gun"", ""fire""]",3,47,11,"[""fire"", ""ticket"", ""food"", ""gun"", ""hangman""]",2,0.833333333,0.24
+409,club,"[""golf"", ""group"", ""hit""]",3,49,16.33333333,"[""golf"", ""hit"", ""piece"", ""group"", ""cosmetics""]",1,0.833333333,0.24
+1680,myself,"[""me"", ""person""]",2,138,41,"[""cream"", ""stopwatch"", ""envelope"", ""person"", ""me"", ""sibling""]",1,1,0
+655,lettuce,"[""salad"", ""green""]",2,123,49.5,"[""salad"", ""penicillin"", ""green"", ""net"", ""mansion""]",1,1,0
+849,teddy,"[""bear"", ""lingerie""]",2,149,54.5,"[""bear"", ""attic"", ""lingerie"", ""sibling"", ""bong""]",0,1,0
+523,environmental,"[""green"", ""earth""]",2,70,26.5,"[""green"", ""spit"", ""ketchup"", ""garlic"", ""earth""]",1,1,0
+1745,amongst,"[""crowd"", ""people""]",2,71,13,"[""hanging"", ""crowd"", ""nest"", ""people"", ""treasure"", ""gallop""]",1,1,0
+426,eagle,"[""bird"", ""bald"", ""fly""]",3,92,30.33333333,"[""fly"", ""pitcher"", ""bird"", ""gal"", ""bald""]",1,1,0
+701,sirloin,"[""steak"", ""cow""]",2,147,47,"[""cow"", ""gel"", ""pullover"", ""steak"", ""spasm""]",1,1,0
+1236,cufflink,"[""shirt"", ""suit"", ""sleeve"", ""jewelry""]",4,73,21,"[""suit"", ""powder"", ""jewelry"", ""shirt"", ""trail"", ""sleeve""]",3,1,0
+1686,android,"[""robot"", ""phone""]",2,139,63.5,"[""cantaloupe"", ""woman"", ""martini"", ""snow"", ""phone"", ""robot""]",1,1,0
+997,leg,"[""arm"", ""foot"", ""limb"", ""knee""]",4,90,25.75,"[""foot"", ""arm"", ""limb"", ""circus"", ""knee"", ""teepee""]",3,1,0
+1451,shallow,"[""water"", ""pool"", ""grave""]",3,89,24,"[""saw"", ""ladder"", ""grave"", ""boyfriend"", ""water"", ""pool""]",2,0.833333333,0.24
+1836,net,"[""fish"", ""catch""]",2,102,33,"[""catch"", ""hamster"", ""train"", ""fish"", ""joystick"", ""screwdriver""]",1,1,0
+770,vicar,"[""priest"", ""church""]",2,84,36,"[""document"", ""towel"", ""priest"", ""redhead"", ""church""]",1,1,0
+256,surgery,"[""doctor"", ""hospital"", ""cut""]",3,72,23.33333333,"[""hospital"", ""acrobat"", ""cut"", ""doctor"", ""palm tree""]",2,1,0
+795,matey,"[""pirate"", ""ship""]",2,82,25.5,"[""tin"", ""pirate"", ""ship"", ""orphanage"", ""pasta""]",1,1,0
+203,shapes,"[""square"", ""triangle"", ""circle""]",3,99,33,"[""square"", ""circle"", ""book"", ""city"", ""triangle""]",4,1,0
+1457,strawberries,"[""red"", ""fruit"", ""cream""]",3,135,40,"[""road"", ""fruit"", ""red"", ""octopus"", ""cream"", ""pedal""]",2,1,0
+1054,mcdonald's,"[""burger"", ""fat"", ""food"", ""fast food""]",4,68,21.25,"[""burger"", ""personal computer"", ""fast food"", ""fat"", ""roof"", ""food""]",4,0.866666667,0.19
+39,roasting,"[""chicken"", ""hot"", ""oven""]",3,68,22.66666667,"[""key"", ""chicken"", ""swat"", ""hot"", ""oven""]",3,1,0
+328,tombstone,"[""grave"", ""pizza"", ""graveyard""]",3,115,26.66666667,"[""swat"", ""grave"", ""pizza"", ""graveyard"", ""arms""]",1,0.833333333,0.24
+1498,demolition,"[""building"", ""man"", ""derby""]",3,78,15,"[""liver"", ""cellphone"", ""building"", ""derby"", ""maid"", ""man""]",0,0.833333333,0.24
+677,fragrant,"[""perfume"", ""flower""]",2,117,37.5,"[""crab"", ""flower"", ""software"", ""sage"", ""perfume""]",1,1,0
+909,pharmacist,"[""drugs"", ""medicine""]",2,97,39,"[""moat"", ""medicine"", ""drugs"", ""fruit"", ""fertilizer""]",1,1,0
+1534,parking ticket,"[""car"", ""police"", ""money""]",3,90,22.66666667,"[""car"", ""bathroom"", ""drawing"", ""baking"", ""money"", ""police""]",3,1,0
+1258,sinker,"[""fishing"", ""hook"", ""water"", ""line""]",4,65,19.75,"[""polar bear"", ""fishing"", ""line"", ""snot"", ""water"", ""hook""]",4,0.866666667,0.19
+111,skate,"[""ice"", ""board"", ""roller""]",3,108,36,"[""roller"", ""composer"", ""board"", ""loom"", ""ice""]",1,0.833333333,0.24
+1084,moss,"[""green"", ""tree"", ""grass"", ""plant""]",4,98,27.5,"[""bug"", ""tree"", ""bean"", ""green"", ""plant"", ""grass""]",12,0.866666667,0.19
+240,wrestler,"[""ring"", ""fight"", ""olympics""]",3,42,12.66666667,"[""olympics"", ""ring"", ""envelope"", ""crane"", ""fight""]",1,0.833333333,0.24
+150,paddock,"[""horse"", ""grass"", ""field""]",3,80,26.66666667,"[""horse"", ""grass"", ""sandwich"", ""duct"", ""field""]",3,1,0
+387,bounty,"[""hunter"", ""money"", ""treasure""]",3,75,23.33333333,"[""money"", ""hunter"", ""treasure"", ""teaspoon"", ""golf""]",1,0.833333333,0.24
+54,chivalry,"[""knight"", ""dead"", ""men""]",3,81,26.33333333,"[""dead"", ""knight"", ""sink"", ""men"", ""infant""]",0,0.833333333,0.24
+834,exchange,"[""money"", ""stock""]",2,93,24.5,"[""turkey"", ""tights"", ""prisoner"", ""stock"", ""money""]",1,1,0
+1894,parmesan,"[""cheese"", ""spaghetti""]",2,168,61,"[""spaghetti"", ""bride"", ""cheese"", ""shore"", ""pipe"", ""cage""]",1,1,0
+310,route,"[""map"", ""car"", ""street""]",3,80,15.33333333,"[""brother"", ""car"", ""map"", ""raccoon"", ""street""]",2,1,0
+559,infertile,"[""baby"", ""woman""]",2,60,15,"[""baby"", ""puzzle"", ""rainbow"", ""woman"", ""canal""]",1,1,0
+402,crab,"[""sea"", ""lobster"", ""red""]",3,48,15.66666667,"[""sea"", ""lobster"", ""committee"", ""splinter"", ""red""]",1,0.833333333,0.24
+1013,saturated,"[""wet"", ""fat"", ""water"", ""color""]",4,105,21.5,"[""chief"", ""wet"", ""fat"", ""water"", ""grain"", ""color""]",4,1,0
+58,penny,"[""copper"", ""money"", ""coin""]",3,103,34.33333333,"[""coin"", ""copper"", ""broccoli"", ""money"", ""worm""]",2,1,0
+984,photosynthesis,"[""green"", ""plant"", ""light"", ""sun""]",4,116,31.75,"[""sun"", ""meter"", ""green"", ""light"", ""vinegar"", ""plant""]",6,1,0
+1239,robbery,"[""mask"", ""money"", ""bank"", ""thief""]",4,57,16.75,"[""thief"", ""drawing"", ""bank"", ""truck"", ""mask"", ""money""]",4,0.866666667,0.19
+1042,choir,"[""church"", ""sing"", ""music"", ""group""]",4,107,27.5,"[""music"", ""check"", ""penguin"", ""sing"", ""church"", ""group""]",5,1,0
+1474,comforting,"[""blanket"", ""hug"", ""food""]",3,52,14,"[""rose"", ""food"", ""blanket"", ""folded"", ""noose"", ""hug""]",2,1,0
+762,liver,"[""organ"", ""alcohol""]",2,80,29,"[""alcohol"", ""chimney"", ""organ"", ""kangaroo"", ""hamster""]",0,1,0
+687,tame,"[""lion"", ""animal""]",2,65,20.5,"[""frost"", ""animal"", ""car"", ""butler"", ""lion""]",2,1,0
+1909,lashes,"[""eye"", ""mascara""]",2,115,31,"[""poo"", ""champagne"", ""vein"", ""mascara"", ""eye"", ""trash""]",0,1,0
+1421,comb,"[""hair"", ""brush"", ""teeth""]",3,139,46.33333333,"[""brush"", ""pole"", ""thumb"", ""cookie"", ""hair"", ""teeth""]",3,0.833333333,0.24
+353,peninsula,"[""island"", ""land"", ""water""]",3,77,25.66666667,"[""yak"", ""land"", ""water"", ""frost"", ""island""]",1,1,0
+1651,reduction,"[""sauce"", ""breast""]",2,72,18.5,"[""breast"", ""lake"", ""daughter"", ""sauce"", ""cracker"", ""drawers""]",1,1,0
+962,charm,"[""bracelet"", ""smile""]",2,51,19,"[""bracelet"", ""truck"", ""japan"", ""smile"", ""kilometer""]",0,1,0
+1603,click,"[""mouse"", ""button"", ""computer""]",3,91,30.33333333,"[""button"", ""helmet"", ""computer"", ""tattoo"", ""mouse"", ""hooker""]",2,0.833333333,0.24
+1078,algae,"[""green"", ""water"", ""pond"", ""sea""]",4,114,31.5,"[""pond"", ""green"", ""sea"", ""water"", ""locomotive"", ""washer""]",5,1,0
+742,august,"[""month"", ""hot""]",2,87,26.5,"[""climb"", ""tin"", ""hot"", ""cologne"", ""month""]",1,1,0
+389,doorknob,"[""handle"", ""door"", ""brass""]",3,92,30.66666667,"[""door"", ""handle"", ""yellow"", ""maid"", ""brass""]",0,0.833333333,0.24
+829,turnip,"[""vegetable"", ""root""]",2,74,32,"[""vegetable"", ""doormat"", ""popcorn"", ""root"", ""pine""]",1,1,0
+702,consonant,"[""letter"", ""alphabet""]",2,106,19,"[""letter"", ""skateboard"", ""passport"", ""clown"", ""alphabet""]",1,1,0
+660,lavender,"[""purple"", ""flower""]",2,118,45.5,"[""flower"", ""ape"", ""purple"", ""womb"", ""cereal""]",1,1,0
+1032,goblet,"[""wine"", ""cup"", ""fire"", ""glass""]",4,104,31.5,"[""vertebrae"", ""wine"", ""glass"", ""screwdriver"", ""fire"", ""cup""]",3,1,0
+71,perspiration,"[""wet"", ""hot"", ""deodorant""]",3,124,16.66666667,"[""shot"", ""wet"", ""hot"", ""deodorant"", ""brother""]",2,1,0
+981,quart,"[""milk"", ""pint"", ""liquid"", ""liter""]",4,79,24,"[""weeping"", ""milk"", ""pint"", ""liter"", ""restaurant"", ""liquid""]",2,1,0
+1077,blow up,"[""explode"", ""explosion"", ""balloon"", ""bomb""]",4,100,31.5,"[""balloon"", ""seat"", ""explode"", ""bomb"", ""explosion"", ""hole""]",4,0.866666667,0.19
+121,florida,"[""hot"", ""sun"", ""beach""]",3,60,13,"[""sun"", ""hot"", ""mansion"", ""beach"", ""ash""]",5,0.833333333,0.24
+1515,dynamite,"[""explosion"", ""explode"", ""bomb""]",3,77,20.33333333,"[""explode"", ""pictures"", ""closet"", ""bomb"", ""explosion"", ""mice""]",4,1,0
+1195,sweatshop,"[""children"", ""clothes"", ""china"", ""factory""]",4,47,14.25,"[""factory"", ""pamphlet"", ""children"", ""china"", ""soda"", ""clothes""]",2,1,0
+213,dealer,"[""drugs"", ""car"", ""poker""]",3,118,28.66666667,"[""car"", ""drugs"", ""pullover"", ""poker"", ""speck""]",1,0.833333333,0.24
+1494,plates,"[""food"", ""dinner"", ""dish""]",3,89,22,"[""chlorine"", ""dinner"", ""dryer"", ""tenant"", ""dish"", ""food""]",3,1,0
+1659,flasher,"[""light"", ""naked""]",2,68,25.5,"[""jungle"", ""naked"", ""lion"", ""olympics"", ""light"", ""door""]",3,1,0
+0,baptism,"[""water"", ""church"", ""baby""]",3,102,34,"[""water"", ""church"", ""piece"", ""monk"", ""baby""]",4,0.833333333,0.24
+129,rake,"[""leaves"", ""garden"", ""fall""]",3,101,33.66666667,"[""paddle"", ""garden"", ""butterfly"", ""fall"", ""leaves""]",2,1,0
+821,christ,"[""cross"", ""church""]",2,114,16.5,"[""church"", ""streets"", ""groceries"", ""crowd"", ""cross""]",2,1,0
+1207,cymbal,"[""drums"", ""music"", ""orchestra"", ""band""]",4,61,15.25,"[""music"", ""spa"", ""band"", ""stove"", ""orchestra"", ""drums""]",6,1,0
+494,related,"[""family"", ""brother""]",2,87,32.5,"[""brother"", ""cop"", ""prime minister"", ""family"", ""hail""]",1,1,0
+1332,october,"[""month"", ""fall"", ""leaves""]",3,129,32.33333333,"[""fall"", ""leaves"", ""product"", ""spiral"", ""month"", ""detergent""]",2,0.833333333,0.24
+1895,blueberries,"[""fruit"", ""pie""]",2,72,28.5,"[""motel"", ""porch"", ""fruit"", ""chicken pox"", ""pie"", ""flag""]",2,1,0
+141,cents,"[""money"", ""dollar"", ""coin""]",3,104,29,"[""dollar"", ""coin"", ""kiwi"", ""submarine"", ""money""]",3,1,0
+190,puss,"[""cat"", ""boots"", ""infection""]",3,92,30.66666667,"[""soup"", ""lawyer"", ""boots"", ""cat"", ""infection""]",0,1,0
+819,drunk,"[""alcohol"", ""beer""]",2,58,23.5,"[""square"", ""beer"", ""digits"", ""blower"", ""alcohol""]",1,1,0
+1828,needles,"[""sewing"", ""thread""]",2,72,18.5,"[""scrabble"", ""hangman"", ""curry"", ""thread"", ""pour"", ""sewing""]",1,1,0
+172,refreshment,"[""drink"", ""water"", ""food""]",3,93,28.66666667,"[""water"", ""earth"", ""drink"", ""recorder"", ""food""]",4,0.833333333,0.24
+45,blood pressure,"[""doctor"", ""cuff"", ""heart""]",3,94,15,"[""doctor"", ""heart"", ""wicker"", ""acorn"", ""cuff""]",1,0.833333333,0.24
+814,junkie,"[""drugs"", ""needle""]",2,101,31.5,"[""drugs"", ""film"", ""puppy"", ""needle"", ""venus""]",1,1,0
+383,beaker,"[""glass"", ""cup"", ""muppet""]",3,95,20.33333333,"[""dew"", ""muppet"", ""yelling"", ""cup"", ""glass""]",2,1,0
+393,bars,"[""jail"", ""music"", ""beer""]",3,66,17,"[""jail"", ""pour"", ""music"", ""beer"", ""pancake""]",0,1,0
+1805,tectonic,"[""plate"", ""earth""]",2,115,29,"[""hanger"", ""earth"", ""arms"", ""aluminum"", ""plate"", ""gal""]",0,1,0
+1807,sniff,"[""nose"", ""dog""]",2,142,37.5,"[""nebula"", ""yoga"", ""dog"", ""kilometer"", ""light bulb"", ""nose""]",1,1,0
+178,bounce,"[""ball"", ""jump"", ""trampoline""]",3,97,32.33333333,"[""coconut"", ""jump"", ""writer"", ""trampoline"", ""ball""]",1,1,0
+1062,sage,"[""herb"", ""spice"", ""green"", ""rosemary""]",4,93,19.75,"[""herb"", ""rosemary"", ""green"", ""tortoise"", ""back"", ""spice""]",7,0.866666667,0.19
+748,stuck,"[""mud"", ""glue""]",2,51,16.5,"[""grave"", ""glue"", ""hurl"", ""woodwind"", ""mud""]",0,1,0
+1619,orb,"[""sphere"", ""circle"", ""light""]",3,88,23,"[""papyrus"", ""sphere"", ""light"", ""ship"", ""acrobat"", ""circle""]",1,1,0
+1352,biceps,"[""muscle"", ""arm"", ""gym""]",3,97,26.33333333,"[""muscle"", ""parchment"", ""pedestrian"", ""gym"", ""arm"", ""flying""]",1,1,0
+1144,auditorium,"[""theater"", ""school"", ""music"", ""concert""]",4,50,15,"[""theater"", ""shelf"", ""concert"", ""school"", ""music"", ""mat""]",4,1,0
+103,woody,"[""tree"", ""forest"", ""wood""]",3,63,18.66666667,"[""president"", ""ticket"", ""tree"", ""forest"", ""wood""]",4,1,0
+1837,hamburger,"[""bun"", ""meat""]",2,85,32,"[""meat"", ""bun"", ""baker"", ""steps"", ""synagogue"", ""pimple""]",2,1,0
+248,fold,"[""paper"", ""clothes"", ""laundry""]",3,80,22,"[""flower"", ""paper"", ""laundry"", ""bracelet"", ""clothes""]",2,1,0
+1358,beefy,"[""cow"", ""fat"", ""meat""]",3,54,17.66666667,"[""meat"", ""cooler"", ""cow"", ""fat"", ""ledger"", ""bleach""]",3,1,0
+910,stockings,"[""tights"", ""pantyhose""]",2,83,15,"[""vent"", ""pantyhose"", ""formula"", ""ranger"", ""tights""]",1,1,0
+404,canteen,"[""water"", ""food"", ""drink""]",3,83,27.66666667,"[""water"", ""snore"", ""food"", ""drink"", ""porcupine""]",4,0.833333333,0.24
+1501,lasso,"[""cowboy"", ""horse"", ""cow""]",3,158,35.66666667,"[""ipad"", ""horse"", ""cowboy"", ""stewardess"", ""veranda"", ""cow""]",3,1,0
+1362,diver,"[""water"", ""scuba"", ""sea""]",3,94,31.33333333,"[""smoking"", ""yelling"", ""scuba"", ""sea"", ""water"", ""guacamole""]",4,1,0
+65,herbal,"[""tea"", ""medicine"", ""plant""]",3,90,29,"[""sink"", ""plant"", ""tub"", ""tea"", ""medicine""]",2,1,0
+100,mail,"[""letter"", ""email"", ""box""]",3,98,27.66666667,"[""letter"", ""email"", ""fuel"", ""box"", ""daytime""]",2,1,0
+104,curler,"[""hair"", ""iron"", ""hot""]",3,96,31.66666667,"[""hair"", ""lake"", ""pot"", ""iron"", ""hot""]",4,1,0
+1688,primary school,"[""children"", ""teacher""]",2,75,25.5,"[""teacher"", ""air"", ""lamb"", ""children"", ""standing"", ""ball""]",1,1,0
+893,major,"[""army"", ""college""]",2,97,16.5,"[""hedge"", ""army"", ""college"", ""water"", ""storm""]",2,1,0
+1161,waist,"[""belt"", ""pants"", ""fat"", ""stomach""]",4,59,17,"[""spark"", ""pants"", ""stomach"", ""diving"", ""belt"", ""fat""]",2,1,0
+1816,marriage,"[""ring"", ""husband""]",2,79,12.5,"[""wallet"", ""ring"", ""comb"", ""husband"", ""port"", ""chlorine""]",1,1,0
+16,bbq,"[""meat"", ""grill"", ""sauce""]",3,67,22.33333333,"[""grill"", ""meat"", ""document"", ""nurse"", ""sauce""]",2,1,0
+109,reward,"[""money"", ""prize"", ""gold""]",3,66,22,"[""gold"", ""bark"", ""money"", ""clover"", ""prize""]",4,1,0
+1573,poo,"[""brown"", ""toilet"", ""pee""]",3,45,15,"[""pollen"", ""pee"", ""brown"", ""toilet"", ""bay"", ""jungle""]",2,1,0
+1375,pictures,"[""camera"", ""family"", ""art""]",3,71,14.33333333,"[""camera"", ""family"", ""art"", ""nail polish"", ""smirk"", ""knife""]",3,1,0
+21,coca-cola,"[""soda"", ""pop"", ""brown""]",3,91,22,"[""brown"", ""pop"", ""hoop"", ""soda"", ""blink""]",1,1,0
+1191,soak,"[""wet"", ""water"", ""tub"", ""soap""]",4,98,27.75,"[""booger"", ""wet"", ""soap"", ""tub"", ""water"", ""citizen""]",5,1,0
+1331,upstairs,"[""downstairs"", ""bedroom"", ""attic""]",3,86,27.33333333,"[""haircut"", ""bedroom"", ""walnut"", ""attic"", ""newt"", ""downstairs""]",0,1,0
+1562,ruling,"[""king"", ""court"", ""ruler""]",3,83,23.33333333,"[""octopus"", ""king"", ""ruler"", ""lock"", ""court"", ""lettuce""]",2,0.833333333,0.24
+553,nudity,"[""naked"", ""skin""]",2,80,31,"[""mammal"", ""naked"", ""skin"", ""yak"", ""puzzle""]",1,1,0
+831,braid,"[""hair"", ""girl""]",2,123,48.5,"[""bubble"", ""groundhog"", ""hair"", ""crowd"", ""girl""]",1,1,0
+950,paid,"[""money"", ""check""]",2,98,39.5,"[""comet"", ""check"", ""bake"", ""eating"", ""money""]",1,1,0
+1355,shells,"[""sea"", ""beach"", ""sand""]",3,101,31,"[""beach"", ""sand"", ""cone"", ""dance"", ""sea"", ""cartoon""]",4,1,0
+1777,pane,"[""window"", ""glass""]",2,158,72,"[""window"", ""hit"", ""glass"", ""oatmeal"", ""monkey"", ""trousers""]",1,1,0
+32,anybody,"[""person"", ""you"", ""people""]",3,62,13,"[""chain"", ""you"", ""person"", ""thesaurus"", ""people""]",2,0.833333333,0.24
+1371,apples,"[""fruit"", ""red"", ""tree""]",3,123,30,"[""magazine"", ""comedian"", ""tree"", ""red"", ""fruit"", ""robe""]",4,1,0
+1282,itchy,"[""scratch"", ""rash"", ""red"", ""skin""]",4,102,23,"[""controller"", ""scratch"", ""rash"", ""red"", ""skin"", ""nail polish""]",5,1,0
+1540,erode,"[""water"", ""rock"", ""soil""]",3,47,15.66666667,"[""slime"", ""write"", ""book"", ""rock"", ""water"", ""soil""]",3,1,0
+1470,paintbrush,"[""paint"", ""art"", ""color""]",3,86,28.66666667,"[""art"", ""color"", ""scrabble"", ""paint"", ""freezer"", ""hippie""]",3,1,0
+230,lord of the rings,"[""hobbit"", ""movie"", ""book""]",3,84,24,"[""book"", ""hobbit"", ""paper"", ""senator"", ""movie""]",3,1,0
+1107,mussel,"[""clam"", ""shell"", ""sea"", ""food""]",4,84,23.75,"[""sea"", ""article"", ""food"", ""shell"", ""clam"", ""rattle""]",7,0.866666667,0.19
+768,loudspeaker,"[""music"", ""microphone""]",2,67,25,"[""lime"", ""microphone"", ""music"", ""ditch"", ""trucks""]",1,1,0
+504,fiction,"[""book"", ""novel""]",2,84,27.5,"[""cologne"", ""novel"", ""pentagon"", ""mayonnaise"", ""book""]",1,1,0
+1247,singing,"[""music"", ""voice"", ""choir"", ""opera""]",4,71,18.25,"[""voice"", ""opera"", ""hawk"", ""marijuana"", ""choir"", ""music""]",5,1,0
+320,fuel,"[""gas"", ""car"", ""petrol""]",3,96,30,"[""gas"", ""adult"", ""pirate"", ""petrol"", ""car""]",4,1,0
+967,billy,"[""goat"", ""boy""]",2,122,49,"[""boy"", ""barn"", ""quilt"", ""goat"", ""tower""]",0,1,0
+1948,betting,"[""money"", ""horse""]",2,86,19,"[""beaver"", ""office"", ""acorn"", ""money"", ""speaker"", ""horse""]",2,1,0
+560,stop,"[""sign"", ""red""]",2,123,29.5,"[""editor"", ""sign"", ""art"", ""rope"", ""red""]",1,1,0
+1825,glands,"[""body"", ""sweat""]",2,40,11.5,"[""kneel"", ""journalist"", ""employee"", ""body"", ""sweat"", ""university""]",0,1,0
+850,comforter,"[""blanket"", ""bed""]",2,89,37.5,"[""marsupial"", ""gal"", ""windshield"", ""blanket"", ""bed""]",1,1,0
+1384,plumbing,"[""water"", ""plumber"", ""toilet""]",3,105,23,"[""plumber"", ""fertilizer"", ""toilet"", ""library"", ""water"", ""sleigh""]",2,1,0
+1530,eject,"[""seat"", ""plane"", ""throw""]",3,49,12.66666667,"[""throw"", ""lid"", ""soprano"", ""seat"", ""plane"", ""town""]",0,0.833333333,0.24
+1224,hockey,"[""ice"", ""puck"", ""stick"", ""game""]",4,133,38,"[""ice"", ""mammal"", ""game"", ""jar"", ""stick"", ""puck""]",2,1,0
+924,yolk,"[""egg"", ""yellow""]",2,149,66,"[""yellow"", ""blanket"", ""egg"", ""towel"", ""fortune teller""]",1,1,0
+1429,meeting,"[""group"", ""people"", ""office""]",3,44,12.33333333,"[""group"", ""pullover"", ""people"", ""cologne"", ""milky way"", ""office""]",1,1,0
+93,lump,"[""bump"", ""breast"", ""coal""]",3,91,22.66666667,"[""breast"", ""clicker"", ""coal"", ""peak"", ""bump""]",0,1,0
+1186,ladybird,"[""red"", ""insect"", ""bug"", ""fly""]",4,62,17,"[""pyramid"", ""fly"", ""scotch"", ""insect"", ""bug"", ""red""]",4,1,0
+527,noodle,"[""pasta"", ""food""]",2,72,24,"[""treasure"", ""ligament"", ""food"", ""pasta"", ""timer""]",1,1,0
+1624,spatula,"[""cooking"", ""spoon"", ""kitchen""]",3,45,15,"[""crying"", ""cooking"", ""spoon"", ""catwalk"", ""kitchen"", ""goose""]",3,1,0
+607,truck,"[""car"", ""driver""]",2,55,21,"[""car"", ""snake"", ""eyebrow"", ""driver"", ""needle""]",2,1,0
+224,volcano,"[""lava"", ""fire"", ""hot""]",3,115,30.66666667,"[""lava"", ""sleigh"", ""fire"", ""hot"", ""bud""]",2,1,0
+1003,bun,"[""bread"", ""hair"", ""oven"", ""hamburger""]",4,80,24,"[""scream"", ""hamburger"", ""timer"", ""hair"", ""bread"", ""oven""]",2,1,0
+1349,brushes,"[""paint"", ""hair"", ""teeth""]",3,97,32.33333333,"[""orchestra"", ""hair"", ""teeth"", ""paint"", ""digits"", ""salsa""]",3,1,0
+410,tyre,"[""car"", ""wheel"", ""rubber""]",3,103,34.33333333,"[""car"", ""stomach"", ""wheel"", ""rubber"", ""herbs""]",2,1,0
+672,slop,"[""pig"", ""food""]",2,46,15,"[""drugs"", ""pig"", ""derby"", ""twitter"", ""food""]",2,1,0
+697,haul,"[""carry"", ""truck""]",2,75,25,"[""truck"", ""carry"", ""nights"", ""cashier"", ""mercury""]",1,1,0
+642,stab,"[""wound"", ""blood""]",2,120,26.5,"[""throne"", ""motel"", ""wound"", ""wing"", ""blood""]",1,1,0
+1428,indulge,"[""chocolate"", ""ice cream"", ""eat""]",3,64,21.33333333,"[""ice cream"", ""chocolate"", ""surfer"", ""cider"", ""eat"", ""guy""]",2,1,0
+1746,jail,"[""prison"", ""cell""]",2,101,36,"[""cell"", ""fry"", ""dandelion"", ""burn"", ""prison"", ""fall""]",1,1,0
+282,helmet,"[""head"", ""bike"", ""hat""]",3,88,29,"[""head"", ""eclipse"", ""hat"", ""colon"", ""bike""]",1,1,0
+1071,illustration,"[""picture"", ""drawing"", ""book"", ""art""]",4,137,37,"[""drawing"", ""art"", ""fireplace"", ""book"", ""picture"", ""beach""]",4,0.866666667,0.19
+451,machine,"[""robot"", ""computer"", ""engine""]",3,49,16.33333333,"[""dictator"", ""robot"", ""engine"", ""bow"", ""computer""]",0,1,0
+415,rover,"[""dog"", ""red"", ""car""]",3,100,33.33333333,"[""car"", ""monkey"", ""dog"", ""thermometer"", ""red""]",2,1,0
+1574,gathering,"[""group"", ""people"", ""family""]",3,68,18.33333333,"[""jaw"", ""rider"", ""people"", ""gauze"", ""family"", ""group""]",3,1,0
+1231,vinegar,"[""oil"", ""wine"", ""salad"", ""salt""]",4,83,19,"[""salt"", ""squirrel"", ""lock"", ""salad"", ""wine"", ""oil""]",1,1,0
+1319,urn,"[""ashes"", ""vase"", ""ash""]",3,110,31.66666667,"[""honk"", ""kid"", ""vase"", ""stew"", ""ashes"", ""ash""]",1,0.833333333,0.24
+1127,geyser,"[""water"", ""hot"", ""volcano"", ""fountain""]",4,83,23,"[""fountain"", ""water"", ""volcano"", ""shirt"", ""clam"", ""hot""]",3,1,0
+1914,village,"[""town"", ""people""]",2,101,39,"[""raisin"", ""shark"", ""dressing"", ""town"", ""hexagon"", ""people""]",1,1,0
+1000,tumbler,"[""glass"", ""drink"", ""cup"", ""acrobat""]",4,74,21,"[""cup"", ""glass"", ""fender"", ""acrobat"", ""tablespoon"", ""drink""]",4,0.866666667,0.19
+570,derby,"[""hat"", ""horse""]",2,95,30.5,"[""horse"", ""cider"", ""groceries"", ""hat"", ""diner""]",1,1,0
+386,strings,"[""violin"", ""puppet"", ""music""]",3,104,23.33333333,"[""brew"", ""music"", ""violin"", ""puppet"", ""valve""]",1,0.833333333,0.24
+678,neurology,"[""brain"", ""doctor""]",2,137,53,"[""organism"", ""doctor"", ""picnic"", ""brain"", ""berry""]",1,1,0
+1758,armed,"[""gun"", ""army""]",2,92,22,"[""husband"", ""xbox"", ""synagogue"", ""gun"", ""car"", ""army""]",3,1,0
+428,spice,"[""pepper"", ""hot"", ""food""]",3,53,17,"[""food"", ""pepper"", ""alarm"", ""piano"", ""hot""]",3,1,0
+1763,freezing,"[""ice"", ""snow""]",2,167,37.5,"[""poodle"", ""cellphone"", ""clerk"", ""ice"", ""snow"", ""stomach""]",1,1,0
+1163,fur,"[""animal"", ""coat"", ""cat"", ""hair""]",4,98,26.25,"[""landlord"", ""coat"", ""cat"", ""animal"", ""hair"", ""desert""]",4,1,0
+261,creek,"[""water"", ""river"", ""stream""]",3,116,38.66666667,"[""water"", ""stream"", ""panel"", ""laboratory"", ""river""]",4,1,0
+1776,appetizer,"[""food"", ""dinner""]",2,71,23,"[""ladies"", ""pigeon"", ""dinner"", ""food"", ""perspiration"", ""railroad""]",1,1,0
+1730,arriving,"[""airport"", ""train""]",2,55,14.5,"[""train"", ""fireman"", ""country"", ""king"", ""metal"", ""airport""]",2,1,0
+1178,crops,"[""corn"", ""food"", ""field"", ""farm""]",4,85,25.5,"[""corn"", ""boil"", ""food"", ""field"", ""farm"", ""target""]",6,1,0
+1593,heron,"[""bird"", ""water"", ""fish""]",3,121,36.33333333,"[""fish"", ""pajamas"", ""water"", ""sting"", ""bird"", ""handyman""]",3,0.833333333,0.24
+1891,broccoli,"[""green"", ""vegetable""]",2,137,60.5,"[""mustache"", ""vegetable"", ""emperor"", ""acorn"", ""shoelace"", ""green""]",1,1,0
+1644,eyesight,"[""glasses"", ""eyes""]",2,107,32.5,"[""toast"", ""product"", ""eyes"", ""wheat"", ""grandfather"", ""glasses""]",2,1,0
+1736,january,"[""month"", ""snow""]",2,116,28,"[""trousers"", ""vanilla"", ""month"", ""snow"", ""mineral"", ""fruit""]",1,1,0
+226,sax,"[""music"", ""instrument"", ""brass""]",3,113,24.66666667,"[""music"", ""brass"", ""shoe"", ""instrument"", ""badger""]",2,1,0
+1771,transaction,"[""money"", ""bank""]",2,94,38.5,"[""container"", ""student"", ""bank"", ""money"", ""hamburger"", ""origami""]",2,1,0
+1830,rotation,"[""earth"", ""circle""]",2,70,20,"[""earth"", ""student"", ""sweaty"", ""circle"", ""hot tub"", ""reptile""]",1,1,0
+275,stable,"[""horse"", ""barn"", ""hay""]",3,99,28.33333333,"[""barn"", ""hay"", ""soil"", ""corn"", ""horse""]",3,1,0
+1442,media,"[""tv"", ""newspaper"", ""radio""]",3,75,15.66666667,"[""radio"", ""composer"", ""newspaper"", ""money"", ""tv"", ""wafer""]",3,0.833333333,0.24
+688,smoke,"[""fire"", ""cigarette""]",2,113,48,"[""flake"", ""fire"", ""weeping"", ""cigarette"", ""burlap""]",2,1,0
+1270,pour,"[""water"", ""rain"", ""liquid"", ""drink""]",4,84,24.5,"[""valve"", ""groundhog"", ""liquid"", ""drink"", ""rain"", ""water""]",4,0.866666667,0.19
+1676,cleansing,"[""water"", ""soap""]",2,54,15,"[""peach"", ""soap"", ""brook"", ""sign"", ""water"", ""propeller""]",3,1,0
+499,abs,"[""stomach"", ""muscle""]",2,75,23.5,"[""crow"", ""stomach"", ""muscle"", ""chess"", ""footprint""]",2,1,0
+301,post office,"[""mail"", ""letter"", ""stamp""]",3,94,31.33333333,"[""thread"", ""stamp"", ""mail"", ""spill"", ""letter""]",3,1,0
+838,hen,"[""chicken"", ""rooster""]",2,154,55,"[""taxi"", ""fabric"", ""rooster"", ""rye"", ""chicken""]",1,1,0
+1696,wool,"[""sheep"", ""sweater""]",2,108,46.5,"[""telephone"", ""businessman"", ""sheep"", ""librarian"", ""sweater"", ""gear""]",1,1,0
+918,piglet,"[""pig"", ""baby""]",2,90,25.5,"[""staple"", ""inhaler"", ""pig"", ""potassium"", ""baby""]",1,1,0
+1059,parents,"[""mom"", ""father"", ""children"", ""family""]",4,81,20.25,"[""plow"", ""children"", ""mom"", ""father"", ""doily"", ""family""]",4,1,0
+1370,trees,"[""green"", ""forest"", ""leaves""]",3,120,40,"[""whirlwind"", ""pirate"", ""groundhog"", ""leaves"", ""forest"", ""green""]",3,1,0
+91,tram,"[""train"", ""bus"", ""car""]",3,87,29,"[""two"", ""yelling"", ""bus"", ""train"", ""car""]",4,1,0
+690,hushed,"[""whisper"", ""library""]",2,105,15.5,"[""whisper"", ""library"", ""prince"", ""wrap"", ""treasure""]",0,1,0
+266,insect,"[""bug"", ""ant"", ""fly""]",3,91,30.33333333,"[""fly"", ""ant"", ""swine"", ""hug"", ""bug""]",2,1,0
+1007,twig,"[""branch"", ""tree"", ""stick"", ""leaf""]",4,162,44,"[""leaf"", ""beehive"", ""march"", ""branch"", ""stick"", ""tree""]",3,1,0
+1367,brighten,"[""light"", ""sun"", ""smile""]",3,95,30.33333333,"[""groan"", ""marine"", ""sun"", ""smile"", ""light"", ""blind""]",2,0.833333333,0.24
+97,verse,"[""poem"", ""song"", ""bible""]",3,116,33.66666667,"[""song"", ""diagram"", ""poem"", ""politician"", ""bible""]",2,1,0
+551,monks,"[""monastery"", ""bald""]",2,49,16.5,"[""bullseye"", ""castle"", ""bald"", ""monastery"", ""earth""]",0,1,0
+460,sashimi,"[""sushi"", ""fish"", ""japan""]",3,124,41.33333333,"[""fish"", ""green"", ""sushi"", ""rhino"", ""japan""]",4,1,0
+1450,leaves,"[""fall"", ""tree"", ""green""]",3,102,29.33333333,"[""green"", ""carriage"", ""alarm"", ""fall"", ""write"", ""tree""]",3,1,0
+84,thirst,"[""water"", ""drink"", ""desert""]",3,135,41.66666667,"[""sink"", ""water"", ""drink"", ""desert"", ""beach""]",5,0.833333333,0.24
+204,heave,"[""vomit"", ""throw"", ""push""]",3,77,15,"[""push"", ""blackboard"", ""throw"", ""caravan"", ""vomit""]",1,1,0
+1817,amplify,"[""speaker"", ""music""]",2,72,15.5,"[""psychologist"", ""cherry"", ""dog"", ""music"", ""speaker"", ""magazine""]",2,1,0
+1834,legality,"[""lawyer"", ""court""]",2,99,22,"[""court"", ""lawyer"", ""jewelry"", ""road"", ""kiss"", ""periodic table""]",1,1,0
+787,detain,"[""police"", ""prison""]",2,86,17.5,"[""festival"", ""prison"", ""police"", ""arrow"", ""sushi""]",1,1,0
+1601,analog,"[""clock"", ""watch"", ""computer""]",3,104,17.66666667,"[""watch"", ""pool"", ""crop"", ""clock"", ""cook"", ""computer""]",3,0.833333333,0.24
+286,eraser,"[""pencil"", ""rubber"", ""paper""]",3,100,30.66666667,"[""digit"", ""paper"", ""cooker"", ""rubber"", ""pencil""]",2,0.833333333,0.24
+173,heart,"[""blood"", ""red"", ""organ""]",3,101,13.33333333,"[""swamp"", ""cola"", ""organ"", ""blood"", ""red""]",2,1,0
+294,breastfeeding,"[""baby"", ""milk"", ""mother""]",3,121,40.33333333,"[""puck"", ""dandruff"", ""baby"", ""milk"", ""mother""]",3,1,0
+1354,remote control,"[""tv"", ""clicker"", ""car""]",3,99,24.33333333,"[""shelf"", ""bathroom"", ""tv"", ""smoking"", ""clicker"", ""car""]",2,0.833333333,0.24
+1295,tropical,"[""beach"", ""fruit"", ""hot"", ""island""]",4,64,20,"[""fruit"", ""island"", ""beach"", ""insulin"", ""rugby"", ""hot""]",2,1,0
+937,sonata,"[""music"", ""piano""]",2,104,42.5,"[""strike"", ""neck"", ""music"", ""piano"", ""lunch""]",1,1,0
+191,surfboard,"[""beach"", ""wave"", ""sea""]",3,86,24.66666667,"[""cactus"", ""sea"", ""mason"", ""beach"", ""wave""]",3,1,0
+1537,congregation,"[""church"", ""group"", ""people""]",3,109,34.66666667,"[""group"", ""silky"", ""people"", ""dozen"", ""church"", ""sword""]",3,1,0
+1404,voyage,"[""ship"", ""ocean"", ""boat""]",3,110,22.66666667,"[""ship"", ""puffy"", ""crocodile"", ""eyes"", ""ocean"", ""boat""]",4,0.833333333,0.24
+106,exercise,"[""gym"", ""sweat"", ""run""]",3,47,15.66666667,"[""sweat"", ""lamb"", ""gym"", ""run"", ""eucalyptus""]",3,1,0
+1612,nausea,"[""vomit"", ""stomach"", ""green""]",3,110,23.33333333,"[""green"", ""stomach"", ""nectar"", ""pepper"", ""cable"", ""vomit""]",1,0.833333333,0.24
+1444,actors,"[""theater"", ""stage"", ""movie""]",3,53,17,"[""root"", ""coffin"", ""theater"", ""movie"", ""stage"", ""ranch""]",3,1,0
+545,tears,"[""eyes"", ""water""]",2,99,11.5,"[""blueprint"", ""eyes"", ""chrome"", ""road"", ""water""]",2,1,0
+1467,sticks,"[""wood"", ""fire"", ""tree""]",3,73,15,"[""wood"", ""naked"", ""tree"", ""bulb"", ""arm"", ""fire""]",6,1,0
+1333,spectrum,"[""rainbow"", ""light"", ""color""]",3,91,30,"[""rainbow"", ""light"", ""checkers"", ""stewardess"", ""crow"", ""color""]",3,1,0
+1312,acrobat,"[""circus"", ""gymnast"", ""adobe""]",3,102,30,"[""gymnast"", ""circus"", ""nectar"", ""lotion"", ""adobe"", ""horizon""]",1,1,0
+297,creased,"[""folded"", ""paper"", ""iron""]",3,77,25.66666667,"[""paper"", ""hostess"", ""folded"", ""kick"", ""iron""]",1,1,0
+1397,bridge,"[""water"", ""river"", ""road""]",3,69,23,"[""hairy"", ""river"", ""water"", ""road"", ""grid"", ""dirty""]",4,0.833333333,0.24
+738,pc,"[""computer"", ""personal computer""]",2,113,45,"[""doorbell"", ""tenant"", ""personal computer"", ""surface"", ""computer""]",0,1,0
+137,shovel,"[""dig"", ""dirt"", ""spade""]",3,105,35,"[""dig"", ""spade"", ""dirt"", ""mow"", ""line""]",3,0.833333333,0.24
+710,axle,"[""car"", ""wheel""]",2,121,56,"[""car"", ""barn"", ""corner"", ""prince"", ""wheel""]",2,1,0
+1631,stingy,"[""money"", ""bee""]",2,65,15,"[""bee"", ""sandpaper"", ""computer"", ""pharmacy"", ""film"", ""money""]",1,1,0
+1199,art,"[""painting"", ""museum"", ""picture"", ""music""]",4,71,18.25,"[""music"", ""museum"", ""picture"", ""painting"", ""swimming"", ""animal""]",3,1,0
+1570,asphyxiate,"[""strangle"", ""breathe"", ""air""]",3,85,15,"[""breathe"", ""tadpole"", ""navel"", ""strangle"", ""husband"", ""air""]",1,0.833333333,0.24
+87,swamp,"[""water"", ""mud"", ""marsh""]",3,60,20,"[""ore"", ""marsh"", ""bullet"", ""water"", ""mud""]",4,0.833333333,0.24
+1246,passenger,"[""car"", ""train"", ""plane"", ""pigeon""]",4,84,23.75,"[""car"", ""pigeon"", ""train"", ""plane"", ""pollen"", ""veil""]",4,1,0
+447,fizz,"[""soda"", ""pop"", ""champagne""]",3,102,31.66666667,"[""garbage"", ""champagne"", ""weapon"", ""soda"", ""pop""]",1,0.833333333,0.24
+1126,hump,"[""camel"", ""road"", ""hill"", ""back""]",4,99,23,"[""hill"", ""back"", ""road"", ""tab"", ""gang"", ""camel""]",0,0.866666667,0.19
+1622,rinse,"[""water"", ""soap"", ""hair""]",3,121,20,"[""hair"", ""forest"", ""boy"", ""soap"", ""dove"", ""water""]",3,1,0
+472,doughnut,"[""sugar"", ""hole"", ""fat""]",3,74,19,"[""hole"", ""sugar"", ""hangman"", ""werewolf"", ""fat""]",2,1,0
+166,gnome,"[""garden"", ""elf"", ""hat""]",3,97,32.33333333,"[""elf"", ""hat"", ""garden"", ""icy"", ""chicken""]",0,0.833333333,0.24
+696,explode,"[""bomb"", ""fire""]",2,87,33,"[""fox"", ""fire"", ""captain"", ""star"", ""bomb""]",1,1,0
+684,wavy,"[""hair"", ""ocean""]",2,114,44,"[""basketball"", ""hair"", ""ocean"", ""cream cheese"", ""crab""]",2,1,0
+942,engineering,"[""building"", ""bridge""]",2,42,12,"[""children"", ""yourself"", ""building"", ""bridge"", ""sticker""]",0,1,0
+1452,lawnmower,"[""grass"", ""green"", ""yard""]",3,103,34.33333333,"[""composer"", ""grass"", ""yard"", ""nail polish"", ""green"", ""run""]",1,1,0
+110,spoiled,"[""child"", ""milk"", ""food""]",3,120,17.33333333,"[""quill"", ""bake"", ""milk"", ""child"", ""food""]",2,0.833333333,0.24
+1024,dive,"[""water"", ""pool"", ""swim"", ""bar""]",4,89,26,"[""toilet"", ""pool"", ""bar"", ""swim"", ""water"", ""smoothie""]",5,0.866666667,0.19
+1278,editor,"[""newspaper"", ""book"", ""writer"", ""paper""]",4,80,23,"[""newspaper"", ""book"", ""clinic"", ""paper"", ""brass"", ""writer""]",5,1,0
+754,industrial,"[""factory"", ""metal""]",2,57,20,"[""eagle"", ""teepee"", ""factory"", ""metal"", ""ash""]",1,1,0
+1153,remains,"[""dead"", ""body"", ""leftovers"", ""ashes""]",4,66,19,"[""ashes"", ""body"", ""leftovers"", ""glue"", ""mail"", ""dead""]",2,1,0
+928,domain,"[""website"", ""home""]",2,67,20.5,"[""wheelchair"", ""website"", ""home"", ""street"", ""sailing""]",1,1,0
+1305,humidity,"[""hot"", ""wet"", ""moisture"", ""sweat""]",4,87,22.75,"[""hot"", ""vulture"", ""wet"", ""sweat"", ""sit"", ""moisture""]",3,1,0
+1185,firefly,"[""light"", ""bug"", ""insect"", ""night""]",4,78,23.5,"[""bug"", ""night"", ""light"", ""bed"", ""bagel"", ""insect""]",4,1,0
+262,cold,"[""freezing"", ""hot"", ""snow""]",3,72,23.66666667,"[""check"", ""snow"", ""freezing"", ""hot"", ""marsh""]",2,0.833333333,0.24
+884,checking,"[""bank"", ""money""]",2,62,13,"[""pork"", ""cookbook"", ""tomb"", ""money"", ""bank""]",1,1,0
+1328,dam,"[""water"", ""beaver"", ""river""]",3,109,35.66666667,"[""beaver"", ""mushroom"", ""roller"", ""water"", ""flesh"", ""river""]",2,1,0
+905,siblings,"[""brother"", ""family""]",2,145,47.5,"[""family"", ""moose"", ""brother"", ""spreadsheet"", ""computer""]",2,1,0
+396,mutiny,"[""ship"", ""pirate"", ""captain""]",3,76,21.66666667,"[""carnival"", ""pirate"", ""captain"", ""ship"", ""mastercard""]",2,0.833333333,0.24
+1004,showers,"[""rain"", ""water"", ""wet"", ""bath""]",4,107,29.5,"[""pinkie"", ""bath"", ""rain"", ""sugar"", ""water"", ""wet""]",10,1,0
+1202,pale,"[""light"", ""skin"", ""face"", ""ale""]",4,94,13,"[""slip"", ""salad"", ""face"", ""skin"", ""light"", ""ale""]",1,1,0
+1783,consult,"[""doctor"", ""talk""]",2,79,14.5,"[""talk"", ""bum"", ""doctor"", ""artery"", ""tarmac"", ""barn""]",0,1,0
+1921,merit,"[""badge"", ""award""]",2,60,20.5,"[""yacht"", ""comedian"", ""ink"", ""blackberry"", ""award"", ""badge""]",0,1,0
+445,trough,"[""pig"", ""water"", ""horse""]",3,70,23.33333333,"[""water"", ""pig"", ""eucalyptus"", ""hanging"", ""horse""]",1,1,0
+1491,amber,"[""yellow"", ""color"", ""stone""]",3,50,16.66666667,"[""asphalt"", ""yellow"", ""color"", ""projector"", ""sock"", ""stone""]",2,1,0
+1156,lubrication,"[""oil"", ""car"", ""grease"", ""wet""]",4,71,20.75,"[""maze"", ""car"", ""grease"", ""oil"", ""fly"", ""wet""]",5,0.866666667,0.19
+1742,bookish,"[""library"", ""glasses""]",2,55,18,"[""lens"", ""flesh"", ""glasses"", ""chain"", ""vine"", ""library""]",2,1,0
+1926,menstruation,"[""blood"", ""woman""]",2,131,37,"[""boxing"", ""carrot"", ""blood"", ""tile"", ""woman"", ""crucifix""]",1,1,0
+1146,intoxicate,"[""alcohol"", ""drink"", ""poison"", ""drugs""]",4,99,19.75,"[""arachnid"", ""drink"", ""freckles"", ""alcohol"", ""poison"", ""drugs""]",3,1,0
+1587,smiling,"[""teeth"", ""face"", ""mouth""]",3,125,22,"[""face"", ""sheep"", ""herbs"", ""mouth"", ""breast"", ""teeth""]",3,1,0
+455,instrument,"[""music"", ""violin"", ""band""]",3,94,25.33333333,"[""violin"", ""cloth"", ""band"", ""bats"", ""music""]",3,1,0
+1335,silver,"[""gold"", ""metal"", ""jewelry""]",3,102,34,"[""gold"", ""hillbilly"", ""jewelry"", ""campfire"", ""cabinet"", ""metal""]",2,1,0
+516,awake,"[""sleep"", ""bed""]",2,87,20,"[""crab"", ""sauna"", ""bed"", ""sleep"", ""star""]",1,1,0
+17,puddle,"[""water"", ""rain"", ""mud""]",3,128,42.66666667,"[""water"", ""rain"", ""billboard"", ""drain"", ""mud""]",4,0.833333333,0.24
+1419,swimmer,"[""water"", ""pool"", ""athlete""]",3,96,32,"[""athlete"", ""continent"", ""game"", ""pool"", ""sandal"", ""water""]",3,0.833333333,0.24
+826,racetrack,"[""horse"", ""car""]",2,79,28,"[""restaurant"", ""horse"", ""honey"", ""conditioner"", ""car""]",1,1,0
+1697,gypsum,"[""mineral"", ""rock""]",2,39,15,"[""wheat"", ""mineral"", ""barrel"", ""boxing"", ""rock"", ""manicure""]",0,1,0
+1871,act,"[""theater"", ""stage""]",2,93,15.5,"[""firework"", ""theater"", ""stage"", ""mice"", ""breakfast"", ""rattle""]",1,1,0
+67,paintings,"[""art"", ""color"", ""oil""]",3,88,28.33333333,"[""marijuana"", ""art"", ""oil"", ""color"", ""stab""]",1,0.833333333,0.24
+1523,face,"[""nose"", ""eyes"", ""head""]",3,59,19.33333333,"[""nose"", ""whiskey"", ""head"", ""parakeet"", ""liquid"", ""eyes""]",4,0.833333333,0.24
+576,extinguish,"[""fire"", ""flame""]",2,127,44.5,"[""shore"", ""fire"", ""cloth"", ""steward"", ""flame""]",1,1,0
+434,bloated,"[""fat"", ""gas"", ""water""]",3,82,22.66666667,"[""doe"", ""fat"", ""gas"", ""broom"", ""water""]",3,0.833333333,0.24
+722,thriller,"[""movie"", ""book""]",2,105,29,"[""movie"", ""scotch"", ""book"", ""monkey"", ""crutch""]",2,1,0
+1223,shopper,"[""money"", ""cart"", ""mall"", ""store""]",4,41,13,"[""crowbar"", ""composer"", ""store"", ""cart"", ""money"", ""mall""]",5,1,0
+911,bid,"[""money"", ""ebay""]",2,99,20,"[""ebay"", ""mortar"", ""money"", ""burger"", ""hanger""]",0,1,0
+794,hissing,"[""snake"", ""cat""]",2,120,55,"[""cat"", ""chasm"", ""alphabet"", ""sap"", ""snake""]",1,1,0
+1250,stereo,"[""music"", ""speakers"", ""radio"", ""car""]",4,109,27.75,"[""music"", ""speakers"", ""car"", ""pipe"", ""vacuum"", ""radio""]",5,1,0
+128,bibliography,"[""book"", ""library"", ""list""]",3,67,16.33333333,"[""list"", ""quilt"", ""vodka"", ""library"", ""book""]",3,1,0
+47,absorb,"[""sponge"", ""water"", ""soak""]",3,77,25.66666667,"[""soak"", ""lip"", ""salesman"", ""sponge"", ""water""]",2,0.833333333,0.24
+885,california,"[""beach"", ""sun""]",2,60,19.5,"[""penicillin"", ""cod"", ""sun"", ""beach"", ""town""]",1,1,0
+603,allergic,"[""sneeze"", ""pollen""]",2,67,21,"[""sneeze"", ""pollen"", ""kiwi"", ""soot"", ""sweatshirt""]",1,1,0
+846,wail,"[""scream"", ""baby""]",2,111,17.5,"[""drug"", ""turtle"", ""scream"", ""baby"", ""corpse""]",0,1,0
+392,bulb,"[""light"", ""flower"", ""plant""]",3,139,45,"[""wheelchair"", ""flower"", ""soccer"", ""light"", ""plant""]",2,1,0
+1759,socialize,"[""people"", ""talk""]",2,80,21.5,"[""reed"", ""people"", ""talk"", ""knoll"", ""cream"", ""astronaut""]",1,1,0
+807,attorney,"[""court"", ""money""]",2,130,17,"[""money"", ""ballet"", ""whale"", ""court"", ""blanket""]",1,1,0
+1548,coast,"[""beach"", ""sea"", ""water""]",3,93,25,"[""wagon"", ""water"", ""beach"", ""sea"", ""spill"", ""crochet""]",4,0.833333333,0.24
+1240,spacecraft,"[""rocket"", ""moon"", ""shuttle"", ""astronaut""]",4,66,17.75,"[""running"", ""moon"", ""astronaut"", ""shuttle"", ""rocket"", ""bait""]",4,1,0
+476,packet,"[""sugar"", ""paper"", ""mail""]",3,51,15,"[""paper"", ""brain"", ""sugar"", ""mail"", ""microphone""]",1,1,0
+373,whack,"[""hit"", ""smack"", ""mole""]",3,123,41,"[""groin"", ""hit"", ""mole"", ""seaweed"", ""smack""]",1,1,0
+48,doorstep,"[""door"", ""doormat"", ""entrance""]",3,52,15.33333333,"[""nine"", ""entrance"", ""doormat"", ""puffy"", ""door""]",1,1,0
+1336,cooking,"[""food"", ""kitchen"", ""baking""]",3,70,23.33333333,"[""cocoa"", ""kitchen"", ""food"", ""flag"", ""baking"", ""reporter""]",3,1,0
+843,glasses,"[""eyes"", ""sun""]",2,57,20.5,"[""fly"", ""sun"", ""climb"", ""accordion"", ""eyes""]",1,1,0
+1341,medieval,"[""castle"", ""knight"", ""armor""]",3,76,21.33333333,"[""dunk"", ""meat"", ""knight"", ""zipper"", ""armor"", ""castle""]",2,1,0
+1944,gem,"[""diamond"", ""ruby""]",2,102,27.5,"[""dogs"", ""rosemary"", ""diamond"", ""ruby"", ""eraser"", ""gas""]",1,1,0
+292,conduct,"[""orchestra"", ""music"", ""train""]",3,83,16,"[""music"", ""drain"", ""orchestra"", ""crown"", ""train""]",2,1,0
+1500,seesaw,"[""playground"", ""children"", ""park""]",3,90,28,"[""gondola"", ""soot"", ""park"", ""playground"", ""children"", ""frown""]",2,0.833333333,0.24
+543,thirsty,"[""water"", ""drink""]",2,149,61,"[""path"", ""deodorant"", ""letter"", ""water"", ""drink""]",1,1,0
+324,actor,"[""actress"", ""movie"", ""stage""]",3,73,24,"[""stage"", ""vodka"", ""movie"", ""actress"", ""haystack""]",1,1,0
+751,creativity,"[""art"", ""music""]",2,66,29,"[""continent"", ""art"", ""music"", ""dust"", ""quart""]",1,1,0
+1483,white powder,"[""cocaine"", ""flour"", ""snow""]",3,128,42.66666667,"[""applause"", ""cocaine"", ""snow"", ""match"", ""slide"", ""flour""]",2,1,0
+33,pikachu,"[""yellow"", ""game"", ""cartoon""]",3,120,22.66666667,"[""cartoon"", ""game"", ""cop"", ""yellow"", ""cantaloupe""]",3,1,0
+1853,fattening,"[""food"", ""butter""]",2,55,20,"[""bowl"", ""siren"", ""puppy"", ""butter"", ""pillow"", ""food""]",2,1,0
+1632,hail,"[""rain"", ""ice""]",2,85,29,"[""womb"", ""guitar"", ""ice"", ""rain"", ""tray"", ""lung""]",1,1,0
+273,juicy,"[""fruit"", ""orange"", ""apple""]",3,109,36.33333333,"[""lottery"", ""colonoscopy"", ""orange"", ""fruit"", ""apple""]",4,0.833333333,0.24
+1205,ink,"[""pen"", ""write"", ""tattoo"", ""paper""]",4,121,26.5,"[""knot"", ""pen"", ""tattoo"", ""mole"", ""write"", ""paper""]",4,1,0
+961,build,"[""house"", ""building""]",2,93,24.5,"[""house"", ""drop"", ""building"", ""petroleum"", ""paste""]",1,1,0
+1870,vehicle,"[""car"", ""bus""]",2,133,52,"[""bus"", ""hanging"", ""car"", ""silver"", ""pine"", ""donut""]",2,1,0
+399,drinking,"[""water"", ""alcohol"", ""beer""]",3,109,36.33333333,"[""trident"", ""costume"", ""alcohol"", ""water"", ""beer""]",4,1,0
+1194,grassy,"[""green"", ""knoll"", ""field"", ""lawn""]",4,126,34.75,"[""field"", ""green"", ""fortune teller"", ""lawn"", ""pillow"", ""knoll""]",2,0.866666667,0.19
+475,psychiatrist,"[""doctor"", ""couch"", ""brain""]",3,75,21.66666667,"[""guard"", ""brain"", ""doctor"", ""dolphin"", ""couch""]",2,1,0
+167,captain,"[""ship"", ""boat"", ""sea""]",3,93,27,"[""boat"", ""village"", ""stockings"", ""ship"", ""sea""]",4,1,0
+1558,alpine,"[""mountain"", ""snow"", ""skiing""]",3,91,28,"[""traveler"", ""skiing"", ""snow"", ""moss"", ""cattle"", ""mountain""]",2,1,0
+832,head,"[""hair"", ""face""]",2,49,17,"[""heroin"", ""hair"", ""face"", ""paper"", ""honk""]",2,1,0
+700,nose,"[""face"", ""nostril""]",2,87,24,"[""nostril"", ""blind"", ""face"", ""groom"", ""pocket""]",1,1,0
+1432,washing machine,"[""clothes"", ""laundry"", ""water""]",3,115,35.33333333,"[""derby"", ""clothes"", ""quarry"", ""crew"", ""water"", ""laundry""]",2,1,0
+1038,soccer,"[""ball"", ""football"", ""game"", ""player""]",4,122,34,"[""ball"", ""bald"", ""game"", ""football"", ""player"", ""stab""]",4,1,0
+549,sleeve,"[""shirt"", ""coat""]",2,112,34.5,"[""company"", ""limo"", ""shirt"", ""wood"", ""coat""]",0,1,0
+1757,lover,"[""heart"", ""wife""]",2,37,11,"[""socket"", ""wife"", ""solid"", ""nut"", ""heart"", ""smack""]",1,1,0
+1135,silverware,"[""fork"", ""spoon"", ""knife"", ""dinner""]",4,116,32.25,"[""fork"", ""knife"", ""spoon"", ""dinner"", ""flesh"", ""eucalyptus""]",4,1,0
+246,puck,"[""hockey"", ""ice"", ""stick""]",3,112,35.66666667,"[""ice"", ""hockey"", ""granola"", ""chocolate"", ""stick""]",2,1,0
+479,iced,"[""tea"", ""frozen"", ""drink""]",3,120,24.33333333,"[""tea"", ""frozen"", ""drink"", ""flag"", ""nephew""]",1,1,0
+1109,bathe,"[""wash"", ""water"", ""shower"", ""soap""]",4,118,27.75,"[""oxen"", ""wash"", ""bridge"", ""soap"", ""water"", ""shower""]",8,1,0
+711,cash,"[""money"", ""green""]",2,112,52,"[""book"", ""green"", ""money"", ""lectern"", ""acrobat""]",3,1,0
+1628,wet,"[""water"", ""rain""]",2,97,36,"[""composer"", ""glitter"", ""water"", ""ham"", ""rain"", ""lime""]",2,1,0
+957,assassin,"[""ninja"", ""gun""]",2,82,15.5,"[""ninja"", ""mammoth"", ""gun"", ""blueberry"", ""wood""]",1,1,0
+83,morphine,"[""drug"", ""hospital"", ""painkiller""]",3,122,27,"[""fire"", ""hospital"", ""painkiller"", ""drug"", ""fireworks""]",3,1,0
+1086,elm,"[""tree"", ""wood"", ""street"", ""leaf""]",4,116,31.75,"[""water"", ""street"", ""wood"", ""leaf"", ""referee"", ""tree""]",5,0.866666667,0.19
+541,raven,"[""bird"", ""crow""]",2,167,47.5,"[""manure"", ""backpack"", ""crow"", ""bird"", ""gum""]",1,1,0
+233,depart,"[""airport"", ""airplane"", ""train""]",3,109,12,"[""airplane"", ""puck"", ""airport"", ""shepherd"", ""train""]",4,1,0
+605,curfew,"[""night"", ""teenager""]",2,70,18,"[""snack"", ""stance"", ""teenager"", ""acorn"", ""night""]",0,1,0
+1551,sailor,"[""boat"", ""ship"", ""sea""]",3,100,32.33333333,"[""sea"", ""thread"", ""ship"", ""script"", ""strap"", ""boat""]",4,1,0
+1369,opal,"[""stone"", ""gem"", ""ring""]",3,78,23.66666667,"[""airplane"", ""cigarette"", ""stone"", ""gem"", ""ring"", ""coach""]",3,0.833333333,0.24
+685,whisker,"[""cat"", ""beard""]",2,112,48.5,"[""cat"", ""cliff"", ""loom"", ""beard"", ""symphony""]",1,1,0
+370,flames,"[""hot"", ""burn"", ""orange""]",3,144,19.33333333,"[""orange"", ""burn"", ""hot"", ""jelly"", ""sneeze""]",3,0.833333333,0.24
+1143,writer,"[""book"", ""pen"", ""novel"", ""paper""]",4,81,18.5,"[""book"", ""pantyhose"", ""paper"", ""pen"", ""novel"", ""towel""]",5,1,0
+785,motorway,"[""highway"", ""car""]",2,107,35.5,"[""highway"", ""veranda"", ""fig"", ""car"", ""twilight""]",1,1,0
+598,catsup,"[""tomato"", ""red""]",2,76,14.5,"[""tomato"", ""thermometer"", ""bone"", ""red"", ""torn""]",2,1,0
+231,fang,"[""tooth"", ""wolf"", ""vampire""]",3,94,31.33333333,"[""champagne"", ""wolf"", ""tooth"", ""poster"", ""vampire""]",2,1,0
+951,cache,"[""store"", ""computer""]",2,51,16.5,"[""bottle"", ""kitten"", ""amber"", ""computer"", ""store""]",1,1,0
+571,luxury,"[""money"", ""car""]",2,60,16,"[""camouflage"", ""car"", ""money"", ""teller"", ""witness""]",2,1,0
+1280,article,"[""newspaper"", ""clothing"", ""magazine"", ""paper""]",4,96,28.25,"[""newspaper"", ""paper"", ""clothing"", ""carpet"", ""scuba"", ""magazine""]",3,1,0
+259,exoskeleton,"[""shell"", ""insect"", ""bug""]",3,63,21,"[""badger"", ""blade"", ""shell"", ""bug"", ""insect""]",1,1,0
+99,reply,"[""email"", ""letter"", ""text""]",3,98,17.33333333,"[""letter"", ""text"", ""email"", ""model"", ""dolly""]",3,1,0
+1241,candles,"[""light"", ""wax"", ""fire"", ""flame""]",4,102,30.75,"[""fire"", ""light"", ""wax"", ""vomit"", ""sneeze"", ""flame""]",5,0.866666667,0.19
+1046,dishwasher,"[""water"", ""soap"", ""kitchen"", ""dirty""]",4,67,16.25,"[""petal"", ""kitchen"", ""water"", ""fly"", ""soap"", ""dirty""]",4,1,0
+649,sticky,"[""glue"", ""gum""]",2,58,23,"[""teacher"", ""person"", ""gum"", ""glue"", ""priest""]",0,1,0
+618,norway,"[""country"", ""snow""]",2,78,12.5,"[""snow"", ""country"", ""bat"", ""kin"", ""piano""]",1,1,0
+1903,wolf,"[""dog"", ""moon""]",2,86,28.5,"[""moon"", ""brake"", ""dog"", ""cart"", ""wrench"", ""rake""]",1,1,0
+1717,tired,"[""bed"", ""sleep""]",2,99,22,"[""sleep"", ""bed"", ""flat"", ""script"", ""south pole"", ""propeller""]",1,1,0
+439,margarine,"[""butter"", ""yellow"", ""oil""]",3,136,41.33333333,"[""butter"", ""torn"", ""japan"", ""yellow"", ""oil""]",2,0.833333333,0.24
+175,log,"[""wood"", ""tree"", ""fire""]",3,88,29.33333333,"[""tree"", ""wood"", ""fire"", ""explode"", ""diarrhea""]",4,1,0
+1655,he,"[""man"", ""male""]",2,142,33.5,"[""face"", ""man"", ""male"", ""paper towel"", ""grey"", ""art""]",3,1,0
+552,flavorful,"[""food"", ""taste""]",2,118,22.5,"[""painting"", ""varnish"", ""taste"", ""food"", ""fur""]",1,1,0
+799,perjury,"[""court"", ""lawyer""]",2,97,24.5,"[""crumb"", ""lawyer"", ""drool"", ""court"", ""chip""]",1,1,0
+1105,flask,"[""alcohol"", ""drink"", ""whiskey"", ""hip""]",4,73,21,"[""drink"", ""driveway"", ""alcohol"", ""hip"", ""record"", ""whiskey""]",3,0.866666667,0.19
+845,playboy,"[""bunny"", ""magazine""]",2,90,40.5,"[""land"", ""bunny"", ""sweater"", ""purse"", ""magazine""]",0,1,0
+694,diamonds,"[""ring"", ""jewelry""]",2,53,15,"[""ring"", ""caterpillar"", ""bottle"", ""jewelry"", ""manual""]",1,1,0
+1640,heroin,"[""drug"", ""needle""]",2,89,35.5,"[""footprint"", ""print"", ""ocean"", ""drug"", ""fridge"", ""needle""]",0,1,0
+1147,flake,"[""snow"", ""corn"", ""dandruff"", ""chocolate""]",4,118,33.5,"[""dandruff"", ""corn"", ""biker"", ""chocolate"", ""snow"", ""splint""]",2,0.866666667,0.19
+1269,blacksmith,"[""iron"", ""horseshoe"", ""anvil"", ""metal""]",4,81,25,"[""iron"", ""anvil"", ""horseshoe"", ""hockey"", ""velvet"", ""metal""]",1,1,0
+220,colt,"[""horse"", ""gun"", ""baby""]",3,106,35.33333333,"[""gun"", ""horse"", ""fall"", ""cellphone"", ""baby""]",3,0.833333333,0.24
+102,haircut,"[""scissors"", ""barber"", ""hair""]",3,64,21.33333333,"[""gymnast"", ""scissors"", ""hair"", ""barber"", ""horizon""]",2,1,0
+1672,abortion,"[""baby"", ""fetus""]",2,68,24,"[""ceramic"", ""baby"", ""trap"", ""fetus"", ""raisin"", ""zombie""]",1,1,0
+536,infernal,"[""fire"", ""hot""]",2,60,22,"[""band"", ""ferris wheel"", ""fire"", ""hot"", ""microscope""]",1,1,0
+699,sleepless,"[""night"", ""bed""]",2,108,18.5,"[""bed"", ""click"", ""walrus"", ""night"", ""granola""]",1,1,0
+1102,steep,"[""hill"", ""tea"", ""climb"", ""slope""]",4,91,22.5,"[""climb"", ""cucumber"", ""hill"", ""arms"", ""slope"", ""tea""]",2,1,0
+352,carpentry,"[""wood"", ""hammer"", ""saw""]",3,106,33.66666667,"[""hammer"", ""trophy"", ""saw"", ""wood"", ""buggy""]",4,1,0
+948,morbid,"[""dark"", ""dead""]",2,89,13.5,"[""dead"", ""gymnast"", ""dark"", ""pet"", ""hippo""]",0,1,0
+1339,format,"[""document"", ""paper"", ""computer""]",3,50,13.66666667,"[""compass"", ""shaking"", ""hanger"", ""paper"", ""document"", ""computer""]",2,0.833333333,0.24
+858,celestial,"[""sky"", ""star""]",2,79,24,"[""smoothie"", ""silk"", ""sky"", ""calf"", ""star""]",2,1,0
+332,foam,"[""sea"", ""soap"", ""bath""]",3,74,20.66666667,"[""phone"", ""soap"", ""laughter"", ""sea"", ""bath""]",4,1,0
+781,continent,"[""land"", ""country""]",2,68,24.5,"[""land"", ""country"", ""hooker"", ""gel"", ""drugs""]",1,1,0
+247,stool,"[""chair"", ""bar"", ""sit""]",3,93,31,"[""bar"", ""sit"", ""chair"", ""giant"", ""ranch""]",2,1,0
+1325,antibiotics,"[""medicine"", ""bacteria"", ""drugs""]",3,78,25.66666667,"[""valley"", ""medicine"", ""drugs"", ""shooter"", ""clinic"", ""bacteria""]",1,0.833333333,0.24
+197,ice hockey,"[""puck"", ""stick"", ""game""]",3,88,20.33333333,"[""game"", ""puck"", ""stick"", ""leggings"", ""window""]",2,1,0
+1503,defense,"[""army"", ""fight"", ""shield""]",3,41,11,"[""shield"", ""army"", ""litter"", ""fight"", ""dresser"", ""human""]",1,1,0
+1732,treatment,"[""hospital"", ""medicine""]",2,61,21,"[""hospital"", ""medicine"", ""amber"", ""organ"", ""college"", ""wreck""]",2,1,0
+443,mouse,"[""cat"", ""computer"", ""cheese""]",3,76,25.33333333,"[""computer"", ""cheese"", ""pirate"", ""darts"", ""cat""]",1,1,0
+1184,violinist,"[""music"", ""musician"", ""orchestra"", ""strings""]",4,93,26,"[""strings"", ""musician"", ""music"", ""edge"", ""pizza"", ""orchestra""]",4,1,0
+995,guy,"[""man"", ""male"", ""gal"", ""girl""]",4,94,27.25,"[""mint"", ""male"", ""eyebrow"", ""girl"", ""man"", ""gal""]",4,0.866666667,0.19
+1568,gambler,"[""money"", ""casino"", ""dice""]",3,80,24,"[""hail"", ""money"", ""casino"", ""flower"", ""dice"", ""fish""]",2,1,0
+305,chase,"[""run"", ""bank"", ""car""]",3,73,23.66666667,"[""run"", ""graph"", ""bank"", ""acorn"", ""car""]",1,1,0
+1012,motor,"[""car"", ""engine"", ""boat"", ""oil""]",4,129,35,"[""car"", ""boat"", ""oil"", ""engine"", ""hardware"", ""citrus""]",4,0.866666667,0.19
+53,pen,"[""pencil"", ""ink"", ""paper""]",3,135,45,"[""cheesecake"", ""ink"", ""pencil"", ""paper"", ""anvil""]",2,1,0
+731,versus,"[""fight"", ""game""]",2,83,12.5,"[""fight"", ""poodle"", ""game"", ""chicken"", ""mucus""]",1,1,0
+1308,wheat,"[""bread"", ""grain"", ""field""]",3,94,31.33333333,"[""wrestler"", ""suds"", ""bread"", ""field"", ""grain"", ""hot dog""]",2,1,0
+149,cooler,"[""ice"", ""beer"", ""fridge""]",3,78,23.33333333,"[""ice"", ""beer"", ""arc"", ""fridge"", ""ant""]",1,0.833333333,0.24
+842,equipment,"[""gear"", ""machinery""]",2,64,12,"[""gear"", ""crumble"", ""machinery"", ""vest"", ""piece""]",0,1,0
+1885,july,"[""month"", ""hot""]",2,118,26.5,"[""throw"", ""stripe"", ""hot"", ""yoke"", ""camouflage"", ""month""]",1,1,0
+830,boulevard,"[""street"", ""road""]",2,128,48.5,"[""seaweed"", ""muffin"", ""road"", ""street"", ""cabinet""]",1,1,0
+1401,hostess,"[""restaurant"", ""airplane"", ""woman""]",3,58,15,"[""restaurant"", ""wheelchair"", ""mat"", ""woman"", ""booger"", ""airplane""]",1,1,0
+124,ledge,"[""cliff"", ""edge"", ""window""]",3,83,27.66666667,"[""sweat"", ""icy"", ""edge"", ""cliff"", ""window""]",1,0.833333333,0.24
+161,deep,"[""sea"", ""water"", ""dark""]",3,80,21,"[""water"", ""crumble"", ""dark"", ""sea"", ""moose""]",2,1,0
+1292,cider,"[""apple"", ""drink"", ""hot"", ""alcohol""]",4,120,33,"[""apple"", ""hot"", ""egg"", ""drink"", ""cabbage"", ""alcohol""]",5,0.866666667,0.19
+478,dug,"[""hole"", ""shovel"", ""dirt""]",3,104,34.33333333,"[""shovel"", ""beef"", ""dirt"", ""salt"", ""hole""]",3,0.833333333,0.24
+1027,organs,"[""heart"", ""liver"", ""body"", ""music""]",4,79,22.75,"[""heart"", ""body"", ""music"", ""trophy"", ""bullet"", ""liver""]",2,0.866666667,0.19
+739,chocolate bar,"[""candy"", ""brown""]",2,83,22,"[""catch"", ""candy"", ""brown"", ""pajamas"", ""cemetery""]",1,1,0
+936,industrious,"[""worker"", ""factory""]",2,71,12.5,"[""servant"", ""worker"", ""ninja"", ""oxen"", ""factory""]",0,1,0
+1911,throttle,"[""car"", ""engine""]",2,77,22.5,"[""cantaloupe"", ""laptop"", ""car"", ""computer"", ""rainforest"", ""engine""]",4,1,0
+1198,foamy,"[""sea"", ""soap"", ""bath"", ""beer""]",4,70,21,"[""beer"", ""soap"", ""pretzel"", ""wand"", ""bath"", ""sea""]",4,0.866666667,0.19
+538,cyclone,"[""tornado"", ""hurricane""]",2,113,37,"[""tornado"", ""makeup"", ""vaccine"", ""hurricane"", ""photo""]",1,1,0
+526,purchase,"[""money"", ""store""]",2,119,25,"[""crater"", ""fetus"", ""store"", ""tar"", ""money""]",1,1,0
+493,intern,"[""student"", ""doctor""]",2,53,14.5,"[""student"", ""chief"", ""doctor"", ""stub"", ""body""]",1,1,0
+483,typhoon,"[""storm"", ""water"", ""tornado""]",3,107,23.33333333,"[""rolling"", ""razor"", ""tornado"", ""storm"", ""water""]",2,1,0
+1409,tub,"[""water"", ""hot"", ""wash""]",3,131,19,"[""raccoon"", ""wash"", ""water"", ""gas"", ""cream"", ""hot""]",5,1,0
+300,tires,"[""car"", ""rubber"", ""wheel""]",3,105,34,"[""car"", ""wheel"", ""postman"", ""brother"", ""rubber""]",1,1,0
+533,telegram,"[""letter"", ""morse code""]",2,64,13,"[""motel"", ""giant"", ""letter"", ""server"", ""morse code""]",0,1,0
+1512,ship,"[""boat"", ""ocean"", ""water""]",3,81,26,"[""eagle"", ""water"", ""limp"", ""ford"", ""ocean"", ""boat""]",4,1,0
+1446,treble,"[""clef"", ""bass"", ""music""]",3,112,37.33333333,"[""starch"", ""bass"", ""mayonnaise"", ""music"", ""clef"", ""groan""]",1,1,0
+272,stew,"[""beef"", ""food"", ""pot""]",3,91,22.33333333,"[""food"", ""beef"", ""hoodie"", ""blade"", ""pot""]",2,1,0
+548,cowardly,"[""lion"", ""yellow""]",2,59,16.5,"[""lion"", ""senator"", ""yellow"", ""toothpaste"", ""picture""]",1,1,0
+1780,housing,"[""home"", ""apartment""]",2,51,19,"[""apartment"", ""chair"", ""home"", ""receipt"", ""clef"", ""sneeze""]",1,1,0
+1263,raft,"[""water"", ""boat"", ""float"", ""river""]",4,101,31.25,"[""clown"", ""hunter"", ""river"", ""boat"", ""float"", ""water""]",6,1,0
+1700,pool,"[""water"", ""swimming""]",2,115,44,"[""swimming"", ""hawk"", ""orchestra"", ""dew"", ""water"", ""ravens""]",2,1,0
+1465,security,"[""guard"", ""police"", ""blanket""]",3,76,18.33333333,"[""police"", ""guard"", ""clover"", ""blanket"", ""pitcher"", ""basket""]",2,0.833333333,0.24
+61,waiter,"[""restaurant"", ""food"", ""tip""]",3,100,32,"[""food"", ""backspace"", ""campfire"", ""tip"", ""restaurant""]",3,1,0
+1120,thyme,"[""herb"", ""rosemary"", ""spice"", ""sage""]",4,113,32.25,"[""air force"", ""cake"", ""sage"", ""spice"", ""herb"", ""rosemary""]",4,1,0
+1507,mortgage,"[""house"", ""money"", ""bank""]",3,122,36,"[""crutch"", ""house"", ""bank"", ""money"", ""leftovers"", ""yogurt""]",2,1,0
+1415,ringing,"[""bell"", ""doorbell"", ""ear""]",3,125,22.66666667,"[""shout"", ""dance"", ""doorbell"", ""ear"", ""bell"", ""swimming""]",3,1,0
+1642,direction,"[""north"", ""map""]",2,53,18,"[""map"", ""parmesan"", ""dust"", ""school"", ""grape"", ""north""]",3,1,0
+972,catwalk,"[""model"", ""runway""]",2,109,32.5,"[""rolling"", ""sticks"", ""model"", ""runway"", ""mitten""]",1,1,0
+1781,redwood,"[""tree"", ""forest""]",2,129,52.5,"[""arc"", ""structure"", ""forest"", ""tree"", ""painting"", ""tummy""]",1,1,0
+1159,kettle,"[""tea"", ""pot"", ""water"", ""hot""]",4,141,33.25,"[""hot"", ""moth"", ""tea"", ""water"", ""deck"", ""pot""]",6,1,0
+1449,produce,"[""fruit"", ""vegetable"", ""food""]",3,106,16,"[""vegetable"", ""woods"", ""fruit"", ""drool"", ""pancreas"", ""food""]",3,1,0
+633,ward,"[""hospital"", ""prison""]",2,51,21,"[""stock"", ""prison"", ""shelf"", ""hospital"", ""copper""]",0,1,0
+26,veggie,"[""carrot"", ""green"", ""food""]",3,58,17.66666667,"[""carrot"", ""pork"", ""green"", ""food"", ""elbow""]",3,1,0
+1653,frosting,"[""cake"", ""sugar""]",2,129,44,"[""sugar"", ""head"", ""writer"", ""cake"", ""blimp"", ""sweatshirt""]",1,1,0
+1677,fungi,"[""mushroom"", ""mold""]",2,100,42.5,"[""mushroom"", ""radio"", ""football"", ""aunt"", ""mold"", ""tusk""]",1,1,0
+1883,petty,"[""thief"", ""cash""]",2,62,10.5,"[""painter"", ""drawer"", ""click"", ""thief"", ""engine"", ""cash""]",0,1,0
+1026,paper clip,"[""paper"", ""metal"", ""office"", ""staple""]",4,85,23.75,"[""metal"", ""office"", ""staple"", ""paper"", ""pancreas"", ""spinach""]",5,1,0
+1490,melon,"[""fruit"", ""cantaloupe"", ""water""]",3,90,30,"[""outside"", ""ton"", ""cantaloupe"", ""coffin"", ""fruit"", ""water""]",1,1,0
+1213,omelet,"[""egg"", ""breakfast"", ""food"", ""pan""]",4,131,28.75,"[""food"", ""breakfast"", ""lip"", ""twitter"", ""pan"", ""egg""]",4,0.866666667,0.19
+1458,ladle,"[""soup"", ""spoon"", ""kitchen""]",3,142,47.33333333,"[""kitchen"", ""soup"", ""wasp"", ""handshake"", ""spoon"", ""railway""]",2,1,0
+892,abode,"[""house"", ""adobe""]",2,124,30,"[""house"", ""waitress"", ""adobe"", ""breathe"", ""light""]",2,1,0
+643,self,"[""me"", ""person""]",2,107,39.5,"[""person"", ""salmon"", ""chalk"", ""chocolate"", ""me""]",1,1,0
+740,claims,"[""court"", ""money""]",2,55,12.5,"[""money"", ""leggings"", ""court"", ""machinery"", ""fat""]",2,1,0
+156,euro,"[""money"", ""dollar"", ""coin""]",3,107,29.66666667,"[""dollar"", ""rail"", ""coin"", ""money"", ""shed""]",3,1,0
+1905,urine,"[""yellow"", ""toilet""]",2,93,25.5,"[""toilet"", ""boots"", ""yellow"", ""flower"", ""entrance"", ""rugby""]",2,1,0
+510,detention,"[""school"", ""prison""]",2,85,32,"[""paddle"", ""bowel"", ""rubber"", ""school"", ""prison""]",0,1,0
+1272,bedsheets,"[""bed"", ""sleep"", ""linen"", ""pillow""]",4,65,17.5,"[""buggy"", ""sleep"", ""linen"", ""pillow"", ""cabbage"", ""bed""]",4,1,0
+652,organization,"[""company"", ""group""]",2,62,26,"[""company"", ""gulp"", ""dogs"", ""group"", ""lemonade""]",1,1,0
+1488,gazelle,"[""deer"", ""animal"", ""lion""]",3,72,20.66666667,"[""boot"", ""lion"", ""animal"", ""shove"", ""text"", ""deer""]",2,1,0
+797,exterior,"[""paint"", ""house""]",2,127,19,"[""house"", ""hyena"", ""arcade"", ""paint"", ""licorice""]",1,1,0
+70,beet,"[""red"", ""vegetable"", ""root""]",3,130,43.33333333,"[""plaster"", ""red"", ""vegetable"", ""nook"", ""root""]",3,1,0
+1597,cottage,"[""cheese"", ""house"", ""cabin""]",3,95,31.66666667,"[""cabin"", ""hobbit"", ""cheese"", ""blacksmith"", ""house"", ""downstairs""]",2,0.833333333,0.24
+632,kingly,"[""crown"", ""queen""]",2,82,18,"[""wrench"", ""crown"", ""queen"", ""groom"", ""hobbit""]",1,1,0
+1930,conviction,"[""prison"", ""court""]",2,69,12.5,"[""prison"", ""court"", ""steakhouse"", ""backspace"", ""swimsuit"", ""goalie""]",1,1,0
+205,cheese,"[""cheddar"", ""mouse"", ""food""]",3,45,15,"[""cheddar"", ""reporter"", ""food"", ""mouse"", ""shield""]",1,0.833333333,0.24
+851,cousin,"[""family"", ""uncle""]",2,98,32.5,"[""uncle"", ""family"", ""pork"", ""detective"", ""honk""]",1,1,0
+435,digital,"[""watch"", ""computer"", ""clock""]",3,74,24.66666667,"[""computer"", ""clock"", ""watch"", ""cave"", ""fire""]",4,1,0
+875,bedroom,"[""sleep"", ""bed""]",2,113,52.5,"[""bed"", ""throw"", ""outdoors"", ""decimal"", ""sleep""]",1,1,0
+1299,fiddler,"[""violin"", ""roof"", ""music"", ""musician""]",4,94,27.25,"[""musician"", ""plaid"", ""music"", ""roof"", ""speck"", ""violin""]",4,1,0
+534,compile,"[""list"", ""computer""]",2,52,13.5,"[""list"", ""computer"", ""drag"", ""stock"", ""cream""]",1,1,0
+1088,pebble,"[""stone"", ""rock"", ""beach"", ""water""]",4,130,35,"[""rock"", ""water"", ""chemotherapy"", ""beach"", ""ligament"", ""stone""]",4,0.866666667,0.19
+532,flip flops,"[""beach"", ""sand""]",2,105,23.5,"[""inch"", ""feed"", ""sand"", ""beach"", ""lobster""]",2,1,0
+1041,biscuit,"[""butter"", ""gravy"", ""tea"", ""food""]",4,75,14.25,"[""gravy"", ""butter"", ""tea"", ""writer"", ""food"", ""hangman""]",4,1,0
+1787,saving,"[""money"", ""bank""]",2,112,49,"[""mug"", ""lawyer"", ""crow"", ""bank"", ""money"", ""bacteria""]",2,1,0
+1901,proxy,"[""server"", ""computer""]",2,55,17,"[""computer"", ""caterpillar"", ""zipper"", ""drop"", ""vodka"", ""server""]",0,1,0
+1187,pregnancy,"[""baby"", ""woman"", ""birth"", ""belly""]",4,78,22.5,"[""belly"", ""baby"", ""noodle"", ""chicken"", ""woman"", ""birth""]",7,1,0
+1271,crisps,"[""chips"", ""potato"", ""salt"", ""snack""]",4,97,27.5,"[""snack"", ""potato"", ""board"", ""wine"", ""chips"", ""salt""]",4,1,0
+1353,document,"[""paper"", ""record"", ""file""]",3,95,30.33333333,"[""file"", ""tuxedo"", ""paper"", ""sword"", ""band"", ""record""]",1,0.833333333,0.24
+18,co-pilot,"[""plane"", ""pilot"", ""fly""]",3,94,25.33333333,"[""fly"", ""hedgehog"", ""plane"", ""birth control"", ""pilot""]",3,1,0
+119,ropes,"[""string"", ""tie"", ""climb""]",3,41,12.66666667,"[""climb"", ""chess"", ""dawn"", ""string"", ""tie""]",1,1,0
+8,eczema,"[""skin"", ""rash"", ""red""]",3,134,42,"[""rash"", ""skin"", ""red"", ""pond"", ""mom""]",3,1,0
+40,snowboard,"[""snow"", ""ski"", ""mountain""]",3,87,28,"[""snow"", ""ski"", ""rice"", ""outside"", ""mountain""]",3,1,0
+1090,farmer,"[""tractor"", ""farm"", ""cow"", ""field""]",4,46,14.5,"[""stocking"", ""farm"", ""field"", ""tractor"", ""museum"", ""cow""]",4,1,0
+1715,cashew,"[""nut"", ""peanut""]",2,114,51.5,"[""certificate"", ""nut"", ""peanut"", ""luggage"", ""march"", ""waffle""]",1,1,0
+513,deluge,"[""rain"", ""water""]",2,96,26.5,"[""water"", ""freeway"", ""button"", ""rain"", ""bong""]",1,1,0
+1129,cement,"[""concrete"", ""grey"", ""sidewalk"", ""mixer""]",4,71,18.25,"[""sidewalk"", ""mixer"", ""taco"", ""concrete"", ""pharmacy"", ""grey""]",2,1,0
+154,beets,"[""red"", ""vegetable"", ""root""]",3,89,29.66666667,"[""crushed"", ""red"", ""root"", ""veil"", ""vegetable""]",3,1,0
+1045,syringe,"[""needle"", ""drugs"", ""hospital"", ""medicine""]",4,104,29,"[""zombie"", ""medicine"", ""farm"", ""needle"", ""drugs"", ""hospital""]",7,1,0
+255,pyramid,"[""triangle"", ""sand"", ""desert""]",3,121,16.66666667,"[""sand"", ""picture"", ""triangle"", ""mercury"", ""desert""]",2,1,0
+170,untie,"[""tie"", ""knot"", ""shoe""]",3,79,25.66666667,"[""tie"", ""pig"", ""knot"", ""tool"", ""shoe""]",3,1,0
+342,possum,"[""animal"", ""rodent"", ""dead""]",3,56,18.66666667,"[""bean"", ""rodent"", ""uniform"", ""dead"", ""animal""]",2,0.833333333,0.24
+1473,inspector,"[""gadget"", ""police"", ""detective""]",3,108,36,"[""continent"", ""bog"", ""gem"", ""detective"", ""gadget"", ""police""]",1,0.833333333,0.24
+1180,cut,"[""knife"", ""scissors"", ""blood"", ""paper""]",4,75,18.25,"[""neighborhood"", ""knife"", ""paper"", ""frame"", ""blood"", ""scissors""]",4,0.866666667,0.19
+1596,oily,"[""skin"", ""hair"", ""oil""]",3,69,14,"[""attic"", ""oil"", ""spit"", ""skin"", ""hair"", ""liner""]",2,1,0
+1235,microphone,"[""speaker"", ""sing"", ""singer"", ""music""]",4,53,15.25,"[""speaker"", ""slip"", ""music"", ""hedgehog"", ""singer"", ""sing""]",4,0.866666667,0.19
+923,entertaining,"[""tv"", ""movie""]",2,78,12,"[""tv"", ""ambulance"", ""movie"", ""cemetery"", ""snack""]",1,1,0
+759,candidate,"[""president"", ""politician""]",2,90,21,"[""politician"", ""pillow"", ""president"", ""dinner"", ""apartment""]",0,1,0
+1121,gutter,"[""rain"", ""leaves"", ""water"", ""drain""]",4,67,20.25,"[""chicken"", ""leaves"", ""drain"", ""rain"", ""boxing"", ""water""]",3,0.866666667,0.19
+903,anyone,"[""people"", ""person""]",2,72,12.5,"[""capital"", ""person"", ""teepee"", ""smirk"", ""people""]",2,1,0
+263,knot,"[""rope"", ""tie"", ""boat""]",3,119,39.66666667,"[""rope"", ""boat"", ""rhino"", ""tie"", ""flame""]",2,1,0
+293,ferry,"[""boat"", ""water"", ""ship""]",3,118,39.33333333,"[""water"", ""piercing"", ""ebay"", ""ship"", ""boat""]",4,1,0
+524,enterprise,"[""company"", ""money""]",2,78,14.5,"[""ham"", ""company"", ""money"", ""mow"", ""towel""]",1,1,0
+1110,sail,"[""boat"", ""water"", ""ocean"", ""ship""]",4,140,33.25,"[""water"", ""ship"", ""boat"", ""swing"", ""ocean"", ""kidney""]",10,0.866666667,0.19
+1214,postage,"[""mail"", ""letter"", ""envelope"", ""package""]",4,146,22.25,"[""vodka"", ""letter"", ""mail"", ""package"", ""envelope"", ""president""]",5,1,0
+1434,sails,"[""boat"", ""ship"", ""sea""]",3,102,33.33333333,"[""milk"", ""mastercard"", ""sea"", ""cactus"", ""boat"", ""ship""]",4,1,0
+146,crossing,"[""road"", ""guard"", ""street""]",3,65,21.66666667,"[""cellphone"", ""street"", ""guard"", ""road"", ""pigeon""]",1,0.833333333,0.24
+1182,bass,"[""fish"", ""guitar"", ""music"", ""instrument""]",4,128,35.75,"[""razor"", ""floss"", ""fish"", ""music"", ""instrument"", ""guitar""]",3,1,0
+816,wifi,"[""computer"", ""phone""]",2,126,15.5,"[""phone"", ""cat"", ""computer"", ""earth"", ""incense""]",2,1,0
+558,shooter,"[""pea"", ""bullet""]",2,78,11.5,"[""pottery"", ""restaurant"", ""pea"", ""bullet"", ""square""]",0,1,0
+1943,monastery,"[""monk"", ""church""]",2,99,34,"[""bullseye"", ""float"", ""cell"", ""church"", ""package"", ""monk""]",1,1,0
+1255,sculpture,"[""art"", ""marble"", ""statue"", ""clay""]",4,87,25,"[""marble"", ""statue"", ""wrist"", ""clay"", ""art"", ""seat""]",2,1,0
+90,vessel,"[""ship"", ""boat"", ""container""]",3,111,37,"[""boat"", ""container"", ""ship"", ""bagpipes"", ""trap""]",3,0.833333333,0.24
+452,row,"[""boat"", ""fight"", ""oar""]",3,119,39.66666667,"[""boat"", ""oar"", ""vertebrae"", ""cartwheel"", ""fight""]",1,0.833333333,0.24
+432,redhead,"[""ginger"", ""freckles"", ""hair""]",3,68,22.66666667,"[""wagon"", ""hair"", ""baking"", ""ginger"", ""freckles""]",1,0.833333333,0.24
+1406,shingle,"[""roof"", ""house"", ""asphalt""]",3,92,30.66666667,"[""torn"", ""receipt"", ""axe"", ""house"", ""asphalt"", ""roof""]",1,0.833333333,0.24
+763,tied,"[""rope"", ""knot""]",2,84,33,"[""gun"", ""rope"", ""wine"", ""maid"", ""knot""]",1,1,0
+1645,organic,"[""food"", ""fruit""]",2,74,23,"[""fruit"", ""food"", ""chocolate"", ""red"", ""naked"", ""grease""]",5,1,0
+51,footprint,"[""sand"", ""foot"", ""shoe""]",3,82,27.33333333,"[""sand"", ""foot"", ""shoe"", ""donut"", ""tire""]",1,1,0
+390,ballroom,"[""dance"", ""floor"", ""dress""]",3,113,27.33333333,"[""dance"", ""mushroom"", ""plaid"", ""dress"", ""floor""]",1,1,0
+512,condiment,"[""ketchup"", ""salt""]",2,108,34,"[""skate"", ""ketchup"", ""dungeon"", ""salt"", ""eggnog""]",1,1,0
+1633,allegiance,"[""flag"", ""country""]",2,88,22,"[""country"", ""wagon"", ""printing"", ""weed"", ""flag"", ""snail""]",1,1,0
+401,goat,"[""milk"", ""sheep"", ""animal""]",3,77,20,"[""phlegm"", ""sheep"", ""animal"", ""milk"", ""mouth""]",4,1,0
+1028,nail,"[""hammer"", ""finger"", ""polish"", ""wood""]",4,101,27.75,"[""wood"", ""comics"", ""hammer"", ""polish"", ""finger"", ""mold""]",5,0.866666667,0.19
+30,catcher,"[""baseball"", ""rye"", ""pitcher""]",3,110,36.66666667,"[""baseball"", ""column"", ""stance"", ""pitcher"", ""rye""]",0,1,0
+1647,occult,"[""dark"", ""witch""]",2,46,15.5,"[""exam"", ""cattle"", ""witch"", ""dark"", ""office"", ""hiker""]",1,1,0
+1298,upstream,"[""river"", ""salmon"", ""downstream"", ""water""]",4,105,30,"[""salmon"", ""downstream"", ""water"", ""ingredients"", ""river"", ""watch""]",3,0.866666667,0.19
+368,oxygen,"[""air"", ""breathe"", ""water""]",3,130,41,"[""water"", ""breathe"", ""air"", ""mammal"", ""molasses""]",3,1,0
+1064,soil,"[""earth"", ""plant"", ""mud"", ""garden""]",4,128,18.75,"[""earth"", ""shove"", ""garden"", ""mud"", ""plant"", ""shelf""]",2,0.866666667,0.19
+1478,bugle,"[""horn"", ""army"", ""brass""]",3,82,19.33333333,"[""brass"", ""horn"", ""checkers"", ""army"", ""kiln"", ""jacket""]",1,1,0
+13,fiery,"[""hot"", ""red"", ""flame""]",3,71,23.33333333,"[""hot"", ""eye patch"", ""cowboy"", ""red"", ""flame""]",5,1,0
+1751,investigation,"[""police"", ""detective""]",2,78,31,"[""detective"", ""grip"", ""cover"", ""police"", ""alarm"", ""pet""]",1,1,0
+107,drought,"[""water"", ""desert"", ""rain""]",3,110,22,"[""bun"", ""rain"", ""pocket"", ""water"", ""desert""]",2,1,0
+1216,blaze,"[""fire"", ""red"", ""flame"", ""hot""]",4,114,31.25,"[""hot"", ""bedroom"", ""fire"", ""stove"", ""flame"", ""red""]",9,0.866666667,0.19
+340,certificate,"[""paper"", ""award"", ""diploma""]",3,71,22.66666667,"[""paper"", ""award"", ""litter"", ""diploma"", ""centimeter""]",0,1,0
+1106,holly,"[""ivy"", ""green"", ""berry"", ""plant""]",4,93,15.75,"[""plant"", ""green"", ""ivy"", ""berry"", ""typhoon"", ""catwalk""]",3,0.866666667,0.19
+683,fussy,"[""baby"", ""crying""]",2,51,16,"[""hoop"", ""face"", ""crying"", ""baby"", ""notebook""]",2,1,0
+691,striptease,"[""naked"", ""dance""]",2,50,17,"[""dance"", ""naked"", ""thicket"", ""scrabble"", ""accordion""]",1,1,0
+601,polar bear,"[""ice"", ""snow""]",2,121,26.5,"[""mound"", ""niece"", ""visitor"", ""ice"", ""snow""]",1,1,0
+66,swoop,"[""bird"", ""fly"", ""dive""]",3,69,22.33333333,"[""barrier"", ""bird"", ""dive"", ""fly"", ""border""]",1,0.833333333,0.24
+728,communist,"[""red"", ""china""]",2,88,26.5,"[""china"", ""back"", ""niece"", ""flesh"", ""red""]",1,1,0
+1504,passion,"[""fruit"", ""red"", ""fire""]",3,101,15.66666667,"[""fruit"", ""backpack"", ""novel"", ""red"", ""sketch"", ""fire""]",2,0.833333333,0.24
+511,damsel,"[""woman"", ""princess""]",2,107,17.5,"[""list"", ""princess"", ""bats"", ""jet"", ""woman""]",0,1,0
+1893,tail,"[""cat"", ""animal""]",2,80,21.5,"[""click"", ""door"", ""animal"", ""perspiration"", ""playstation"", ""cat""]",2,1,0
+1010,cola,"[""coke"", ""drink"", ""pop"", ""sugar""]",4,131,31.25,"[""sugar"", ""puffy"", ""alphabet"", ""pop"", ""coke"", ""drink""]",5,1,0
+395,masculine,"[""male"", ""man"", ""muscle""]",3,98,26,"[""man"", ""male"", ""bottle"", ""folded"", ""muscle""]",2,0.833333333,0.24
+919,mango,"[""fruit"", ""orange""]",2,120,51,"[""oasis"", ""planet"", ""orange"", ""nail polish"", ""fruit""]",1,1,0
+258,salon,"[""hair"", ""nail"", ""spa""]",3,98,28.33333333,"[""hair"", ""scarf"", ""nail"", ""spa"", ""eating""]",3,0.833333333,0.24
+1872,earwig,"[""bug"", ""insect""]",2,85,32,"[""prairie"", ""bug"", ""antarctic"", ""insect"", ""swamp"", ""oregano""]",1,1,0
+894,breed,"[""dog"", ""horse""]",2,91,35.5,"[""jacket"", ""pit"", ""dog"", ""horse"", ""visitor""]",1,1,0
+133,pantyhose,"[""tights"", ""stockings"", ""woman""]",3,59,18,"[""geisha"", ""woman"", ""baked"", ""stockings"", ""tights""]",1,1,0
+1552,diapers,"[""baby"", ""dirty"", ""poo""]",3,103,31.33333333,"[""leaf"", ""dirty"", ""poo"", ""baby"", ""aspirin"", ""cart""]",0,0.833333333,0.24
+1480,herring,"[""fish"", ""red"", ""bird""]",3,158,52.33333333,"[""fish"", ""handle"", ""red"", ""bird"", ""cap"", ""monastery""]",2,1,0
+235,cocktail,"[""drink"", ""alcohol"", ""martini""]",3,96,31.66666667,"[""martini"", ""alcohol"", ""teaspoon"", ""carpet"", ""drink""]",1,1,0
+1197,nautical,"[""sea"", ""boat"", ""ship"", ""sailor""]",4,113,32.5,"[""ship"", ""sea"", ""boat"", ""splint"", ""sailor"", ""haircut""]",6,1,0
+1698,crowd,"[""people"", ""group""]",2,64,26,"[""onion"", ""people"", ""chalk"", ""group"", ""knot"", ""eraser""]",2,1,0
+69,note,"[""music"", ""paper"", ""book""]",3,86,28.66666667,"[""hanging"", ""paper"", ""book"", ""acid"", ""music""]",3,0.833333333,0.24
+277,drawing,"[""pencil"", ""art"", ""sketch""]",3,74,24.66666667,"[""thorn"", ""art"", ""sketch"", ""candy"", ""pencil""]",3,1,0
+1293,otter,"[""water"", ""animal"", ""river"", ""sea""]",4,87,24.25,"[""tick"", ""animal"", ""water"", ""sea"", ""mop"", ""river""]",4,0.866666667,0.19
+891,camp,"[""fire"", ""woods""]",2,97,22,"[""milk"", ""fire"", ""saloon"", ""woods"", ""factory""]",1,1,0
+1818,figs,"[""fruit"", ""tree""]",2,87,32.5,"[""skin"", ""festival"", ""fruit"", ""tree"", ""candle"", ""bullseye""]",3,1,0
+127,strawberry,"[""red"", ""fruit"", ""jam""]",3,106,34,"[""outfit"", ""fruit"", ""credit card"", ""jam"", ""red""]",3,1,0
+139,jewelry,"[""gold"", ""necklace"", ""ring""]",3,77,25.33333333,"[""tick"", ""fist"", ""gold"", ""necklace"", ""ring""]",2,1,0
+264,dish,"[""plate"", ""food"", ""bowl""]",3,87,29,"[""socket"", ""plate"", ""food"", ""little finger"", ""bowl""]",3,1,0
+423,grenade,"[""bomb"", ""explosion"", ""hand""]",3,114,28,"[""explosion"", ""bomb"", ""scribe"", ""pottery"", ""hand""]",1,1,0
+1386,great brittain,"[""queen"", ""island"", ""country""]",3,83,16.66666667,"[""island"", ""pregnant"", ""country"", ""sweetener"", ""flesh"", ""queen""]",2,1,0
+1131,parcel,"[""post"", ""mail"", ""box"", ""brown""]",4,105,16.25,"[""steps"", ""mail"", ""box"", ""sibling"", ""post"", ""brown""]",3,0.866666667,0.19
+627,microscopic,"[""microscope"", ""bacteria""]",2,130,19.5,"[""bacteria"", ""microscope"", ""green"", ""helicopter"", ""strings""]",1,1,0
+464,hanky,"[""tissue"", ""sneeze"", ""nose""]",3,109,16.66666667,"[""sneeze"", ""tissue"", ""skateboard"", ""nose"", ""incense""]",3,1,0
+1561,membership,"[""group"", ""card"", ""gym""]",3,98,14.33333333,"[""group"", ""card"", ""gym"", ""border"", ""android"", ""bullseye""]",0,1,0
+575,filth,"[""dirty"", ""mud""]",2,100,24,"[""desk"", ""dirty"", ""you"", ""mud"", ""closet""]",1,1,0
+95,tamale,"[""hot"", ""food"", ""corn""]",3,74,22.66666667,"[""dawn"", ""hot"", ""corn"", ""food"", ""cable""]",2,1,0
+1430,parched,"[""desert"", ""water"", ""throat""]",3,169,20,"[""water"", ""throat"", ""dot"", ""rhino"", ""dew"", ""desert""]",3,1,0
+1049,joint,"[""weed"", ""knee"", ""smoke"", ""marijuana""]",4,64,19.75,"[""weed"", ""smoke"", ""fog"", ""catch"", ""knee"", ""marijuana""]",5,1,0
+369,turtle,"[""shell"", ""tortoise"", ""green""]",3,97,30,"[""stairs"", ""green"", ""sleep"", ""shell"", ""tortoise""]",1,1,0
+735,study,"[""school"", ""book""]",2,68,14,"[""hyena"", ""book"", ""school"", ""cane"", ""porridge""]",1,1,0
+202,cook,"[""food"", ""chef"", ""kitchen""]",3,95,31.66666667,"[""food"", ""chef"", ""kitchen"", ""mastercard"", ""sage""]",3,1,0
+1139,mommy,"[""daddy"", ""mother"", ""baby"", ""parent""]",4,88,23.75,"[""leftovers"", ""daddy"", ""scream"", ""baby"", ""mother"", ""parent""]",3,1,0
+458,paperclip,"[""paper"", ""office"", ""metal""]",3,92,30.66666667,"[""metal"", ""freckles"", ""carnival"", ""paper"", ""office""]",3,1,0
+1190,concoction,"[""potion"", ""drink"", ""cocktail"", ""brew""]",4,88,19,"[""beard"", ""bikini"", ""cocktail"", ""brew"", ""potion"", ""drink""]",1,0.866666667,0.19
+473,butter,"[""bread"", ""yellow"", ""fat""]",3,74,24.66666667,"[""bread"", ""player"", ""fat"", ""hive"", ""yellow""]",4,0.833333333,0.24
+878,sleeping,"[""bed"", ""pillow""]",2,55,18,"[""pillow"", ""lobby"", ""crocodile"", ""snack"", ""bed""]",1,1,0
+227,barge,"[""boat"", ""ship"", ""water""]",3,81,27,"[""needles"", ""ship"", ""boat"", ""water"", ""teller""]",4,1,0
+1545,librarian,"[""glasses"", ""book"", ""library""]",3,118,28,"[""scales"", ""glasses"", ""book"", ""troll"", ""typhoon"", ""library""]",2,1,0
+1838,majesty,"[""queen"", ""crown""]",2,110,32,"[""submarine"", ""queen"", ""dragon"", ""crown"", ""soprano"", ""corpse""]",1,1,0
+563,heel,"[""foot"", ""shoe""]",2,128,50,"[""foot"", ""glue"", ""vodka"", ""shoe"", ""eagle""]",1,1,0
+162,tack,"[""pin"", ""thumb"", ""nail""]",3,61,20.33333333,"[""nail"", ""thumb"", ""clap"", ""pin"", ""pulp""]",1,0.833333333,0.24
+625,period,"[""dot"", ""blood""]",2,77,17,"[""reed"", ""blood"", ""electrician"", ""voice"", ""dot""]",0,1,0
+1327,heating,"[""radiator"", ""hot"", ""fire""]",3,55,16.66666667,"[""twig"", ""sparks"", ""fire"", ""radiator"", ""hot"", ""stairs""]",3,1,0
+615,riches,"[""money"", ""gold""]",2,133,41.5,"[""gold"", ""ice cream"", ""rice"", ""wave"", ""money""]",1,1,0
+1581,belgian,"[""chocolate"", ""beer"", ""waffle""]",3,85,27.66666667,"[""television"", ""waffle"", ""vampire"", ""granny"", ""chocolate"", ""beer""]",1,0.833333333,0.24
+1839,overdose,"[""drugs"", ""alcohol""]",2,105,38,"[""pop"", ""lamp"", ""alcohol"", ""flour"", ""ram"", ""drugs""]",2,1,0
+1748,birds,"[""fly"", ""sky""]",2,64,22.5,"[""alcohol"", ""sky"", ""visitor"", ""walnut"", ""ink"", ""fly""]",1,1,0
+198,paw,"[""dog"", ""foot"", ""print""]",3,110,27,"[""print"", ""foot"", ""rise"", ""garbage"", ""dog""]",1,0.833333333,0.24
+723,heard,"[""ear"", ""music""]",2,91,16,"[""ear"", ""market"", ""chief"", ""music"", ""animal""]",1,1,0
+925,field,"[""grass"", ""corn""]",2,59,21,"[""scream"", ""corn"", ""grass"", ""candle"", ""pipe""]",2,1,0
+92,bologna,"[""sandwich"", ""meat"", ""spaghetti""]",3,97,22.66666667,"[""sandwich"", ""crutch"", ""spaghetti"", ""woman"", ""meat""]",1,1,0
+662,knock,"[""door"", ""wood""]",2,107,44.5,"[""door"", ""star"", ""diner"", ""polar bear"", ""wood""]",1,1,0
+254,corn-beef,"[""hash"", ""sandwich"", ""meat""]",3,58,19.33333333,"[""meat"", ""nurse"", ""sandwich"", ""hash"", ""photo""]",2,1,0
+1053,sperm,"[""whale"", ""egg"", ""male"", ""baby""]",4,65,18.75,"[""flat"", ""whale"", ""egg"", ""printing"", ""male"", ""baby""]",1,1,0
+596,trivia,"[""game"", ""quiz""]",2,58,19,"[""game"", ""child"", ""pharmacy"", ""cabinet"", ""quiz""]",1,1,0
+790,espresso,"[""coffee"", ""caffeine""]",2,116,51.5,"[""spy"", ""brake"", ""caffeine"", ""guy"", ""coffee""]",1,1,0
+895,prune,"[""fruit"", ""purple""]",2,77,22.5,"[""fruit"", ""sandwich"", ""leaping"", ""purple"", ""witch""]",1,1,0
+1520,chrome,"[""metal"", ""silver"", ""car""]",3,123,26.33333333,"[""silver"", ""car"", ""pointer"", ""tv"", ""metal"", ""canal""]",3,1,0
+24,stoned,"[""drugs"", ""weed"", ""pot""]",3,94,24,"[""elevator"", ""pot"", ""chlorine"", ""drugs"", ""weed""]",3,0.833333333,0.24
+1055,wicker,"[""basket"", ""chair"", ""furniture"", ""man""]",4,119,34,"[""furniture"", ""bass"", ""chair"", ""basket"", ""factory"", ""man""]",1,0.866666667,0.19
+243,coca cola,"[""soda"", ""pop"", ""red""]",3,97,21.33333333,"[""pop"", ""bees"", ""soda"", ""red"", ""toilet""]",3,0.833333333,0.24
+769,medication,"[""doctor"", ""drugs""]",2,84,26,"[""zeppelin"", ""doctor"", ""pie"", ""ballet"", ""drugs""]",1,1,0
+60,caught,"[""fish"", ""net"", ""ball""]",3,49,16.33333333,"[""olympics"", ""ball"", ""structure"", ""net"", ""fish""]",1,1,0
+1378,asian,"[""china"", ""food"", ""yellow""]",3,67,19,"[""yellow"", ""fan"", ""china"", ""doorstop"", ""dad"", ""food""]",2,0.833333333,0.24
+1734,piece,"[""pie"", ""puzzle""]",2,88,25.5,"[""hill"", ""knee"", ""pie"", ""camera"", ""dusk"", ""puzzle""]",1,1,0
+1345,bright,"[""light"", ""sun"", ""star""]",3,127,39.33333333,"[""bomb"", ""light"", ""model"", ""star"", ""sun"", ""daddy""]",3,0.833333333,0.24
+216,cobra,"[""snake"", ""venom"", ""poison""]",3,125,41.66666667,"[""snake"", ""venom"", ""poison"", ""submarine"", ""lamb""]",3,1,0
+1635,mingle,"[""talk"", ""crowd""]",2,82,17,"[""crowd"", ""sloth"", ""sock"", ""eat"", ""talk"", ""lead""]",0,1,0
+82,hippo,"[""animal"", ""water"", ""fat""]",3,80,23.66666667,"[""water"", ""fat"", ""spoon"", ""animal"", ""climb""]",3,0.833333333,0.24
+343,incentive,"[""money"", ""prize"", ""carrot""]",3,78,19.33333333,"[""carrot"", ""money"", ""witch"", ""prize"", ""theater""]",1,0.833333333,0.24
+645,snack,"[""food"", ""chips""]",2,87,34,"[""spam"", ""food"", ""tarmac"", ""chips"", ""handshake""]",1,1,0
+427,goggles,"[""swimming"", ""glasses"", ""eyes""]",3,96,32,"[""swimming"", ""stick"", ""mirror"", ""glasses"", ""eyes""]",2,1,0
+1791,umbrella,"[""rain"", ""wet""]",2,111,51,"[""stone"", ""cereal"", ""rain"", ""ash"", ""university"", ""wet""]",1,1,0
+78,evergreen,"[""tree"", ""pine"", ""forest""]",3,95,31.66666667,"[""diagram"", ""forest"", ""pine"", ""pollen"", ""tree""]",2,1,0
+1396,sexist,"[""man"", ""pig"", ""male""]",3,54,17,"[""male"", ""barrier"", ""pig"", ""man"", ""disc"", ""salt""]",1,1,0
+52,shipwreck,"[""sea"", ""island"", ""boat""]",3,58,16.33333333,"[""island"", ""pear"", ""boat"", ""sea"", ""quiz""]",2,1,0
+11,canine,"[""dog"", ""tooth"", ""wolf""]",3,149,44.66666667,"[""dog"", ""rodent"", ""wolf"", ""tooth"", ""tumor""]",2,1,0
+169,insure,"[""money"", ""car"", ""house""]",3,62,19,"[""actress"", ""house"", ""money"", ""child"", ""car""]",5,1,0
+597,beaten,"[""egg"", ""hit""]",2,54,15.5,"[""hit"", ""egg"", ""brown"", ""peppermint"", ""baby""]",1,1,0
+1230,saw,"[""wood"", ""cut"", ""movie"", ""blade""]",4,89,20,"[""poet"", ""judo"", ""blade"", ""cut"", ""movie"", ""wood""]",2,1,0
+201,ding,"[""bell"", ""ring"", ""doorbell""]",3,146,25.66666667,"[""rod"", ""doorbell"", ""ring"", ""bell"", ""insect""]",2,0.833333333,0.24
+1385,nursery,"[""baby"", ""children"", ""school""]",3,80,23.66666667,"[""baby"", ""school"", ""snout"", ""llama"", ""slave"", ""children""]",2,0.833333333,0.24
+1929,bankrupt,"[""money"", ""bank""]",2,88,26.5,"[""whale"", ""hostess"", ""dolly"", ""bank"", ""edge"", ""money""]",1,1,0
+1820,patriotic,"[""flag"", ""country""]",2,77,33.5,"[""hexagon"", ""country"", ""pajamas"", ""colors"", ""flag"", ""walk""]",1,1,0
+764,sedate,"[""sleep"", ""drug""]",2,82,24,"[""drug"", ""jogger"", ""sleep"", ""bikini"", ""oar""]",1,1,0
+405,radish,"[""red"", ""vegetable"", ""root""]",3,109,33.66666667,"[""yak"", ""vegetable"", ""red"", ""thug"", ""root""]",4,1,0
+1630,yield,"[""sign"", ""yellow""]",2,63,11.5,"[""poke"", ""sign"", ""yellow"", ""stool"", ""motel"", ""mill""]",1,1,0
+947,loved,"[""heart"", ""family""]",2,39,13,"[""heart"", ""biscuit"", ""pumpkin"", ""family"", ""gymnastics""]",1,1,0
+468,melting,"[""ice"", ""hot"", ""pot""]",3,74,24.66666667,"[""pot"", ""donkey"", ""ice"", ""hot"", ""vine""]",2,1,0
+14,cane,"[""sugar"", ""candy"", ""walking""]",3,89,29.66666667,"[""fin"", ""walking"", ""candy"", ""ladies"", ""sugar""]",1,0.833333333,0.24
+567,martial art,"[""karate"", ""fight""]",2,108,37.5,"[""lad"", ""fight"", ""karate"", ""foil"", ""swamp""]",1,1,0
+308,chip,"[""potato"", ""computer"", ""wood""]",3,81,27,"[""potato"", ""mortar"", ""wood"", ""cartwheel"", ""computer""]",2,0.833333333,0.24
+812,bassinet,"[""baby"", ""crib""]",2,94,39.5,"[""pork"", ""paper towel"", ""ear"", ""crib"", ""baby""]",1,1,0
+1687,bless you,"[""sneeze"", ""priest""]",2,117,45.5,"[""vermin"", ""conch"", ""pat"", ""priest"", ""sneeze"", ""pimple""]",1,1,0
+1229,grasshopper,"[""green"", ""insect"", ""bug"", ""grass""]",4,117,32.25,"[""prize"", ""chickpea"", ""bug"", ""green"", ""grass"", ""insect""]",3,1,0
+491,dancefloor,"[""music"", ""dancing""]",2,67,19.5,"[""trail"", ""music"", ""fire"", ""tornado"", ""dancing""]",2,1,0
+686,keg,"[""beer"", ""barrel""]",2,158,62,"[""horseshoe"", ""document"", ""sunny"", ""barrel"", ""beer""]",1,1,0
+980,grandson,"[""child"", ""boy"", ""family"", ""grandfather""]",4,69,21.25,"[""boy"", ""grandfather"", ""child"", ""trousers"", ""hearth"", ""family""]",5,1,0
+1889,facial hair,"[""beard"", ""shave""]",2,154,50,"[""bison"", ""shelter"", ""beard"", ""flea"", ""cattle"", ""shave""]",1,1,0
+707,altitude,"[""mountain"", ""airplane""]",2,125,33,"[""sperm"", ""decimal"", ""airplane"", ""mountain"", ""toad""]",0,1,0
+1453,summertime,"[""sun"", ""hot"", ""beach""]",3,78,26,"[""sun"", ""beach"", ""woman"", ""hot"", ""tissue"", ""grave""]",4,1,0
+1462,sailors,"[""sea"", ""ship"", ""boat""]",3,85,24,"[""swimsuit"", ""gallery"", ""boat"", ""ship"", ""sea"", ""lego""]",4,1,0
+6,enchilada,"[""food"", ""taco"", ""cheese""]",3,106,23,"[""sunburn"", ""food"", ""taco"", ""cheese"", ""jack""]",3,1,0
+1244,napkin,"[""paper"", ""cloth"", ""food"", ""dinner""]",4,84,23.5,"[""paper"", ""trap"", ""cloth"", ""formula"", ""food"", ""dinner""]",5,1,0
+614,law,"[""lawyer"", ""court""]",2,71,16.5,"[""lawyer"", ""comet"", ""court"", ""pen"", ""gem""]",1,1,0
+115,brook,"[""stream"", ""water"", ""river""]",3,137,45.66666667,"[""stream"", ""river"", ""water"", ""knoll"", ""groan""]",4,1,0
+135,fiddle,"[""music"", ""roof"", ""bow""]",3,100,15.33333333,"[""logo"", ""broom"", ""roof"", ""music"", ""bow""]",2,0.833333333,0.24
+425,flame,"[""hot"", ""candle"", ""burn""]",3,122,20,"[""hot"", ""speaker"", ""candle"", ""manure"", ""burn""]",2,1,0
+43,antarctic,"[""ice"", ""snow"", ""penguin""]",3,137,25.66666667,"[""penguin"", ""ice"", ""drink"", ""snow"", ""jack""]",5,1,0

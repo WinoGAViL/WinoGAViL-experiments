@@ -1,22 +1,19 @@
 import argparse
-import os
 import json
 from collections import Counter
 
 import pandas as pd
 from tqdm import tqdm
-from models_config import *
 
-from AssociationModel import AssociationsModel
-from dataset.config import columns_to_serialize, \
-    concreteness_path, \
-    concreteness_threshold, baseline_all_models_path, all_loaded_images_path
+from config import columns_to_serialize, zero_shot_results_path
+from models.winogavil_zero_shot import WinoGAViLZeroShotModel
+from models_config import *
 
 all_images_paths = []
 
 def main(args):
-    df = pd.read_csv(f'assets/gvlab_{args.split}.csv')
-    print(f"SPLIT: {args.split}, Read dataset at length: {len(df)}, from: {dataset_path}")
+    df = pd.read_csv(f'assets/winogavil_{args.split}.csv')
+    print(f"SPLIT: {args.split}, Read dataset at length: {len(df)}")
 
     for c in columns_to_serialize:
         if c in df:
@@ -33,14 +30,13 @@ def main(args):
             print(f"missing_candidates_images: {len(missing_candidates_images)} += 1")
             missing_candidates_images.append(idx)
 
-
         if args.multimodal:
             cue_img = None
             if missing_cand_image or type(cue_img) == type(None):
                 missing_images_indices.append(idx)
                 continue
         else:
-            cue_img = AssociationsModel.get_img(r['cue'], image2text=args.image2text)
+            cue_img = WinoGAViLZeroShotModel.get_img(r['cue'], image2text=args.image2text)
 
         row_predictions = {}
         for model_name, model in association_models.items():
@@ -54,20 +50,13 @@ def main(args):
     print(mean_scores)
 
     if args.multimodal:
-        out_p = baseline_all_models_path.replace(".csv",f"_{args.split}_multimodal.csv")
+        out_p = zero_shot_results_path.replace(".csv",f"_{args.split}_multimodal.csv")
     else:
-        out_p = baseline_all_models_path.replace(".csv",f"_{args.split}.csv")
-
+        out_p = zero_shot_results_path.replace(".csv",f"_{args.split}.csv")
 
     print(f"Writing predictions: {len(scores_df)} to {out_p}")
     scores_df.to_csv(out_p, index=False)
-
     print(f"missing_images: {len(missing_images_indices)}")
-
-    print(f"Writing all_images_paths ({len(all_images_paths)}) to: {all_loaded_images_path}")
-    all_loaded_images_path_out_p = all_loaded_images_path.replace(".csv",f"_{args.split}.csv")
-    pd.DataFrame(list(set(all_images_paths))).to_csv(all_loaded_images_path_out_p)
-
     print("Done")
 
 
@@ -93,7 +82,7 @@ def get_candidates_data(r, image2text):
     candidates_data = []
     missing_image = False
     for cand in candidates:
-        cand_img = AssociationsModel.get_img(cand, image2text)
+        cand_img = WinoGAViLZeroShotModel.get_img(cand, image2text)
         if type(cand_img) == type(None):
             missing_image = True
         candidates_data.append({'txt': cand, 'cand_img': cand_img, 'cand_txt': cand})
@@ -118,29 +107,20 @@ def initialize_models(args):
     global association_models
     association_models = {}
     for model in args.models_to_run:
-        associations_model = AssociationsModel(model, image2text=args.image2text)
+        associations_model = WinoGAViLZeroShotModel(model, image2text=args.image2text)
         association_models[model] = associations_model
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--models_to_run', default=list(GENERAL_MODELS.keys()) + list(VISION_LANGUAGE_MODELS.keys()))
-    parser.add_argument('--models_to_run', default=MODELS_MAP.keys())
-    # parser.add_argument('--models_to_run', default=['CLIP-RN50'])
-    # parser.add_argument('--models_to_run', default=['CLIP-ViT-L/14'])
-    # parser.add_argument('--split', default='swow')
     parser.add_argument('--split', default='game')
     parser.add_argument("--multimodal", action='store_const', default=False, const=True)
     parser.add_argument("--image2text", action='store_const', default=False, const=True)
     args = parser.parse_args()
     if args.image2text:
         args.models_to_run = TEXT_TRANSFORMERS_MODELS.keys()
-        # args.models_to_run = ['MPNet']
 
     print(args)
-
     initialize_models(args)
 
-    concreteness_df = pd.read_excel(concreteness_path)
-    concreteness_for_word = dict(concreteness_df[['Word', 'Conc.M']].values)
     main(args)
-    print(f'missing_images: {missing_images}')

@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 
-class BaselineModel(nn.Module):
+class WinoGAViLBaselineModel(nn.Module):
 
     def __init__(self, backend_model):
-        super(BaselineModel, self).__init__()
+        super(WinoGAViLBaselineModel, self).__init__()
         self.backend_model = backend_model
         pair_embed_dim = self.backend_model.text_dim + self.backend_model.image_dim
         self.classifier = nn.Sequential(

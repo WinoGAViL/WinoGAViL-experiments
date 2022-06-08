@@ -6,11 +6,13 @@ import pandas as pd
 import numpy as np
 import torch
 from torch import nn
+
+from models.winogavil_backend import BackendModel
+from models.winogavil_trainable import WinoGAViLBaselineModel
+
 torch.autograd.set_detect_anomaly(True)
 
 from config import TRAIN, TRAIN_RESULTS_PATH, MODEL_RESULTS_PATH, DEV, TEST
-from models.gvlab_backend import BackendModel
-from models.gvlab_trainable import BaselineModel
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 
@@ -241,7 +243,7 @@ def dump_test_info(args, model_dir_path, all_losses, all_test_accuracy, test_df,
 def main(args):
     splits = get_gvlab_data(args)
     backend_model = BackendModel(args.model_backend_type)
-    baseline_model = BaselineModel(backend_model).to(device)
+    baseline_model = WinoGAViLBaselineModel(backend_model).to(device)
     print(f"Checking baseline model cuda: {next(baseline_model.parameters()).is_cuda}")
 
     if args.test_only:
