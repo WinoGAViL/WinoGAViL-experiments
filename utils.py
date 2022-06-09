@@ -5,6 +5,7 @@ import pickle
 
 import numpy as np
 import pandas as pd
+import requests
 import torch
 
 # ------------------------------Code--------------------------------
@@ -182,6 +183,13 @@ def get_img(cand, image2text=False):
         img = Image.open(cand_path).convert("RGB")
         return img
     return None
+
+def get_image_file(image_name, image_url):
+    try:
+        image = Image.open(requests.get(image_url, stream=True).raw).convert("RGB")
+    except:
+        image = Image.open(requests.get(get_alternative_url(image_name), stream=True).raw).convert("RGB")
+    return image
 
 def get_alternative_url(image_name):
     return 'https://gvlab-bucket.s3.amazonaws.com/{}'.format(image_name + ".jpg")
