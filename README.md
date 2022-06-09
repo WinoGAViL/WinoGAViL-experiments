@@ -23,13 +23,14 @@ While vision-and-language models perform well on tasks such as visual question a
   
 ## Experiments
 
-`--split` argument allows running on the different splits, `--split game_10_12`, `--split game_5_6`, and `--split swow` 
+`--split` argument allows running on the different splits, `--split game_10_12`, `--split game_5_6`, and `--split swow`
 
 ### Zero-Shot
 To run zero-shot experiments, run:
 ```commandline
 python run_zero_shot.py --split game_10_12  
 ```
+`--models_to_run` argument allows running with specific model `--models_to_run ViLT`  
 
 ### Supervised
 To run supervised experiments, run:

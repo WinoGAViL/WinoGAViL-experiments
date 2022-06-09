@@ -117,7 +117,7 @@ def initialize_models(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--models_to_run', default=list(GENERAL_MODELS.keys()) + list(VISION_LANGUAGE_MODELS.keys()))
+    parser.add_argument('--models_to_run', nargs="+", default=list(GENERAL_MODELS.keys()) + list(VISION_LANGUAGE_MODELS.keys()))
     parser.add_argument('--split', default='game_10_12')
     parser.add_argument("--multimodal", action='store_const', default=False, const=True)
     parser.add_argument("--image2text", action='store_const', default=False, const=True)
