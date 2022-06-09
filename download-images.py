@@ -1,49 +1,32 @@
-import csv
-import requests
-
-
-
 # Extracting CSV rows
 import json
 import os
 
-from config import SWOW_DATA_PATH
+import requests
+from PIL import Image
+from tqdm import tqdm
+
+from utils import get_alternative_url
 
 print('Starting CSV parse')
+image2url = json.load(open('assets/image2url.json'))
 
-csv_rows = []
-with open(SWOW_DATA_PATH, 'r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-        csv_rows.append(row)
-
-csv_rows = csv_rows[1:]
-
-
-# Download all images
-data = list(map(lambda row: {"id": row[0], 'cue': row[1], 'candidates': json.loads(row[6]), 'associations': json.loads(row[2])}, csv_rows))
 print('Starting image download')
-
-images = set()
-for association in data:
-    images = images.union(set(association['candidates']))
-    images = images.union(set(association['associations']))
-
 
 images_directory = os.path.join(os.path.dirname(__file__), 'assets/images')
 if not os.path.exists(images_directory):
     os.makedirs(images_directory)
 
-for index, image in enumerate(images):
-    image_name = image+'.jpg'
-    image_path = os.path.join(images_directory, image_name)
-    image_url = 'https://gvlab-bucket.s3.amazonaws.com/{}'.format(image_name)
+exceptions = []
+for idx, (image_name, image_url) in tqdm(enumerate(image2url.items()), desc='Downloading images...', total=len(image2url)):
+    image_path = os.path.join(images_directory, f"{image_name}.png")
 
-    image_file = open(image_path, 'wb+')
-    image_file.write(requests.get(image_url).content)
-    image_file.close()
-
-    if (index+1) % 5 == 0:
-        print(str(index+1) + ' images downloaded')
+    try:
+        image = Image.open(requests.get(image_url, stream=True).raw).convert("RGB")
+    except:
+        image = Image.open(requests.get(get_alternative_url(image_name), stream=True).raw).convert("RGB")
+        exceptions.append(image_name)
+        print(f"Total exceptions {len(exceptions)}")
+    image.save(image_path)
 
 print('Image download finished')

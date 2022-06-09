@@ -183,6 +183,9 @@ def get_img(cand, image2text=False):
         return img
     return None
 
+def get_alternative_url(image_name):
+    return 'https://gvlab-bucket.s3.amazonaws.com/{}'.format(image_name + ".jpg")
+
 from config import IMAGE_CAPTIONS_PATH
 if os.path.exists(IMAGE_CAPTIONS_PATH):
     image_captions = pd.read_csv(IMAGE_CAPTIONS_PATH)
