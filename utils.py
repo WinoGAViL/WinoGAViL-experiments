@@ -13,6 +13,8 @@ from PIL import Image
 
 from config import MODEL_RESULTS_PATH, TRAIN_RESULTS_PATH, IMAGES_FOLDER_PATH
 
+missing_images = []
+
 def calculate_accuracy(out_prob, y):
     prob = torch.softmax(out_prob, dim=1)
     out_np = prob.detach().cpu().numpy()
@@ -171,12 +173,13 @@ def get_img(cand, image2text=False):
     cand_path = os.path.join(IMAGES_FOLDER_PATH, f"{cand}.jpg")
     if os.path.exists(cand_path):
         if image2text:
-            relevant_caption_rows = image_captions[image_captions['img_name'] == cand_path]['caption']
+            relevant_caption_rows = image_captions[image_captions['img_path'] == cand_path]['caption']
             try:
                 assert len(relevant_caption_rows) == 1
             except:
                 global missing_images
                 missing_images.append(cand_path.split("/")[-1])
+                print(f"missing_images: {len(missing_images)}")
                 return None
             image_caption = relevant_caption_rows.iloc[0]
             return image_caption

@@ -14,11 +14,10 @@ GAME_5_6_SPLIT_PATH = os.path.join(os.path.dirname(__file__), 'assets/cue_image_
 GAME_10_12_DATA_PATH = os.path.join(os.path.dirname(__file__), 'assets/game_10_12.csv')
 GAME_10_12_SPLIT_PATH = os.path.join(os.path.dirname(__file__), 'assets/cue_image_pairs_game_10_12.json')
 
-# IMAGES_FOLDER_PATH = os.path.join(os.path.dirname(__file__), 'assets/images')
-IMAGES_FOLDER_PATH = '/Users/yonatab/data/image_associations/gvlab-bucket'
+IMAGES_FOLDER_PATH = os.path.join(os.path.dirname(__file__), 'assets/images')
 MODEL_RESULTS_PATH = os.path.join(os.path.dirname(__file__), 'models_results')
 TRAIN_RESULTS_PATH = os.path.join(os.path.dirname(__file__), 'models_results/train')
-IMAGE_CAPTIONS_PATH = os.path.join(os.path.dirname(__file__), 'assets/image_caption_predictions.json')
+IMAGE_CAPTIONS_PATH = os.path.join(os.path.dirname(__file__), 'assets/ofa_image_caption_predictions.csv')
 
 columns_to_serialize = ['associations', 'distractors', 'labels', 'candidates', 'candidates_connectivity_data', 'alternative_associations_candidates']
 

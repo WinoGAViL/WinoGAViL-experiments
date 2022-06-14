@@ -32,6 +32,13 @@ python run_zero_shot.py --split game_10_12
 ```
 `--models_to_run` argument allows running with specific model `--models_to_run ViLT`  
 
+To run the image-captioning experiments (Table 6 in the paper), use the `--image2text` flag:
+```commandline
+python run_zero_shot.py --split game_10_12 --image2text 
+```
+`--models_to_run` argument allows running with specific model `--models_to_run ViLT`  
+
+
 ### Supervised
 To run supervised experiments, run:
 ```commandline
