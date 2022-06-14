@@ -169,20 +169,21 @@ def get_experiment_dir(args):
     return model_dir_path
 
 
-def get_img(cand, image2text=False):
-    cand_path = os.path.join(IMAGES_FOLDER_PATH, f"{cand}.jpg")
-    if os.path.exists(cand_path):
-        if image2text:
-            relevant_caption_rows = image_captions[image_captions['img_path'] == cand_path]['caption']
-            try:
-                assert len(relevant_caption_rows) == 1
-            except:
+def get_img(cand, image2text=False, cue_img=False):
+    cand_path = os.path.join(IMAGES_FOLDER_PATH, f"{cand}.png")
+    if image2text:
+        relevant_caption_rows = image_captions[image_captions['img_name'] == cand]['caption']
+        try:
+            assert len(relevant_caption_rows) == 1
+        except:
+            if not cue_img:
                 global missing_images
                 missing_images.append(cand_path.split("/")[-1])
                 print(f"missing_images: {len(missing_images)}")
-                return None
-            image_caption = relevant_caption_rows.iloc[0]
-            return image_caption
+            return None
+        image_caption = relevant_caption_rows.iloc[0]
+        return image_caption
+    elif os.path.exists(cand_path):
         img = Image.open(cand_path).convert("RGB")
         return img
     return None

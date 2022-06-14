@@ -37,7 +37,7 @@ def main(args):
                 missing_images_indices.append(idx)
                 continue
         else:
-            cue_img = get_img(r['cue'], image2text=args.image2text)
+            cue_img = get_img(r['cue'], image2text=args.image2text, cue_img=True)
 
         row_predictions = {}
         for model_name, model in association_models.items():
