@@ -171,7 +171,11 @@ def test_epoch(model, dev_loader, epoch):
                 batch_scores.append(out)
                 all_batch_scores.append(torch.stack(batch_scores))
 
-        y = label_associations.squeeze().to(device)
+        # y = label_associations.squeeze().to(device)
+        if len(label_associations.squeeze().shape) == 1:
+            y = label_associations.to(device)
+        else:
+            y = label_associations.squeeze().to(device)
 
         if args.debug:
             if batch_idx > 2:
