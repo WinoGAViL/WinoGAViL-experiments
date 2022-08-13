@@ -170,7 +170,7 @@ def get_experiment_dir(args):
 
 
 def get_img(cand, image2text=False, cue_img=False):
-    cand_path = os.path.join(IMAGES_FOLDER_PATH, f"{cand}.png")
+    cand_path = os.path.join(IMAGES_FOLDER_PATH, f"{cand}.jpg")
     if image2text:
         relevant_caption_rows = image_captions[image_captions['img_name'] == cand]['caption']
         try:
