@@ -15,7 +15,7 @@ def main():
         os.makedirs(images_directory)
     for idx, (image_name, image_url) in tqdm(enumerate(image2url.items()), desc='Downloading images...',
                                              total=len(image2url)):
-        image_path = os.path.join(images_directory, f"{image_name}.png")
+        image_path = os.path.join(images_directory, f"{image_name}.jpg")
         image = get_image_file(image_name, image_url)
         image.save(image_path)
     print('Image download finished')
