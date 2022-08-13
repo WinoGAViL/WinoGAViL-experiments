@@ -196,7 +196,8 @@ def get_image_file(image_name, image_url):
     return image
 
 def get_alternative_url(image_name):
-    return 'https://gvlab-bucket.s3.amazonaws.com/{}'.format(image_name + ".jpg")
+    # return 'https://gvlab-bucket.s3.amazonaws.com/{}'.format(image_name + ".jpg")
+    return 'https://winogavil.s3.eu-west-1.amazonaws.com/{}'.format(image_name + ".jpg")
 
 from config import IMAGE_CAPTIONS_PATH
 if os.path.exists(IMAGE_CAPTIONS_PATH):
