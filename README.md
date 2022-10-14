@@ -2,7 +2,6 @@
 
 Repository for the paper "WinoGAViL: Gamified Association Benchmark To Challenge Vision-And-Language Models".  
 Project website: https://winogavil.github.io/. Dataset is available to [explore](https://winogavil.github.io/explore) and [download](https://winogavil.github.io/download).     
-To run model experiments, enter the [models](models) directory.
 
 ![](fig1.png)
 
